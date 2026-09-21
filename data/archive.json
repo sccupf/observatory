@@ -2,42 +2,57 @@
   "entries": [
     {
       "data_url": "data/weekly/2026-W39.json",
-      "generated_at": "2026-09-21T17:24:21+00:00",
+      "excluded_record_count": 236,
+      "generated_at": "2026-09-21T20:30:52+00:00",
+      "harvest_status": "COMPLETE",
       "metadata_conflict_count": 0,
       "mode": "weekly",
-      "new_record_count": 104,
+      "new_record_count": 0,
       "period": "2026-W39",
-      "record_count": 144,
+      "record_count": 6,
       "report_url": null,
       "retraction_flag_count": 0,
-      "source_error_count": 3
+      "retrieved_record_count": 285,
+      "review_record_count": 43,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
     },
     {
       "data_url": "data/monthly/2026-09.json",
-      "generated_at": "2026-09-21T17:24:21+00:00",
+      "excluded_record_count": 236,
+      "generated_at": "2026-09-21T20:30:52+00:00",
+      "harvest_status": "COMPLETE",
       "metadata_conflict_count": 0,
       "mode": "monthly",
-      "new_record_count": 104,
+      "new_record_count": 0,
       "period": "2026-09",
-      "record_count": 144,
+      "record_count": 6,
       "report_url": null,
       "retraction_flag_count": 0,
-      "source_error_count": 3
+      "retrieved_record_count": 285,
+      "review_record_count": 43,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
     },
     {
       "data_url": "data/daily/2026-09-21.json",
-      "generated_at": "2026-09-21T17:24:21+00:00",
+      "excluded_record_count": 236,
+      "generated_at": "2026-09-21T20:30:52+00:00",
+      "harvest_status": "COMPLETE",
       "metadata_conflict_count": 0,
       "mode": "daily",
-      "new_record_count": 104,
+      "new_record_count": 0,
       "period": "2026-09-21",
-      "record_count": 144,
+      "record_count": 6,
       "report_url": null,
       "retraction_flag_count": 0,
-      "source_error_count": 3
+      "retrieved_record_count": 285,
+      "review_record_count": 43,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
     }
   ],
-  "generated_at": "2026-09-21T17:24:21+00:00",
+  "generated_at": "2026-09-21T20:30:52+00:00",
   "project": "UPF26",
-  "schema_version": 1
+  "schema_version": 4
 }

@@ -1,0 +1,3218 @@
+{
+  "aggregation": "deduplicated roll-up of immutable daily Observatory snapshots",
+  "generated_at": "2026-09-21T17:24:21+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration."
+  },
+  "metadata_conflict_count": 0,
+  "mode": "monthly",
+  "new_record_count": 104,
+  "period_source_since": "2026-09-18",
+  "project": "UPF26",
+  "record_count": 144,
+  "records": [
+    {
+      "doi": "10.1007/s41055-026-00231-2",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Food Ethics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "f2a41869a59097920ff40850",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "‘If We Had Known’: Whistleblowers, Animal Welfare Scandals and Agri-food Stakeholders’ Response",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1007/s41055-026-00231-2"
+    },
+    {
+      "doi": "10.51984/thwbq671",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Pure &amp; Applied Sciences",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "a494e1766e2e5dc470df0d05",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "قطاع الألبان والصدمات الاقتصادية الكلية والأمن الغذائي في ليبيا: تحليل قياسي في اقتصاد ريعي (1990–2024)",
+      "triage_tags": [],
+      "url": "https://doi.org/10.51984/thwbq671"
+    },
+    {
+      "doi": "10.1007/s11694-026-04912-8",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Food Measurement and Characterization",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "65aa2a7b12623101e349b6d1",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Unsupervised clustering of tear damage in soybean kernels",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1007/s11694-026-04912-8"
+    },
+    {
+      "doi": "10.1002/smll.75810",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Small",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "b1e7ea6e4906202d84b63580",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ultra‐Durable High‐Performance Dropwise Condensation Heat Transfer Enabled by a Solid‐State Super‐Slippery Surface With Nanoscale Through‐Thickness Compositional Gradient",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1002/smll.75810"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-10709902/v1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "72b31400f863cfe49da5f05d",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ultra-Fusion: A Multimodal Dynamic Detection Framework for Malware Classification with Hybrid Sequence Engine",
+      "triage_tags": [
+        "classification",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.21203/rs.3.rs-10709902/v1"
+    },
+    {
+      "doi": "10.3389/frbis.2026.1950241",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Biophysics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "f80c67dd9924921a176458eb",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Trans-spatial phase coupling at the lipid boundary: harnessing membrane biophysics for therapeutic condensate regulation",
+      "triage_tags": [
+        "formulation",
+        "health_outcomes",
+        "policy"
+      ],
+      "url": "https://doi.org/10.3389/frbis.2026.1950241"
+    },
+    {
+      "doi": "10.3389/fphar.2026.1946442",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Pharmacology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "153062b3859a302564c602cd",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "The vegetable section of Běncaˇo Gāngmù: classification architecture, taxonomic logic, and nomenclatural practice",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.3389/fphar.2026.1946442"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1909350",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "7e61731caa79d9d8074e61b1",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "The gadB pathway confers oxidative stress tolerance in Lactiplantibacillus plantarum SAL and acts synergistically with L-glutamate to restore intestinal barrier integrity",
+      "triage_tags": [
+        "health_outcomes",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1909350"
+    },
+    {
+      "doi": "10.1038/s43016-026-01437-7",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nature Food",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "14846ad5988864b34d95f9f3",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "The attainable potential of agricultural solutions",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s43016-026-01437-7"
+    },
+    {
+      "doi": "10.37012/jik.v18i2.3126",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Jurnal Ilmiah Kesehatan",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "4aaceff6ad2619234e280102",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "The Relationship Between Consumption Of Spicy Foods And Dyspepsia Symptoms In Millennials",
+      "triage_tags": [
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.37012/jik.v18i2.3126"
+    },
+    {
+      "doi": "10.4324/9781003650140-11",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Regulation of Artificial General Intelligence",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "1f9f5456932ccaa686a416e3",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "The Process Perspective",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.4324/9781003650140-11"
+    },
+    {
+      "doi": "10.1080/21670811.2026.2733607",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Digital Journalism",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "085008c1b4d622b05e9b7bee",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "The Matthew Effect of Social Media Algorithms: News Avoidance and Polarisation of News Consumption",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.1080/21670811.2026.2733607"
+    },
+    {
+      "doi": "10.1142/s0218001426400641",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "International Journal of Pattern Recognition and Artificial Intelligence",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "6dbce3fad2a1fb36020a818e",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Temporal Consistency-Constrained Vision–Action Latent Space Alignment and Policy Optimization",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1142/s0218001426400641"
+    },
+    {
+      "doi": "10.1075/nb.00048.ang",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nota Bene",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "98103707c4d338940053df8d",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Systemic influences on teacher beliefs and practices",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1075/nb.00048.ang"
+    },
+    {
+      "doi": "10.1007/s11654-026-00764-2",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "best practice onkologie",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "3fb6bac884fe971a2655b8a0",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Stellenwert der robotisch assistierten inguinalen Lymphadenektomie (RA-VEIL) beim Peniskarzinom",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1007/s11654-026-00764-2"
+    },
+    {
+      "doi": "10.1186/s12864-026-13371-w",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "BMC Genomics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "893512ea41d53d7582e01b2b",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Spatial ChIP (ChIPSP), an R package for characterizing spatial gene regulation",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1186/s12864-026-13371-w"
+    },
+    {
+      "doi": "10.1057/s41271-026-00666-1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Public Health Policy",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "b1d577c0a27748e08001555f",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Sodium density, a new approach to assess salt in packaged foods",
+      "triage_tags": [
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1057/s41271-026-00666-1"
+    },
+    {
+      "doi": "10.9734/ejnfs/2026/v18i102157",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "European Journal of Nutrition &amp; Food Safety",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "03b9ca94a27559a274cb3578",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Shelf-life Assessment of Locally Developed Coated Fish Product from Aplocheilus panchax under Frozen Storage",
+      "triage_tags": [
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.9734/ejnfs/2026/v18i102157"
+    },
+    {
+      "doi": "10.4324/9781003493112-9",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Transforming Business",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "083c5258ebf1a05874b7a314",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Reverse Engineering Human Rights Due Diligence: Aligning Policy and Practice",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.4324/9781003493112-9"
+    },
+    {
+      "doi": "10.1007/s13178-026-01412-8",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Sexuality Research and Social Policy",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "6de471c54a12755a7ba10641",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Pragmatic Parents: Support for Regulation and Education for Young People Accessing Pornography",
+      "triage_tags": [
+        "methodology",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1007/s13178-026-01412-8"
+    },
+    {
+      "doi": "10.1007/978-981-92-5644-0_37",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Lecture Notes in Computer Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "5415ff9850bf9f88c8cf8f73",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Policy Participation and Technology Adoption Under Uncertainty: Evidence from Rice Farmers in Northern Thailand",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1007/978-981-92-5644-0_37"
+    },
+    {
+      "doi": "10.1021/acs.jafc.6c01648",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "af97923b7f3cec84a2d21a7d",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Pocket-Oriented Design of Benzene-Fused Pyridinecarboxylates as Potent Synthetic Auxin Herbicides",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1021/acs.jafc.6c01648"
+    },
+    {
+      "doi": "10.54901/educa.v9-787",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Revista edUCA - Revista Multidisciplinar da Faculdade Católica Paulista",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification"
+      ],
+      "record_id": "92293357f25e35f611437d0d",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Planejamento da mobilidade e nova sede administrativa em Lavras (MG): motorização, projeções e análise documental",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.54901/educa.v9-787"
+    },
+    {
+      "doi": "10.1007/s10886-026-01763-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Chemical Ecology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "914f97fed8f1baa350b62dd8",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Pheromone-Induced Delayed Oviposition in Helicoverpa armigera and H. assulta Moths Under Chronic High-Dose Sex Pheromone Exposure",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.1007/s10886-026-01763-x"
+    },
+    {
+      "doi": "10.3390/ijfs14090253",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "International Journal of Financial Studies",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "b9c1dbbe58eae55902bb4e89",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Pension Deficits and Corporate Dividend Policy",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.3390/ijfs14090253"
+    },
+    {
+      "doi": "10.59059/perspektif.v4i3.3439",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Perspektif : Jurnal Pendidikan dan Ilmu Bahasa",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "914341dd5e1f02c8873a0e73",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Pengaruh Pengetahuan Zero Waste Food terhadap Penerapan Pengolahan Makanan Berkelanjutan pada Mahasiswa Tata Boga di Universitas Negeri Semarang",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.59059/perspektif.v4i3.3439"
+    },
+    {
+      "doi": "10.5256/f1000research.205699.r514616",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "61f3cda8d34ea5fa8bba9b49",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Peer Review Report For: STRENGTHENING PARENTAL NUTRITION LITERACY THROUGH TECHNOPEDAGOGY AS A STUNTING PREVENTION STRATEGY IN EARLY CHILDHOOD [version 1; peer review: 2 approved with reservations]",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.5256/f1000research.205699.r514616"
+    },
+    {
+      "doi": "10.5256/f1000research.203732.r520334",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "ef8da2710d44e4839251afa6",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Peer Review Report For: From Hunger to Hospitality: Food, Memory, and Collective Identity in Mohammed Dib’s La Grande Maison and Diana Abu-Jaber’s Crescent [version 1; peer review: 1 approved]",
+      "triage_tags": [],
+      "url": "https://doi.org/10.5256/f1000research.203732.r520334"
+    },
+    {
+      "doi": "10.25006/ia.14.s1-a2.8",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Intrinsic Activity",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "2fce06fc5f6978e9a3b068f6",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Opioid analgesic consumption in Serbia: a five-year analysis in comparison with Croatia and Italy",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.25006/ia.14.s1-a2.8"
+    },
+    {
+      "doi": "10.1080/10402004.2026.2729536",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Tribology Transactions",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals"
+      ],
+      "record_id": "8825ec69b26c9af0ae0755b4",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Novel Eco-Friendly Benzotriazole Amide Derivatives as Multifunctional Lubricant Additives with Enhanced Corrosion Inhibition and Tribological Performance",
+      "triage_tags": [
+        "additives"
+      ],
+      "url": "https://doi.org/10.1080/10402004.2026.2729536"
+    },
+    {
+      "doi": "10.1201/9781003627951-13",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Environmental Policy and Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "247f28bc3e11d9c41e5a8934",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Noise and Light Pollution",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1201/9781003627951-13"
+    },
+    {
+      "doi": "10.4324/9781003475637-4",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Netflix",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "e0efdd789c73efe112312286",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Netflix's Lobbying, Policy Playbook, and Platform Power",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.4324/9781003475637-4"
+    },
+    {
+      "doi": "10.24818/18423264/60.3.26.18",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "ECONOMIC COMPUTATION AND ECONOMIC CYBERNETICS STUDIES AND RESEARCH",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "a58ba70455e0b703f9e9757e",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Multidimensional Profiling of Household Sustainable Consumption Scores",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.24818/18423264/60.3.26.18"
+    },
+    {
+      "doi": "10.3390/math14183420",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Mathematics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "619223ae0e2aca1def985e8c",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Model Applicability Across a Controlled Sample-Size–Class-Imbalance Space for Rockburst Classification",
+      "triage_tags": [
+        "classification",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3390/math14183420"
+    },
+    {
+      "doi": "10.1002/ange.8471593",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Angewandte Chemie",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "d1509f073e234a9c072c4b1f",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Methoxy‐Directed, Lithium‐Free One‐Shot Borylation for Tetraboron‐, Pyridinic and Amino Nitrogen‐Integrated PAHs With Ultra‐Narrowband Thermally Activated Delayed Fluorescence",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1002/ange.8471593"
+    },
+    {
+      "doi": "10.22541/authorea.15009176/v1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "f833ccaac66642049dfefc75",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Medicine–food homology and related natural products against mosquito-borne viruses: pharmacological evidence, mechanisms and translational priorities",
+      "triage_tags": [
+        "exposure",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.22541/authorea.15009176/v1"
+    },
+    {
+      "doi": "10.5194/egusphere-2026-4776",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "cc1de73d31e49ac13c8ff44a",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Machine Learning-Enhanced Aerosol Type Classification: Global Multi-Parameter Aerosol Modeling and an Automated Classifier Driven by Active–Passive Remote Sensing Parameters",
+      "triage_tags": [
+        "classification",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.5194/egusphere-2026-4776"
+    },
+    {
+      "doi": "10.3390/w18182352",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Water",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "2aed3d8bb1de024d15e07228",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Machine Learning Classification of Elevated Discharge in the Koksu River Basin, Kazakhstan: Benchmarking Against Persistence and Illustrative DEM-Based Inundation Scenarios",
+      "triage_tags": [
+        "classification",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3390/w18182352"
+    },
+    {
+      "doi": "10.1186/s13690-026-02066-z",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Archives of Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "3697ff24e1b405288a824fa4",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Long-term exposure to PM2.5 and depression in China: a systematic review",
+      "triage_tags": [
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://doi.org/10.1186/s13690-026-02066-z"
+    },
+    {
+      "doi": "10.1021/acs.jafc.6c05668",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "68f577e33e17486e430b4319",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Iron-Based Nanotechnology Empowers Sustainable Agriculture",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1021/acs.jafc.6c05668"
+    },
+    {
+      "doi": "10.1057/s41307-026-00485-9",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Higher Education Policy",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "a249064350da55775a81282c",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "International Organisations and Higher Education Governance in Times of Geopolitical Turmoil",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1057/s41307-026-00485-9"
+    },
+    {
+      "doi": "10.1021/acs.iecr.6c03717",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Industrial &amp; Engineering Chemistry Research",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "9afa3d4a134bf9d9b6f35ce9",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Interfacial Intensification in Aqueous Micelles Enables Highly Efficient Hydrogenation with Ultra-Low Pd Loading",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.1021/acs.iecr.6c03717"
+    },
+    {
+      "doi": "10.1021/acs.jafc.6c03598",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "b91c3f843d5fc464b642c3ac",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Integrated Transcriptome and Metabolome Analysis Reveals the Molecular Basis Underlying Anthocyanin Biosynthesis Associated with Different Flower Colors in <i>Vicia faba</i> L.",
+      "triage_tags": [
+        "additives",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1021/acs.jafc.6c03598"
+    },
+    {
+      "doi": "10.1080/10408398.2026.2734327",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Critical Reviews in Food Science and Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "df5fdac3ee91a284fec014d5",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Innovations in multi-grain bread fermentation: role of lactic acid bacteria in enhancing quality and modulating glycemic response",
+      "triage_tags": [
+        "classification",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1080/10408398.2026.2734327"
+    },
+    {
+      "doi": "10.54254/3049-7248/2026.37295",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Education and Educational Policy Studies",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "f7b8e4c75ed065bfc08064da",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "How generative artificial intelligence empowers Generation Z college students' learning",
+      "triage_tags": [
+        "methodology",
+        "policy"
+      ],
+      "url": "https://doi.org/10.54254/3049-7248/2026.37295"
+    },
+    {
+      "doi": "10.1002/jum.70468",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Ultrasound in Medicine",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "bd40a5e7eecb2adc6ed62a97",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "High‐Frequency Ultrasound Combined With Ultra‐Micro Angiography for Treatment Response Assessment in Papulopustular Rosacea",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1002/jum.70468"
+    },
+    {
+      "doi": "10.2196/89459",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "JMIR Formative Research",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "21290a5c74bca733c36fbfb1",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Hemoglobin A1c and Weight Changes Associated With Grocery Delivery and Low-Carbohydrate Education in Adults With Type 2 Diabetes and Food Insecurity: Observational Quality Improvement Cohort Study",
+      "triage_tags": [
+        "exposure",
+        "health_outcomes",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.2196/89459"
+    },
+    {
+      "doi": "10.4108/eetiot.14885",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "EAI Endorsed Transactions on Internet of Things",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "d3d61d5836b357f2673d2e4b",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "GhostCell-Net: A Lightweight Deep Learning Framework with Mobile Deployment for Automated Classification of Arsenic-Exposed Cells",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.4108/eetiot.14885"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-11063573/v1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "893c2f29e184ab5bb50cc8a9",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "GLP-1 Receptor Agonist Exposure and Diabetic Retinopathy Progression: An American Academy of Ophthalmology IRIS® Registry (Intelligent Research in Sight) Analysis",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.21203/rs.3.rs-11063573/v1"
+    },
+    {
+      "doi": "10.1080/0952813x.2026.2729304",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Experimental &amp; Theoretical Artificial Intelligence",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "ecef977882872509d6e54fa5",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "From policy to practice: clause‑grounded answers with retrieval‑augmented generation",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1080/0952813x.2026.2729304"
+    },
+    {
+      "doi": "10.3389/fsufs.2026.1891104",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Sustainable Food Systems",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "2c10be2056d98cf1f106fa1c",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "From economic rationality to ecological rationality: how does non-pastoral labor allocation affect grazing substitution behavior?",
+      "triage_tags": [
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3389/fsufs.2026.1891104"
+    },
+    {
+      "doi": "10.1201/9781003627951-14",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Environmental Policy and Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "efc6b746632ace1959e4db57",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Food Safety and Security",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1201/9781003627951-14"
+    },
+    {
+      "doi": "10.4324/9781003478621-6",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Global Polycrisis",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "f4e77636e718f1db142b4023",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Food",
+      "triage_tags": [],
+      "url": "https://doi.org/10.4324/9781003478621-6"
+    },
+    {
+      "doi": "10.3390/rs18183246",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Remote Sensing",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "b4e3096520677577e561cf78",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Fine-Grained Tree Species Classification in Urban Forests via Phenology–Structure Synergistic Fusion of Multi-Source Remote Sensing Data",
+      "triage_tags": [
+        "classification",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3390/rs18183246"
+    },
+    {
+      "doi": "10.3389/fsufs.2026.1944450",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Sustainable Food Systems",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "e6129f9a05ab93c5747e4f85",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Exploring gender dynamics in the yam value chain in yam growing communities of Osun State, Nigeria",
+      "triage_tags": [
+        "additives",
+        "exposure",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3389/fsufs.2026.1944450"
+    },
+    {
+      "doi": "10.1177/02601060261490174",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition and Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "43ad5b81c5464831786411f7",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Evaluation of taste-based school–home collaborative nutrition education on taste perception and eating behaviors among Japanese schoolchildren",
+      "triage_tags": [
+        "exposure",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1177/02601060261490174"
+    },
+    {
+      "doi": "10.1186/s12874-026-03004-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "BMC Medical Research Methodology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "51a70322b7887d97e241c63f",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Evaluating the performance of Bayesian cumulative logistic models in randomised controlled trials: a simulation study",
+      "triage_tags": [
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1186/s12874-026-03004-x"
+    },
+    {
+      "doi": "10.1007/s11694-026-04936-0",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Journal of Food Measurement and Characterization",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "dd89115b6127b03b325ebcb0",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Evaluating the efficacy of traditional processing methods in reducing oxalate content in Northwest Ethiopian oat landraces",
+      "triage_tags": [
+        "classification",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1007/s11694-026-04936-0"
+    },
+    {
+      "doi": "10.1186/s12884-026-10002-w",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "BMC Pregnancy and Childbirth",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "9fbc31dc6a399889cf37796b",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Evaluating the efficacy of a theory-based nutrition education intervention for pregnant and pre-pregnant women in Beijing, China: a quasi-experimental pilot study",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1186/s12884-026-10002-w"
+    },
+    {
+      "doi": "10.1007/s11947-026-04586-6",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Food and Bioprocess Technology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "081bb8b943b02c4a1dbab0b4",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Enzyme-Assisted Process Intensification of Essential Oil Extraction via Hydrodistillation Using OASIS Framework: Unlocking Pretreatment Integration, Valorisation of Hydrodistilled Residue, and Techno-commercial Evaluation",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1007/s11947-026-04586-6"
+    },
+    {
+      "doi": "10.1186/s40643-026-01132-2",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Bioresources and Bioprocessing",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "a5a2617952d4c503ca1688ce",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Enhanced production of phomapyrrolidone a through culture-condition optimization and morphological regulation in Didymella sp. FATR0054",
+      "triage_tags": [
+        "classification",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1186/s40643-026-01132-2"
+    },
+    {
+      "doi": "10.56201/wjimt.v10.no2.2026.pg178.210",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "WORLD JOURNAL OF INNOVATION AND MODERN TECHNOLOGY",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "c97827415f714dfa3e96a944",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Energy Consumption and Economic Development in Nigeria",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "policy"
+      ],
+      "url": "https://doi.org/10.56201/wjimt.v10.no2.2026.pg178.210"
+    },
+    {
+      "doi": "10.29165/ajarcde.v10i3.1214",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "AJARCDE (Asian Journal of Applied Research for Community Development and Empowerment)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "a8cede06818ead81a8838554",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Empowering the Penebel Berlian Food Security Group in Processing Cattle Manure into Solid Organic Fertilizer",
+      "triage_tags": [
+        "additives",
+        "classification",
+        "exposure",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.29165/ajarcde.v10i3.1214"
+    },
+    {
+      "doi": "10.1177/14644207261488022",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Proceedings of the Institution of Mechanical Engineers, Part L: Journal of Materials: Design and Applications",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals"
+      ],
+      "record_id": "3037a9c759bcd2a1a62d0258",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Electrospun PVA nanofibers reinforced with chitosan and alginate biopolymers: Optimization of formulation and processing parameters for biomedical applications",
+      "triage_tags": [
+        "classification",
+        "formulation",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1177/14644207261488022"
+    },
+    {
+      "doi": "10.1007/978-1-0716-5460-6_11",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Methods and Protocols in Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "cd1b5fd80ffd60af1adac7f3",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Elderberry (Sambucus nigra L.) as a Natural Colorant to Extent the Beef Burger Shelf Life",
+      "triage_tags": [
+        "additives",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1007/978-1-0716-5460-6_11"
+    },
+    {
+      "doi": "10.1007/978-1-0716-5460-6_4",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Methods and Protocols in Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "upf_core"
+      ],
+      "record_id": "c4dcf2b1f9ab9af425c35570",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Elaboration of Low-Sodium Dry-Cured Rabbit Leg",
+      "triage_tags": [
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1007/978-1-0716-5460-6_4"
+    },
+    {
+      "doi": "10.1007/s10068-026-02313-7",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Food Science and Biotechnology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "2cc8d61497ed99b96977f5c4",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Effects of honey from Hedera rhombea Bean on dyslipidemia and oxidative stress in high-fat diet-induced mice",
+      "triage_tags": [
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1007/s10068-026-02313-7"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1970649",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "da8a7e941c0e9ae9253fd53a",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Editorial: Exploring nutrigenomics in managing metabolic inflammation",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1970649"
+    },
+    {
+      "doi": "10.3390/agriculture16182038",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Agriculture",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification"
+      ],
+      "record_id": "686a68ada36edda0bd688706",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Early Detection and Classification of Phytophthora Blight in Chili Peppers Using Hyperspectral Imaging and Machine Learning",
+      "triage_tags": [
+        "classification",
+        "health_outcomes",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3390/agriculture16182038"
+    },
+    {
+      "doi": "10.1007/s10278-026-02270-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Imaging Informatics in Medicine",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "f76f0ff86f1f2ca2a3da1671",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Do Quantum Kernels Improve Medical Image Classification? A Leakage-Controlled Benchmark Against Classical RBF-SVM",
+      "triage_tags": [
+        "classification",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1007/s10278-026-02270-x"
+    },
+    {
+      "doi": "10.56201/rjfsqc.vol.12.no1.2026.pg40.51",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "RESEARCH JOURNAL OF FOOD SCIENCE AND QUALITY CONTROL",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "2d62f8376e5c7cb953e321a3",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Dietary Exposure and Non-Carcinogenic Health Risk Assessment of Heavy Metals in Edible African Giant Snails from Southern Nigeria",
+      "triage_tags": [
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.56201/rjfsqc.vol.12.no1.2026.pg40.51"
+    },
+    {
+      "doi": "10.1007/s12161-026-03265-8",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Food Analytical Methods",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "ae678bcc7b26c8bfb191b22e",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Development of Conventional, Real-Time, and Ultrafast Real-Time PCR Assays for the Accurate Identification of Ibacus Novemdentatus (Smooth Fan Lobster)",
+      "triage_tags": [
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1007/s12161-026-03265-8"
+    },
+    {
+      "doi": "10.1186/s40795-026-01282-8",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "BMC Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "7ea4ebca6af7517a7ff10f01",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Development and content validity of Diet Quality Index for Athletes (DQI-Athletes)",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "methodology",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1186/s40795-026-01282-8"
+    },
+    {
+      "doi": "10.3390/nu18183096",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrients",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "67eef0e1c9fa2ff9eb03ff3c",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Development and Feasibility of a Virtual Nutrition Education Intervention for Adults with Non-Dialysis Chronic Kidney Disease",
+      "triage_tags": [
+        "exposure",
+        "health_outcomes",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3390/nu18183096"
+    },
+    {
+      "doi": "10.1007/s00419-026-03183-5",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Archive of Applied Mechanics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals"
+      ],
+      "record_id": "b448741bd4b345eaf8798056",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Correction: An αARS-poly formulation on trimmed quadrilateral-dominant meshes for Reissner–Mindlin plate analysis with complex geometries",
+      "triage_tags": [
+        "formulation"
+      ],
+      "url": "https://doi.org/10.1007/s00419-026-03183-5"
+    },
+    {
+      "doi": "10.1093/ndt/gfag192",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nephrology Dialysis Transplantation",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "0027e5ba61423a0716b4cc4f",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Correction to: KDIGO 2026 Clinical Practice Guideline for Anemia in Chronic Kidney Disease (CKD): a commentary from the European Renal Best Practice (ERBP)",
+      "triage_tags": [
+        "health_outcomes",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1093/ndt/gfag192"
+    },
+    {
+      "doi": "10.3390/magnetochemistry12090106",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Magnetochemistry",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "76717bb2468ff3375ecaaf31",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Core Loss Prediction Model Based on Waveform Classification",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.3390/magnetochemistry12090106"
+    },
+    {
+      "doi": "10.1186/s41182-026-01077-4",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Tropical Medicine and Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "319f4ef2bb1aa6d04c3fdd77",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Complex exposure–response relationships between meteorological factors and severe fever with thrombocytopenia syndrome risk",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.1186/s41182-026-01077-4"
+    },
+    {
+      "doi": "10.3126/jhce.v1i1.100224",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Hillside College of Engineering",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "c37e8e1658c88bb27c870f91",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Comparative Analysis of Ensemble Machine Learning Algorithms For Diesel Injector Health Classification Using ECU Sensor Data",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3126/jhce.v1i1.100224"
+    },
+    {
+      "doi": "10.1177/10482911261482001",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "NEW SOLUTIONS: A Journal of Environmental and Occupational Health Policy",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "5086ab36ef60c578aba79600",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Coalition for Sensible Safeguards Avoiding the Deregulatory Trap: It's not About Fewer Rules. It's About Rigging the System for the Wealthy and Powerful",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1177/10482911261482001"
+    },
+    {
+      "doi": "10.1186/s12874-026-03012-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "BMC Medical Research Methodology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "aa8961c0fb93481ae2ab23f8",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Co-producing principles of engagement to improve the inclusion of black women in UK maternity and neonatal research: a qualitative study",
+      "triage_tags": [
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1186/s12874-026-03012-x"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1878745",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "f2a31b6342935f7645d92c33",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Chyme reinfusion via percutaneous endoscopic colostomy in type 1 short bowel syndrome with a defunctionalized but intact colon: short-term nutritional outcomes and parenteral support weaning",
+      "triage_tags": [
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1878745"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1877112",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "27192a023016c7a8384f51bd",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Case Report: When metabolism meets malabsorption: Imerslund-Gräsbeck syndrome with coexisting propionic acidemia presenting as recurrent metabolic crises",
+      "triage_tags": [
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1877112"
+    },
+    {
+      "doi": "10.1021/acs.jafc.6c09320",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "b123aa94cbce6c8acb1b6552",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Caffeic Acid Improves Pork Quality in Finishing Pigs via Modulating Oxidative Muscle Remodeling Associated with Nrf2 Activation and HIF-1α Inhibition",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1021/acs.jafc.6c09320"
+    },
+    {
+      "doi": "10.1021/acs.jafc.5c17772",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "2dacbd0de6b8fbfde028ddd7",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Bacillibactin-Mediated Improvement of Peanut Iron Nutrition, Yield, and Grain Quality by <i>Bacillus cereus</i> Rpea2 in Calcareous Soils",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1021/acs.jafc.5c17772"
+    },
+    {
+      "doi": "10.2174/01187421063489260915094404",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "The Open Dentistry Journal",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "ae7f713bd153c6cca62cc2e1",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Association of Tobacco Exposure Patterns with Periodontal Health: A Cross-Sectional Analysis of NHANES Data",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.2174/01187421063489260915094404"
+    },
+    {
+      "doi": "10.1007/s44187-026-01252-w",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Discover Food",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "cc2339658881302ed65fc1ef",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Assessment of hygienic camel milk production constraints and awareness of microbial and antimicrobial residue contamination across the milk value chain in Korahay and Fafan zones, Somali Region, Ethiopia",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1007/s44187-026-01252-w"
+    },
+    {
+      "doi": "10.9734/ajfrn/2026/v5i4441",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Asian Journal of Food Research and Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "upf_core"
+      ],
+      "record_id": "0b315e697b5fae58ffc2f1dc",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Assessment of Physicochemical Characteristics and Sensory Quality of Palm Oil Commercially Available in Nasarawa State Markets, Nigeria",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.9734/ajfrn/2026/v5i4441"
+    },
+    {
+      "doi": "10.3390/rs18183252",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Remote Sensing",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification"
+      ],
+      "record_id": "3d6abc5be491bb61ec4c8a2b",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Assessing the Sensitivity of Sentinel-1 and Sentinel-2 Time Series to Wheat Yellow Rust Using Feature Evaluation, Separability, and Random Forest Classification",
+      "triage_tags": [
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://doi.org/10.3390/rs18183252"
+    },
+    {
+      "doi": "10.1093/fqsafe/fyag074",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Food Quality and Safety",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "ab538e33893d6c3c5bee10b3",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Arginine inhibits potato greening by inhibiting chlorophyll biosynthesis and chloroplast formation",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.1093/fqsafe/fyag074"
+    },
+    {
+      "doi": "10.4324/9781003650140-7",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Regulation of Artificial General Intelligence",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "ca327aac2933a5ca2e9276db",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Aren't We “Missing-Something”?",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://doi.org/10.4324/9781003650140-7"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-10969266/v1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "fb165eb06ee1bb2e24c34f6a",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ambient Humidity and Childhood Food Allergy in a Tropical Climate: Insights from a Population-Based Study",
+      "triage_tags": [
+        "exposure",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.21203/rs.3.rs-10969266/v1"
+    },
+    {
+      "doi": "10.1007/978-1-0716-5460-6_2",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Methods and Protocols in Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "upf_core"
+      ],
+      "record_id": "6d19c3c18929d04106b2e961",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Alheiras with Improved Lipid Profile Using Gelled Emulsions with Vegetable Oils",
+      "triage_tags": [
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1007/978-1-0716-5460-6_2"
+    },
+    {
+      "doi": "10.56201/jpslr.vol.12.no2.2026.pg1.11",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "JOURNAL OF POLITICAL SCIENCE AND LEADERSHIP RESEARCH",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "78eff6d9c5b1c755e421e58f",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Advancing A Knowledge-Based Economy in Bayelsa State: Policy Implementation, Institutional Roles, And Strategic Pathways",
+      "triage_tags": [
+        "classification",
+        "policy"
+      ],
+      "url": "https://doi.org/10.56201/jpslr.vol.12.no2.2026.pg1.11"
+    },
+    {
+      "doi": "10.3892/mmr.2026.14028",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Molecular Medicine Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "28ecae3e47b455c217bc8b75",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Advances in biomarkers of benzene exposure and toxicity: From mechanistic insights to occupational health applications (Review)",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.3892/mmr.2026.14028"
+    },
+    {
+      "doi": "10.1007/978-1-0716-5460-6_9",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Methods and Protocols in Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "4951553eade3de52af718105",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Addition of Xoconostle (Opuntia joconostle) Peel Extracts as an Antioxidant in Mexican Chorizo",
+      "triage_tags": [
+        "methodology"
+      ],
+      "url": "https://doi.org/10.1007/978-1-0716-5460-6_9"
+    },
+    {
+      "doi": "10.1186/s40359-026-05653-5",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "BMC Psychology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "2e5dd605bceee624b5e89423",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "A randomized controlled trial of the unified treatment for emotion regulation and body image dissatisfaction in adolescents with subclinical eating-disorder symptoms",
+      "triage_tags": [
+        "methodology",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1186/s40359-026-05653-5"
+    },
+    {
+      "doi": "10.1007/s44163-026-02259-z",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Discover Artificial Intelligence",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "fb7f3d28848f6dcc070b3c92",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "A random forest framework for automated fault classification in analog filter circuits using simulation-derived features",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.1007/s44163-026-02259-z"
+    },
+    {
+      "doi": "10.1007/s42452-026-09389-0",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Discover Applied Sciences",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "ae1d3a60a9ea92f682ab569e",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "A multi-architecture deep learning ensemble approach for Parkinson’s disease classification from structural brain MRI",
+      "triage_tags": [
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://doi.org/10.1007/s42452-026-09389-0"
+    },
+    {
+      "doi": "10.3389/feduc.2026.1943139",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Education",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "584e870f1d88eec54d4d5def",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "A comparative analysis of research methodology curricula in two national contexts through a constructivist perspective",
+      "triage_tags": [
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3389/feduc.2026.1943139"
+    },
+    {
+      "doi": "10.18805/ajdfr.dr-2470",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Asian Journal of Dairy and Food Research",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "26c7ef392c3dfae8ef03d5a8",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "A Pilot Randomized, Controlled, Parallel-group Clinical Trial to Evaluate Efficacy of Wheat Extract (Triticum dicoccum) Versus Calcium Supplementation in Osteopenic Women",
+      "triage_tags": [
+        "exposure",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.18805/ajdfr.dr-2470"
+    },
+    {
+      "doi": "10.1021/acs.jafc.6c06018",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "188cd7ffd41d2b5e0d8f257d",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "A Pangenome Analysis of the RPD3/HDA1-Type Histone Deacetylase (HDAC) Family in Musaceae Unveils MaHDAC3 as an Epigenetic Repressor of Fruit Ripening",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1021/acs.jafc.6c06018"
+    },
+    {
+      "doi": "10.61467/2007.1558.2027.v18i1.1465",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "International Journal of Combinatorial Optimization Problems and Informatics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-21",
+      "query_ids": [
+        "nova_food_classification",
+        "processing_methods"
+      ],
+      "record_id": "02abcf0a7c9843b41599e99e",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "A Multi-Output CNN1D–GRU–MLP Architecture for Thermal Time-to-Risk Classification in Cold Chain Logistics",
+      "triage_tags": [
+        "classification",
+        "formulation",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1465"
+    },
+    {
+      "doi": "10.1111/jpc.70590",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of paediatrics and child health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-20",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "5b06ac297f04dee8271b9590",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Patterns of Ultra-Processed Food Consumption and Their Associations With Body Composition in Primary School Children in Semarang City, Indonesia.",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42764576/"
+    },
+    {
+      "doi": "10.1038/s41598-026-69462-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-20",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "ac582011fc96440f4c7ea202",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Insecticidal activity of Metarhizium anisopliae-mediated nanoparticles and fungal metabolites against the red palm weevil, Rhynchophorus ferrugineus",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s41598-026-69462-x"
+    },
+    {
+      "doi": "",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in oral health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-20",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "d76634bbff7c79601ecba57a",
+      "source_names": [
+        "europe_pmc"
+      ],
+      "title": "Developmental ecology of the infant oral ecosystem: a framework for early childhood caries",
+      "triage_tags": [],
+      "url": "https://europepmc.org/article/MED/PMC13586708"
+    },
+    {
+      "doi": "10.1177/08927057261490769",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Thermoplastic Composite Materials",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "08d3dc49e704c80dfa556a15",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Vat photopolymerization additive manufacturing: A critical review of materials, processes, applications, and sustainability",
+      "triage_tags": [
+        "additives"
+      ],
+      "url": "https://doi.org/10.1177/08927057261490769"
+    },
+    {
+      "doi": "10.59256/ijrtmr.20260605023",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "International Journal Of Recent Trends In Multidisciplinary Research",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "45e8c3453324a83290ae15c0",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Recent Advances, Applications, and Future Perspectives of Sustainable Green Solvents in Pharmaceutical Analysis",
+      "triage_tags": [],
+      "url": "https://doi.org/10.59256/ijrtmr.20260605023"
+    },
+    {
+      "doi": "10.1038/s41598-026-69132-y",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "bfbbb3a6eeb2a24342151318",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Probiotic characterization of Magnusiomyces capitatus OY151 from Egyptian cottage cheese and therapeutic evaluation of its postbiotic metabolites",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s41598-026-69132-y"
+    },
+    {
+      "doi": "10.22266/ijies2026.1031.18",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "International journal of intelligent engineering and systems",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "3062656ca18026f16d5172c7",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "PSPE-UNet: Projection-based Similarity Prototype Embedding UNet for Apple Leaf Disease Segmentation",
+      "triage_tags": [
+        "health_outcomes"
+      ],
+      "url": "https://doi.org/10.22266/ijies2026.1031.18"
+    },
+    {
+      "doi": "10.13052/jmm1550-4646.2241",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Mobile Multimedia",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "3e4195bd77b9b02e5f764e39",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Novel Approach for Intrusion Detection in IoT Networks Based on ResNet-ABC-Chatterjee Algorithm",
+      "triage_tags": [],
+      "url": "https://doi.org/10.13052/jmm1550-4646.2241"
+    },
+    {
+      "doi": "10.1080/19490976.2026.2736915",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Gut Microbes",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "c61d4e768a8038dfc5092b7e",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Fungal extracellular vesicles reshape Lactobacillus rhamnosus vesicles to enhance lysosomal homeostasis and resolve intestinal inflammation",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1080/19490976.2026.2736915"
+    },
+    {
+      "doi": "10.1038/s41467-026-77675-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nature Communications",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "23ab2384a6a16e9c68861033",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Extending single-cell proteomics from HeLa to small primary human immune cells",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s41467-026-77675-x"
+    },
+    {
+      "doi": "10.1080/19476337.2026.2735156",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "CyTA - Journal of Food",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-19",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "0fbb06a9880efef851677c5b",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Effects of processing treatments on phenolic content, antioxidant capacity, and anthocyanin levels and antimicrobial activity in fruit pomace fractions",
+      "triage_tags": [
+        "classification",
+        "formulation"
+      ],
+      "url": "https://doi.org/10.1080/19476337.2026.2735156"
+    },
+    {
+      "doi": "10.64898/2026.09.11.750999",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "7909aa5a59c105c187be91c3",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Widespread detection of Polyethylene glycol reveals chronic human exposure through pharmaceutical drugs",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.750999"
+    },
+    {
+      "doi": "10.1007/s13679-026-00765-w",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Current obesity reports",
+      "metadata_status": "multi_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "587438f4864b2ea5526c4d39",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "When Ultra-Processed Foods are Eaten: The Missing Dimension in Exposure Measurement for Obesity Research.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "formulation",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758431/"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1929877",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "7ab586df1d661e53ed3b1760",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Trends and socioeconomic factors associated with low available food variety among Peruvian households: 2015–2024",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1929877"
+    },
+    {
+      "doi": "10.1038/s41598-026-72064-2",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "fd87e22824a2149708424e95",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Transcriptomic and metabolic basis of volatile compound dynamics in apricot fermentation",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s41598-026-72064-2"
+    },
+    {
+      "doi": "10.37190/ppmp/237507",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Physicochemical Problems of Mineral Processing",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "8ce9c0d12263adfe4ea9df80",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "The Effect of Collectors on the Flotation of Diaspore Ore and Importance in Modelling",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.37190/ppmp/237507"
+    },
+    {
+      "doi": "10.24425/amm.2026.1989",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Archives of Metallurgy and Materials",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "4454bfdc3711cc359734bd6f",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Tailoring Graphene Quantum Dots for Next-Generation Technologies: Energy, Environment and Health",
+      "triage_tags": [],
+      "url": "https://doi.org/10.24425/amm.2026.1989"
+    },
+    {
+      "doi": "10.64898/2026.09.16.752182",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "f630940ee754fb49dc4a5bbe",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Structural analyses of a heterodimeric SusCD complex captures intermediate states of maltooligosaccharide transport",
+      "triage_tags": [],
+      "url": "https://doi.org/10.64898/2026.09.16.752182"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1901940",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "policy_guidance",
+        "processing_methods"
+      ],
+      "record_id": "b74e60a6d0659cba66cd2d33",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Shortcomings of food-based dietary guidelines worldwide: a focus on sustainability and food processing issues",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1901940"
+    },
+    {
+      "doi": "",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "EUR Research Repository (Erasmus University Rotterdam)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "431cfab259100f66f848daad",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Rivalling social protections:The interacting politics of social cash transfers and agricultural input subsidies in Malawi and Zambia",
+      "triage_tags": [],
+      "url": "https://pure.eur.nl/en/publications/eba41fd4-6f3a-4d69-b9c9-3ae843f2e263"
+    },
+    {
+      "doi": "10.1136/ebnurs-2026-104676",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Evidence-based nursing",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "f370e73d1089a19e248f9fd3",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Reducing ultra-processed food intake in both partners should be a priority target in preconception care.",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42618332/"
+    },
+    {
+      "doi": "10.60101/siam.2026.3921",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Social Science Innovation and Applied Management (SIAM)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "4f15b463c82a486d01fd49cd",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Purchasing Power Expansion and Food Consumption Behavior: Empirical evidence from Thai households",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.60101/siam.2026.3921"
+    },
+    {
+      "doi": "10.7759/cureus.116502",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Cureus",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "78d2eee1a77e4068da770e2d",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Potential Use of AI Chatbots by Patients With Bowel Tumors: Opportunities and Implications for Low- and Middle-Income Countries",
+      "triage_tags": [],
+      "url": "https://doi.org/10.7759/cureus.116502"
+    },
+    {
+      "doi": "10.1080/15265161.2026.2717115",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "The American Journal of Bioethics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "e06c66f14fbee8f30681113a",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Population-Level Epistemic Injustice: A New Approach",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1080/15265161.2026.2717115"
+    },
+    {
+      "doi": "10.1038/s41538-026-01084-z",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "npj Science of Food",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "1c62d985c2c2f87fcffff731",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Pomegranate seed oil alleviates renal lipid deposition and fibrosis in diabetic kidney disease mice",
+      "triage_tags": [
+        "health_outcomes"
+      ],
+      "url": "https://doi.org/10.1038/s41538-026-01084-z"
+    },
+    {
+      "doi": "10.5395/rde.2026.51.e43",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Restorative Dentistry & Endodontics",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "394d3a099407df88c2c4319a",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Optimizing post-space drying: insights from an in vitro study using standardized three-dimensional-printed models",
+      "triage_tags": [],
+      "url": "https://doi.org/10.5395/rde.2026.51.e43"
+    },
+    {
+      "doi": "10.1097/med.0000000000000979",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Current opinion in endocrinology, diabetes, and obesity",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "f97474e472b2582418365317",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Normal weight obesity: a South Asian phenotype.",
+      "triage_tags": [
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42755258/"
+    },
+    {
+      "doi": "10.59256/ijrtmr.20260605018",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "International Journal Of Recent Trends In Multidisciplinary Research",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "297bc1bb4377ed00a9f2b9f9",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Nitrosoamine Impurities: Current Status, Challenges and Future Perspectives",
+      "triage_tags": [],
+      "url": "https://doi.org/10.59256/ijrtmr.20260605018"
+    },
+    {
+      "doi": "10.1111/jcpp.70229",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Journal of child psychology and psychiatry, and allied disciplines",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "35d520b6321b50d7557d5864",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Mental health problems as mediators between childhood trauma and cardiometabolic risk behaviours in the 2004 Pelotas Birth Cohort.",
+      "triage_tags": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758030/"
+    },
+    {
+      "doi": "10.1038/s41598-026-71892-6",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "5983a5c059395b18da707779",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Machine learning-assisted design and FEM simulation of a multi-material metasurface terahertz refractive index sensor",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s41598-026-71892-6"
+    },
+    {
+      "doi": "10.1080/15440478.2026.2732583",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of Natural Fibers",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "f5a0be9b0e3f9ba442d7429e",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Investigation of Dyeing and Fastness Behaviors of Bio-Mordanted Wool Fabric Dyed with Black Carrot Natural Dye",
+      "triage_tags": [
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1080/15440478.2026.2732583"
+    },
+    {
+      "doi": "10.25258/ijddt.16.83s.143",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "International Journal of Drug Delivery Technology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "556a19c01c1203469d00af33",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Food Frequency Patterns and Nutrient Deficits among Urban Slum Children in Varanasi, Uttar Pradesh: Evidence from a Community-Based Dietary Assessment Study",
+      "triage_tags": [
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.25258/ijddt.16.83s.143"
+    },
+    {
+      "doi": "10.64898/2026.09.12.750977",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "2247efdc4870d3a52982afc1",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Exposure to a mixture of long-chain PFAS disrupts ovarian follicle development, ovulation, and luteinization in female mice",
+      "triage_tags": [
+        "exposure"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.12.750977"
+    },
+    {
+      "doi": "10.1038/s41598-026-67264-9",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "1acfbcf0bf7d341b51e28f0f",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Exploratory investigation of hemodialysis membrane–induced differential DNA methylation in patient blood",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s41598-026-67264-9"
+    },
+    {
+      "doi": "10.3389/fanim.2026.1796958",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Animal Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "9bbc0b7f3c76ccb2132fd173",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Effect of a co-fermented amino acid waste liquid-rice bran feed as a soybean meal replacer on growth performance, rumen fermentation, and microbial profile in finishing cattle",
+      "triage_tags": [],
+      "url": "https://doi.org/10.3389/fanim.2026.1796958"
+    },
+    {
+      "doi": "10.30574/wjbphs.2026.27.3.0467",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "World Journal of Biology Pharmacy and Health Sciences",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "9b74fd47044b4b04c45165d8",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "EVOLVING REGULATORY POLICIES FOR ORPHAN DRUGS POST-COVID-19: UK AND INDIAN PERSPECTIVES",
+      "triage_tags": [],
+      "url": "https://doi.org/10.30574/wjbphs.2026.27.3.0467"
+    },
+    {
+      "doi": "10.67113/resp.v100i1.1600",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Revista Española de Salud Pública",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "0199d2d494f0854c0f7c5591",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Composición nutricional de galletas dulces y pastelería industrial en España (Base de datos de composición de alimentos y bebidas comercializados en España en 2022): Aplicación de los criterios de la OMS para políticas de Salud Pública",
+      "triage_tags": [],
+      "url": "https://doi.org/10.67113/resp.v100i1.1600"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-10888729/v1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Research Square",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "1bf0ee2b3b7bb0902b7c87a0",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Chromosome-resolved genome of Magnaporthe oryzae KJ201 links East Asian rice blast lineage architecture with pathogenicity loci",
+      "triage_tags": [],
+      "url": "https://doi.org/10.21203/rs.3.rs-10888729/v1"
+    },
+    {
+      "doi": "10.32571/ijct.1940940",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "International Journal of Chemistry and Technology",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "d5641bfc8f31916e0976013a",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Biomonitoring of Organochlorine Pesticides and Polychlorinated Biphenyls in Paired Placental Tissue and Umbilical Cord Blood in IUGR and Control Pregnancies",
+      "triage_tags": [],
+      "url": "https://doi.org/10.32571/ijct.1940940"
+    },
+    {
+      "doi": "10.64898/2026.09.16.746058",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "78da1b1f741e15f103b830b8",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Adolescent development accelerates responses to input in human neocortical neurons",
+      "triage_tags": [],
+      "url": "https://doi.org/10.64898/2026.09.16.746058"
+    },
+    {
+      "doi": "10.1038/s41598-026-71229-3",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-18",
+      "query_ids": [
+        "processing_methods"
+      ],
+      "record_id": "ca3c6d939bc973a183cfa002",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "A layered framework for pathogen-oriented prioritization in actinomycetes antifungal biodiscovery",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1038/s41598-026-71229-3"
+    }
+  ],
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "rollup_days": 1,
+  "schema_version": 1,
+  "source_commit": "74a2dd9285359fed290063a6c1e318e79266649f",
+  "source_counts": {
+    "crossref": 103,
+    "europe_pmc": 2,
+    "openalex": 35,
+    "pubmed": 5
+  },
+  "source_error_count": 3,
+  "theme_counts": {
+    "additives": 6,
+    "classification": 34,
+    "exposure": 35,
+    "formulation": 6,
+    "health_outcomes": 15,
+    "methodology": 36,
+    "nutrition": 31,
+    "policy": 28
+  }
+}

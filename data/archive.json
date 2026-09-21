@@ -1,0 +1,43 @@
+{
+  "entries": [
+    {
+      "data_url": "data/weekly/2026-W39.json",
+      "generated_at": "2026-09-21T17:24:21+00:00",
+      "metadata_conflict_count": 0,
+      "mode": "weekly",
+      "new_record_count": 104,
+      "period": "2026-W39",
+      "record_count": 144,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "source_error_count": 3
+    },
+    {
+      "data_url": "data/monthly/2026-09.json",
+      "generated_at": "2026-09-21T17:24:21+00:00",
+      "metadata_conflict_count": 0,
+      "mode": "monthly",
+      "new_record_count": 104,
+      "period": "2026-09",
+      "record_count": 144,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "source_error_count": 3
+    },
+    {
+      "data_url": "data/daily/2026-09-21.json",
+      "generated_at": "2026-09-21T17:24:21+00:00",
+      "metadata_conflict_count": 0,
+      "mode": "daily",
+      "new_record_count": 104,
+      "period": "2026-09-21",
+      "record_count": 144,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "source_error_count": 3
+    }
+  ],
+  "generated_at": "2026-09-21T17:24:21+00:00",
+  "project": "UPF26",
+  "schema_version": 1
+}

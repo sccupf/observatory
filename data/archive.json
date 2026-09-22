@@ -2,8 +2,8 @@
   "entries": [
     {
       "data_url": "data/weekly/2026-W39.json",
-      "excluded_record_count": 236,
-      "generated_at": "2026-09-21T20:30:52+00:00",
+      "excluded_record_count": 479,
+      "generated_at": "2026-09-22T05:29:52+00:00",
       "harvest_status": "COMPLETE",
       "metadata_conflict_count": 0,
       "mode": "weekly",
@@ -12,15 +12,15 @@
       "record_count": 6,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 285,
-      "review_record_count": 43,
+      "retrieved_record_count": 571,
+      "review_record_count": 84,
       "screening_status": "SCREENED",
       "source_error_count": 0
     },
     {
       "data_url": "data/monthly/2026-09.json",
-      "excluded_record_count": 236,
-      "generated_at": "2026-09-21T20:30:52+00:00",
+      "excluded_record_count": 479,
+      "generated_at": "2026-09-22T05:29:52+00:00",
       "harvest_status": "COMPLETE",
       "metadata_conflict_count": 0,
       "mode": "monthly",
@@ -29,8 +29,25 @@
       "record_count": 6,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 285,
-      "review_record_count": 43,
+      "retrieved_record_count": 571,
+      "review_record_count": 84,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
+    },
+    {
+      "data_url": "data/daily/2026-09-22.json",
+      "excluded_record_count": 243,
+      "generated_at": "2026-09-22T05:29:52+00:00",
+      "harvest_status": "COMPLETE",
+      "metadata_conflict_count": 0,
+      "mode": "daily",
+      "new_record_count": 0,
+      "period": "2026-09-22",
+      "record_count": 2,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 286,
+      "review_record_count": 41,
       "screening_status": "SCREENED",
       "source_error_count": 0
     },
@@ -52,7 +69,7 @@
       "source_error_count": 0
     }
   ],
-  "generated_at": "2026-09-21T20:30:52+00:00",
+  "generated_at": "2026-09-22T05:29:52+00:00",
   "project": "UPF26",
   "schema_version": 4
 }

@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 479,
-  "generated_at": "2026-09-22T05:29:52+00:00",
+  "excluded_record_count": 717,
+  "generated_at": "2026-09-23T05:29:51+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 6,
-  "metadata_conflict_count": 0,
+  "included_record_count": 8,
+  "metadata_conflict_count": 1,
   "mode": "weekly",
-  "new_record_count": 0,
+  "new_record_count": 2,
   "period_source_since": "2026-09-18",
   "project": "UPF26",
-  "record_count": 6,
+  "record_count": 8,
   "records": [
     {
       "doi": "10.61467/2007.1558.2027.v18i1.1511",
@@ -26,7 +26,7 @@
       "metadata_status": "single_index",
       "published_date": "2026-09-21",
       "query_ids": [
-        "upf_core"
+        "nutrition_exposure"
       ],
       "record_id": "f6b9ec0b980eed31ab5aef9d",
       "relevance_gate_version": "1.1.0",
@@ -195,32 +195,99 @@
         "methodology"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42758030/"
+    },
+    {
+      "doi": "10.1136/fmch-2026-003925",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Family medicine and community health",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-22",
+      "query_ids": [
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "6f7fa6fa7c889f4f94d58a3d",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-processed food consumption and risk of multiple chronic diseases among 8,819,894 adults from 51 prospective cohorts: a dose-response meta-analysis.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "linked_records"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42773062/"
+    },
+    {
+      "doi": "10.1108/nfs-04-2026-0204",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition &amp; Food Science",
+      "metadata_status": "metadata_conflict",
+      "published_date": "2026-09-22",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "88326a73d16c064ede2d3eab",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref",
+        "openalex"
+      ],
+      "title": "Drivers of ultra-processed food consumption for infant and young child feeding: a mixed-methods study in the urban setting of Yogyakarta, Indonesia",
+      "triage_tags": [
+        "additives",
+        "classification",
+        "exposure",
+        "intervention",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1108/nfs-04-2026-0204"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 571,
-  "review_record_count": 84,
-  "rollup_days": 2,
+  "retrieved_record_count": 860,
+  "review_record_count": 131,
+  "rollup_days": 3,
   "schema_version": 3,
   "source_commit": "1462d3061b805f787ab27aefaeee2f12e7f8d31c",
   "source_counts": {
+    "crossref": 1,
     "europe_pmc": 5,
-    "openalex": 2,
-    "pubmed": 4
+    "openalex": 3,
+    "pubmed": 5
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 6,
-    "exposure": 6,
+    "additives": 1,
+    "classification": 8,
+    "exposure": 8,
     "formulation": 1,
-    "health_outcomes": 3,
-    "intervention": 2,
-    "linked_records": 2,
+    "health_outcomes": 4,
+    "intervention": 3,
+    "linked_records": 3,
     "mechanisms": 1,
-    "methodology": 2,
-    "nutrition": 3,
+    "methodology": 3,
+    "nutrition": 4,
     "policy": 1
   }
 }

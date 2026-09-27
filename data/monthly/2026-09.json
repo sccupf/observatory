@@ -1,14 +1,14 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 1464,
-  "generated_at": "2026-09-26T05:29:14+00:00",
+  "excluded_record_count": 1750,
+  "generated_at": "2026-09-27T05:37:18+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
     "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
-  "harvest_status": "COMPLETE",
+  "harvest_status": "PARTIAL",
   "included_record_count": 14,
   "metadata_conflict_count": 0,
   "mode": "monthly",
@@ -350,30 +350,28 @@
       "index_source_count": 1,
       "is_new": false,
       "is_retracted": false,
-      "journal": "European journal of nutrition",
+      "journal": "European Journal of Nutrition",
       "metadata_status": "single_index",
       "published_date": "2026-09-24",
       "query_ids": [
-        "biomarkers_omics",
         "intervention_trials",
-        "nutrition_exposure",
-        "upf_core"
+        "nutrition_exposure"
       ],
       "record_id": "1f0c7e2ed24147abce8a8f7a",
       "relevance_gate_version": "1.1.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "pubmed"
+        "openalex"
       ],
-      "title": "Satiety responsiveness following dietary exposure to ultra-processed foods differing in texture-derived eating rate: a secondary analysis of a randomized controlled crossover diet intervention.",
+      "title": "Satiety responsiveness following dietary exposure to ultra-processed foods differing in texture-derived eating rate: a secondary analysis of a randomized controlled crossover diet intervention",
       "triage_tags": [
         "classification",
         "exposure",
         "intervention",
         "nutrition"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42782361/"
+      "url": "https://doi.org/10.1007/s00394-026-04111-7"
     },
     {
       "doi": "10.1016/j.tjnut.2026.101851",
@@ -437,17 +435,17 @@
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1753,
-  "review_record_count": 261,
-  "rollup_days": 6,
+  "retrieved_record_count": 2044,
+  "review_record_count": 265,
+  "rollup_days": 7,
   "schema_version": 3,
-  "source_commit": "1462d3061b805f787ab27aefaeee2f12e7f8d31c",
+  "source_commit": "5d9e2862f7328285e5fadd87c1586418b089bc04",
   "source_counts": {
     "europe_pmc": 6,
-    "openalex": 5,
-    "pubmed": 10
+    "openalex": 6,
+    "pubmed": 9
   },
-  "source_error_count": 0,
+  "source_error_count": 10,
   "theme_counts": {
     "additives": 1,
     "biomarkers": 1,

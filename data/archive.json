@@ -2,9 +2,9 @@
   "entries": [
     {
       "data_url": "data/weekly/2026-W39.json",
-      "excluded_record_count": 1464,
-      "generated_at": "2026-09-26T05:29:14+00:00",
-      "harvest_status": "COMPLETE",
+      "excluded_record_count": 1750,
+      "generated_at": "2026-09-27T05:37:18+00:00",
+      "harvest_status": "PARTIAL",
       "metadata_conflict_count": 0,
       "mode": "weekly",
       "new_record_count": 2,
@@ -12,16 +12,16 @@
       "record_count": 14,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 1753,
-      "review_record_count": 261,
+      "retrieved_record_count": 2044,
+      "review_record_count": 265,
       "screening_status": "SCREENED",
-      "source_error_count": 0
+      "source_error_count": 10
     },
     {
       "data_url": "data/monthly/2026-09.json",
-      "excluded_record_count": 1464,
-      "generated_at": "2026-09-26T05:29:14+00:00",
-      "harvest_status": "COMPLETE",
+      "excluded_record_count": 1750,
+      "generated_at": "2026-09-27T05:37:18+00:00",
+      "harvest_status": "PARTIAL",
       "metadata_conflict_count": 0,
       "mode": "monthly",
       "new_record_count": 2,
@@ -29,10 +29,27 @@
       "record_count": 14,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 1753,
-      "review_record_count": 261,
+      "retrieved_record_count": 2044,
+      "review_record_count": 265,
       "screening_status": "SCREENED",
-      "source_error_count": 0
+      "source_error_count": 10
+    },
+    {
+      "data_url": "data/daily/2026-09-27.json",
+      "excluded_record_count": 286,
+      "generated_at": "2026-09-27T05:37:18+00:00",
+      "harvest_status": "PARTIAL",
+      "metadata_conflict_count": 0,
+      "mode": "daily",
+      "new_record_count": 0,
+      "period": "2026-09-27",
+      "record_count": 1,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 291,
+      "review_record_count": 4,
+      "screening_status": "SCREENED",
+      "source_error_count": 10
     },
     {
       "data_url": "data/daily/2026-09-26.json",
@@ -137,7 +154,7 @@
       "source_error_count": 0
     }
   ],
-  "generated_at": "2026-09-26T05:29:14+00:00",
+  "generated_at": "2026-09-27T05:37:18+00:00",
   "project": "UPF26",
   "schema_version": 4
 }

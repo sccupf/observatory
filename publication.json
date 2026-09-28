@@ -4,9 +4,9 @@
   "publisher": "SCC Nexus",
   "canonical_site": "https://sccupf.github.io/observatory/",
   "source_repository_visibility": "private",
-  "source_commit": "cc57735d8ec2c1aa6553c469a2a5c56c7cf8de9c",
+  "source_commit": "5d9e2862f7328285e5fadd87c1586418b089bc04",
   "source_publication_path": "site/",
   "publication_repository": "sccupf/observatory",
-  "publication_gate": "UPF26 CI success on main",
+  "publication_gate": "explicit human-approved publication after validation",
   "methodology_release": "0.1.0"
 }

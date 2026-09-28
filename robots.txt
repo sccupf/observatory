@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pythongitgub.github.io/UPF-26-Observartory/sitemap.xml
+Sitemap: https://sccupf.github.io/observatory/sitemap.xml

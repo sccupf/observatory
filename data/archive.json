@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "data_url": "data/weekly/2026-W40.json",
+      "excluded_record_count": 274,
+      "generated_at": "2026-09-28T05:32:58+00:00",
+      "harvest_status": "COMPLETE",
+      "metadata_conflict_count": 0,
+      "mode": "weekly",
+      "new_record_count": 2,
+      "period": "2026-W40",
+      "record_count": 4,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 289,
+      "review_record_count": 11,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
+    },
+    {
+      "data_url": "data/monthly/2026-09.json",
+      "excluded_record_count": 2024,
+      "generated_at": "2026-09-28T05:32:58+00:00",
+      "harvest_status": "PARTIAL",
+      "metadata_conflict_count": 0,
+      "mode": "monthly",
+      "new_record_count": 3,
+      "period": "2026-09",
+      "record_count": 17,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 2333,
+      "review_record_count": 276,
+      "screening_status": "SCREENED",
+      "source_error_count": 10
+    },
+    {
+      "data_url": "data/daily/2026-09-28.json",
+      "excluded_record_count": 274,
+      "generated_at": "2026-09-28T05:32:58+00:00",
+      "harvest_status": "COMPLETE",
+      "metadata_conflict_count": 0,
+      "mode": "daily",
+      "new_record_count": 2,
+      "period": "2026-09-28",
+      "record_count": 4,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 289,
+      "review_record_count": 11,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
+    },
+    {
       "data_url": "data/weekly/2026-W39.json",
       "excluded_record_count": 1750,
       "generated_at": "2026-09-27T05:37:18+00:00",
@@ -9,23 +60,6 @@
       "mode": "weekly",
       "new_record_count": 2,
       "period": "2026-W39",
-      "record_count": 14,
-      "report_url": null,
-      "retraction_flag_count": 0,
-      "retrieved_record_count": 2044,
-      "review_record_count": 265,
-      "screening_status": "SCREENED",
-      "source_error_count": 10
-    },
-    {
-      "data_url": "data/monthly/2026-09.json",
-      "excluded_record_count": 1750,
-      "generated_at": "2026-09-27T05:37:18+00:00",
-      "harvest_status": "PARTIAL",
-      "metadata_conflict_count": 0,
-      "mode": "monthly",
-      "new_record_count": 2,
-      "period": "2026-09",
       "record_count": 14,
       "report_url": null,
       "retraction_flag_count": 0,
@@ -154,7 +188,7 @@
       "source_error_count": 0
     }
   ],
-  "generated_at": "2026-09-27T05:37:18+00:00",
+  "generated_at": "2026-09-28T05:32:58+00:00",
   "project": "UPF26",
   "schema_version": 4
 }

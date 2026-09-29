@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 2024,
-  "generated_at": "2026-09-28T05:32:58+00:00",
+  "excluded_record_count": 2267,
+  "generated_at": "2026-09-29T05:34:38+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 17,
-  "metadata_conflict_count": 0,
+  "included_record_count": 24,
+  "metadata_conflict_count": 1,
   "mode": "monthly",
-  "new_record_count": 3,
+  "new_record_count": 8,
   "period_source_since": "2026-09-18",
   "project": "UPF26",
-  "record_count": 17,
+  "record_count": 24,
   "records": [
     {
       "doi": "10.61467/2007.1558.2027.v18i1.1511",
@@ -433,18 +433,15 @@
     },
     {
       "doi": "10.1186/s12916-026-05214-y",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 3,
+      "is_new": false,
       "is_retracted": false,
-      "journal": "BMC Medicine",
-      "metadata_status": "single_index",
-      "published_date": "2026-09-28",
+      "journal": "BMC medicine",
+      "metadata_status": "metadata_conflict",
+      "published_date": "2026-09-27",
       "query_ids": [
-        "biomarkers_omics",
         "formulation_signals",
-        "intervention_trials",
-        "longitudinal_records",
-        "neurological_outcomes",
+        "nova_food_classification",
         "nutrition_exposure",
         "policy_guidance",
         "processing_methods",
@@ -455,9 +452,11 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "europe_pmc",
+        "openalex",
+        "pubmed"
       ],
-      "title": "Public health policy should be grounded in established evidence that acknowledges uncertainty: a response to The Lancet series on ultra-processed foods",
+      "title": "Public health policy should be grounded in established evidence that acknowledges uncertainty: a response to The Lancet series on ultra-processed foods.",
       "triage_tags": [
         "additives",
         "classification",
@@ -468,7 +467,7 @@
         "nutrition",
         "policy"
       ],
-      "url": "https://doi.org/10.1186/s12916-026-05214-y"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42802224/"
     },
     {
       "doi": "10.1088/1748-9326/aea587",
@@ -522,36 +521,240 @@
         "mechanisms"
       ],
       "url": "https://doi.org/10.1051/0004-6361/202661847"
+    },
+    {
+      "doi": "10.1186/s12916-026-05217-9",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "BMC Medicine",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-29",
+      "query_ids": [
+        "biomarkers_omics",
+        "formulation_signals",
+        "longitudinal_records",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "4804d8ba5b924f7d88c05474",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Response to: Debate in relation to “Ultra‑processed foods and human health: the main thesis and the evidence”",
+      "triage_tags": [],
+      "url": "https://doi.org/10.1186/s12916-026-05217-9"
+    },
+    {
+      "doi": "10.1016/j.amepre.2026.108592",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "American journal of preventive medicine",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-28",
+      "query_ids": [
+        "longitudinal_records",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "351c15724685a85af54881b2",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-processed food intake as a marker of environmental exposure: reframing the prevention target.",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42805427/"
+    },
+    {
+      "doi": "10.1186/s12916-026-05270-4",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "BMC Medicine",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-28",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "961f68f1b2cde99fc3945925",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ultra-processed food consumption and body mass index development from childhood to adolescence in Dutch cohorts",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "linked_records"
+      ],
+      "url": "https://doi.org/10.1186/s12916-026-05270-4"
+    },
+    {
+      "doi": "10.1007/s11695-026-08964-z",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Obesity surgery",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-28",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "a845bb1ca9d4709728905404",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-processed Food Consumption After Metabolic and Bariatric Surgery: Implications for Recurrent Weight Gain, Dietary Quality, and Nutritional Outcomes - A Narrative Review.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42803906/"
+    },
+    {
+      "doi": "10.1017/s1368980026103139",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Public health nutrition",
+      "metadata_status": "multi_index",
+      "published_date": "2026-09-28",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "f7a851d640f34968442ce819",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Reducing ultra-processed and increasing scratch-cooked school meals: perceived barriers and facilitators from food service directors.",
+      "triage_tags": [
+        "classification",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42802686/"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-10840584/v1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-28",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "5984835a360b6d7bc14532a4",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc"
+      ],
+      "title": "Emotional and Sensory Drivers of Food Choices in Albania and Kosovo",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "intervention",
+        "policy"
+      ],
+      "url": "https://europepmc.org/article/MED/PPR1328851"
+    },
+    {
+      "doi": "10.1016/j.semnephrol.2026.151728",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Seminars in nephrology",
+      "metadata_status": "multi_index",
+      "published_date": "2026-09-26",
+      "query_ids": [
+        "formulation_signals",
+        "intervention_trials",
+        "neurological_outcomes",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "f3dec778a87ff6138c90340e",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Toward Additive-Aware Dietary Guidance in Chronic Kidney Disease: Research Gaps and Future Directions.",
+      "triage_tags": [
+        "additives",
+        "classification",
+        "exposure",
+        "formulation",
+        "health_outcomes",
+        "intervention",
+        "neurology",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42800790/"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 2333,
-  "review_record_count": 276,
-  "rollup_days": 8,
+  "retrieved_record_count": 2627,
+  "review_record_count": 318,
+  "rollup_days": 9,
   "schema_version": 3,
-  "source_commit": "5d9e2862f7328285e5fadd87c1586418b089bc04",
+  "source_commit": "ef6bf3cdf3ed411882759753a9ad30eefe13fe15",
   "source_counts": {
-    "crossref": 2,
-    "europe_pmc": 6,
-    "openalex": 6,
-    "pubmed": 10
+    "crossref": 3,
+    "europe_pmc": 10,
+    "openalex": 7,
+    "pubmed": 15
   },
-  "source_error_count": 10,
+  "source_error_count": 13,
   "theme_counts": {
-    "additives": 2,
+    "additives": 3,
     "biomarkers": 1,
-    "classification": 17,
-    "exposure": 16,
-    "formulation": 1,
-    "health_outcomes": 8,
-    "intervention": 6,
-    "linked_records": 3,
+    "classification": 23,
+    "exposure": 21,
+    "formulation": 2,
+    "health_outcomes": 10,
+    "intervention": 8,
+    "linked_records": 4,
     "mechanisms": 3,
-    "methodology": 3,
-    "neurology": 1,
-    "nutrition": 9,
-    "policy": 2
+    "methodology": 4,
+    "neurology": 2,
+    "nutrition": 12,
+    "policy": 4
   }
 }

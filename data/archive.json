@@ -2,37 +2,54 @@
   "entries": [
     {
       "data_url": "data/weekly/2026-W40.json",
-      "excluded_record_count": 274,
-      "generated_at": "2026-09-28T05:32:58+00:00",
-      "harvest_status": "COMPLETE",
-      "metadata_conflict_count": 0,
+      "excluded_record_count": 517,
+      "generated_at": "2026-09-29T05:34:38+00:00",
+      "harvest_status": "PARTIAL",
+      "metadata_conflict_count": 1,
       "mode": "weekly",
-      "new_record_count": 2,
+      "new_record_count": 7,
       "period": "2026-W40",
-      "record_count": 4,
+      "record_count": 11,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 289,
-      "review_record_count": 11,
+      "retrieved_record_count": 583,
+      "review_record_count": 53,
       "screening_status": "SCREENED",
-      "source_error_count": 0
+      "source_error_count": 3
     },
     {
       "data_url": "data/monthly/2026-09.json",
-      "excluded_record_count": 2024,
-      "generated_at": "2026-09-28T05:32:58+00:00",
+      "excluded_record_count": 2267,
+      "generated_at": "2026-09-29T05:34:38+00:00",
       "harvest_status": "PARTIAL",
-      "metadata_conflict_count": 0,
+      "metadata_conflict_count": 1,
       "mode": "monthly",
-      "new_record_count": 3,
+      "new_record_count": 8,
       "period": "2026-09",
-      "record_count": 17,
+      "record_count": 24,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 2333,
-      "review_record_count": 276,
+      "retrieved_record_count": 2627,
+      "review_record_count": 318,
       "screening_status": "SCREENED",
-      "source_error_count": 10
+      "source_error_count": 13
+    },
+    {
+      "data_url": "data/daily/2026-09-29.json",
+      "excluded_record_count": 243,
+      "generated_at": "2026-09-29T05:34:37+00:00",
+      "harvest_status": "PARTIAL",
+      "metadata_conflict_count": 1,
+      "mode": "daily",
+      "new_record_count": 6,
+      "period": "2026-09-29",
+      "record_count": 9,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 294,
+      "review_record_count": 42,
+      "screening_status": "SCREENED",
+      "source_error_count": 3
     },
     {
       "data_url": "data/daily/2026-09-28.json",
@@ -188,7 +205,7 @@
       "source_error_count": 0
     }
   ],
-  "generated_at": "2026-09-28T05:32:58+00:00",
+  "generated_at": "2026-09-29T05:34:38+00:00",
   "project": "UPF26",
   "schema_version": 4
 }

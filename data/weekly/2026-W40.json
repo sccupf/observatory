@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 517,
-  "generated_at": "2026-09-29T05:34:38+00:00",
+  "excluded_record_count": 764,
+  "generated_at": "2026-09-30T05:32:45+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 11,
+  "included_record_count": 12,
   "metadata_conflict_count": 1,
   "mode": "weekly",
-  "new_record_count": 7,
+  "new_record_count": 3,
   "period_source_since": "2026-09-25",
   "project": "UPF26",
-  "record_count": 11,
+  "record_count": 12,
   "records": [
     {
       "doi": "10.1186/s12916-026-05214-y",
@@ -27,6 +27,7 @@
       "published_date": "2026-09-27",
       "query_ids": [
         "formulation_signals",
+        "intervention_trials",
         "nova_food_classification",
         "nutrition_exposure",
         "policy_guidance",
@@ -140,16 +141,17 @@
     {
       "doi": "10.1186/s12916-026-05217-9",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
-      "journal": "BMC Medicine",
+      "journal": "BMC medicine",
       "metadata_status": "single_index",
       "published_date": "2026-09-29",
       "query_ids": [
-        "biomarkers_omics",
         "formulation_signals",
-        "longitudinal_records",
+        "nova_food_classification",
         "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
         "upf_core"
       ],
       "record_id": "4804d8ba5b924f7d88c05474",
@@ -157,16 +159,16 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "pubmed"
       ],
-      "title": "Response to: Debate in relation to “Ultra‑processed foods and human health: the main thesis and the evidence”",
+      "title": "Response to: Debate in relation to \"Ultra‑processed foods and human health: the main thesis and the evidence\".",
       "triage_tags": [],
-      "url": "https://doi.org/10.1186/s12916-026-05217-9"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42806345/"
     },
     {
       "doi": "10.1016/j.amepre.2026.108592",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "American journal of preventive medicine",
       "metadata_status": "single_index",
@@ -219,7 +221,7 @@
     {
       "doi": "10.1007/s11695-026-08964-z",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Obesity surgery",
       "metadata_status": "single_index",
@@ -249,7 +251,7 @@
     {
       "doi": "10.1017/s1368980026103139",
       "index_source_count": 2,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Public health nutrition",
       "metadata_status": "multi_index",
@@ -279,7 +281,7 @@
     {
       "doi": "10.21203/rs.3.rs-10840584/v1",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "",
       "metadata_status": "single_index",
@@ -340,27 +342,52 @@
         "policy"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42800790/"
+    },
+    {
+      "doi": "10.5281/zenodo.23005287",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-30",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "1ab704cc4afae793112e3b0e",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Ultra-Processed Food Consumption and Dietary Patterns among Young Adults",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.23005287"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 583,
-  "review_record_count": 53,
-  "rollup_days": 2,
+  "retrieved_record_count": 881,
+  "review_record_count": 96,
+  "rollup_days": 3,
   "schema_version": 3,
   "source_commit": "ef6bf3cdf3ed411882759753a9ad30eefe13fe15",
   "source_counts": {
-    "crossref": 3,
+    "crossref": 2,
     "europe_pmc": 4,
-    "openalex": 1,
-    "pubmed": 7
+    "openalex": 2,
+    "pubmed": 8
   },
   "source_error_count": 3,
   "theme_counts": {
     "additives": 2,
-    "classification": 10,
-    "exposure": 8,
+    "classification": 11,
+    "exposure": 9,
     "formulation": 1,
     "health_outcomes": 3,
     "intervention": 3,

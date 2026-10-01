@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 764,
-  "generated_at": "2026-09-30T05:32:45+00:00",
+  "excluded_record_count": 998,
+  "generated_at": "2026-10-01T05:33:34+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,25 +9,24 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 12,
+  "included_record_count": 23,
   "metadata_conflict_count": 1,
   "mode": "weekly",
-  "new_record_count": 3,
+  "new_record_count": 13,
   "period_source_since": "2026-09-25",
   "project": "UPF26",
-  "record_count": 12,
+  "record_count": 23,
   "records": [
     {
       "doi": "10.1186/s12916-026-05214-y",
-      "index_source_count": 3,
+      "index_source_count": 2,
       "is_new": false,
       "is_retracted": false,
       "journal": "BMC medicine",
-      "metadata_status": "metadata_conflict",
-      "published_date": "2026-09-27",
+      "metadata_status": "multi_index",
+      "published_date": "2026-09-28",
       "query_ids": [
         "formulation_signals",
-        "intervention_trials",
         "nova_food_classification",
         "nutrition_exposure",
         "policy_guidance",
@@ -40,7 +39,6 @@
       "relevance_status": "INCLUDED",
       "source_names": [
         "europe_pmc",
-        "openalex",
         "pubmed"
       ],
       "title": "Public health policy should be grounded in established evidence that acknowledges uncertainty: a response to The Lancet series on ultra-processed foods.",
@@ -280,13 +278,14 @@
     },
     {
       "doi": "10.21203/rs.3.rs-10840584/v1",
-      "index_source_count": 1,
+      "index_source_count": 2,
       "is_new": false,
       "is_retracted": false,
       "journal": "",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-09-28",
       "query_ids": [
+        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "5984835a360b6d7bc14532a4",
@@ -294,7 +293,8 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "europe_pmc"
+        "europe_pmc",
+        "openalex"
       ],
       "title": "Emotional and Sensory Drivers of Food Choices in Albania and Kosovo",
       "triage_tags": [
@@ -367,35 +367,366 @@
         "exposure"
       ],
       "url": "https://doi.org/10.5281/zenodo.23005287"
+    },
+    {
+      "doi": "10.1016/j.clnu.2026.106769",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Clinical nutrition (Edinburgh, Scotland)",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "115b61d32f84921664183eea",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "When ultra-processed food is clinically indicated: Oral nutritional supplements and the limits of the nova paradigm in clinical nutrition.",
+      "triage_tags": [
+        "classification",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42696857/"
+    },
+    {
+      "doi": "10.1111/risa.70356",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Risk analysis : an official publication of the Society for Risk Analysis",
+      "metadata_status": "multi_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "intervention_trials",
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "08d203625e08ac804bdf909b",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Toward AI-Assisted Methodological Evaluations of Health Risk Analyses Using Diverse Types of Evidence.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "intervention",
+        "linked_records",
+        "methodology",
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42745221/"
+    },
+    {
+      "doi": "10.1016/j.clnesp.2026.103387",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Clinical nutrition ESPEN",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "intervention_trials",
+        "neurological_outcomes",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "00b8989e6183a0bd9f1f7f4c",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42362186/"
+    },
+    {
+      "doi": "10.1016/j.clnesp.2026.105086",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Clinical nutrition ESPEN",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "619c60a66485a182043470c2",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Potassium additives in ultra-processed foods identified from food label-analysis: More than meets the eye.",
+      "triage_tags": [
+        "additives",
+        "classification",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42692364/"
+    },
+    {
+      "doi": "10.1016/j.appet.2026.108606",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Appetite",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "b650267d20039435385d9449",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Irresistibly bland: Implicit desire for ultra-processed foods despite enjoyment-based preference for healthy foods.",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42235421/"
+    },
+    {
+      "doi": "10.1111/obr.70135",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "9ea91dd913e87a37a8db65bd",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "How Does the Ultra-Processed Food Industry Drive Consumption Through Product Design and Marketing? Mapping a Complex Commercial System According to Expert Mental Models and Evidence Review.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41958071/"
+    },
+    {
+      "doi": "10.1007/s10620-026-10066-w",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Digestive diseases and sciences",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "biomarkers_omics",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "c826cfa85d739f798c7a2884",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Habitual Ultra-processed Food Intake Is Associated with Gut Dysbiosis and Pro-inflammatory Metabolite Profiles in Korean Patients with IBD.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "mechanisms"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42319657/"
+    },
+    {
+      "doi": "10.1002/hpja.70231",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Health promotion journal of Australia : official journal of Australian Association of Health Promotion Professionals",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "13a1e4c58f35ccf50d29b0a0",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc"
+      ],
+      "title": "Comparative Policy Analysis of Healthcare Healthy Eating Policies in Canada.",
+      "triage_tags": [
+        "classification",
+        "linked_records",
+        "methodology",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://europepmc.org/article/MED/42583714"
+    },
+    {
+      "doi": "10.1016/j.nut.2026.113229",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-01",
+      "query_ids": [
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "d3345d6ece103f0cd322579e",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Comment on \"Comparing ChatGPT and DeepSeek for ultra-processed food classification: AI models for nutritional research and dietary assessment\".",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42108117/"
+    },
+    {
+      "doi": "10.1016/j.cdnut.2026.109527",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Current developments in nutrition",
+      "metadata_status": "metadata_conflict",
+      "published_date": "2026-09-01",
+      "query_ids": [
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "1d7b6f228fbe005db331b444",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref",
+        "pubmed"
+      ],
+      "title": "Ultra-processed Food Intake and Long-Term Risk of Cardiovascular Disease Mortality among Patients with Myocardial Infarction: A Prospective Analysis of the Alpha Omega Cohort.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "linked_records",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42787947/"
+    },
+    {
+      "doi": "10.1016/j.lana.2026.101548",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Lancet regional health. Americas",
+      "metadata_status": "single_index",
+      "published_date": "2026-06-29",
+      "query_ids": [
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "3004532a9455ad88f6fc107c",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-processed food intake and risk of renal cell carcinoma in the NIH-AARP Diet and health study: a prospective cohort analysis.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "linked_records"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42404163/"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 881,
-  "review_record_count": 96,
-  "rollup_days": 3,
+  "retrieved_record_count": 1181,
+  "review_record_count": 145,
+  "rollup_days": 4,
   "schema_version": 3,
   "source_commit": "ef6bf3cdf3ed411882759753a9ad30eefe13fe15",
   "source_counts": {
-    "crossref": 2,
-    "europe_pmc": 4,
+    "crossref": 3,
+    "europe_pmc": 6,
     "openalex": 2,
-    "pubmed": 8
+    "pubmed": 18
   },
   "source_error_count": 3,
   "theme_counts": {
-    "additives": 2,
-    "classification": 11,
-    "exposure": 9,
+    "additives": 3,
+    "classification": 22,
+    "exposure": 16,
     "formulation": 1,
-    "health_outcomes": 3,
-    "intervention": 3,
-    "linked_records": 1,
-    "mechanisms": 2,
-    "methodology": 1,
+    "health_outcomes": 7,
+    "intervention": 4,
+    "linked_records": 5,
+    "mechanisms": 3,
+    "methodology": 3,
     "neurology": 1,
-    "nutrition": 5,
-    "policy": 3
+    "nutrition": 11,
+    "policy": 5
   }
 }

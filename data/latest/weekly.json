@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 998,
-  "generated_at": "2026-10-01T05:33:34+00:00",
+  "excluded_record_count": 1270,
+  "generated_at": "2026-10-02T05:32:34+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 23,
-  "metadata_conflict_count": 1,
+  "included_record_count": 26,
+  "metadata_conflict_count": 0,
   "mode": "weekly",
-  "new_record_count": 13,
+  "new_record_count": 5,
   "period_source_since": "2026-09-25",
   "project": "UPF26",
-  "record_count": 23,
+  "record_count": 26,
   "records": [
     {
       "doi": "10.1186/s12916-026-05214-y",
@@ -138,11 +138,11 @@
     },
     {
       "doi": "10.1186/s12916-026-05217-9",
-      "index_source_count": 1,
+      "index_source_count": 2,
       "is_new": false,
       "is_retracted": false,
       "journal": "BMC medicine",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-09-29",
       "query_ids": [
         "formulation_signals",
@@ -157,10 +157,20 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Response to: Debate in relation to \"Ultra‑processed foods and human health: the main thesis and the evidence\".",
-      "triage_tags": [],
+      "triage_tags": [
+        "additives",
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "intervention",
+        "mechanisms",
+        "nutrition",
+        "policy"
+      ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42806345/"
     },
     {
@@ -371,7 +381,7 @@
     {
       "doi": "10.1016/j.clnu.2026.106769",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition (Edinburgh, Scotland)",
       "metadata_status": "single_index",
@@ -437,7 +447,7 @@
     {
       "doi": "10.1016/j.clnesp.2026.103387",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition ESPEN",
       "metadata_status": "single_index",
@@ -469,7 +479,7 @@
     {
       "doi": "10.1016/j.clnesp.2026.105086",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition ESPEN",
       "metadata_status": "single_index",
@@ -500,7 +510,7 @@
     {
       "doi": "10.1016/j.appet.2026.108606",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Appetite",
       "metadata_status": "single_index",
@@ -524,7 +534,7 @@
     {
       "doi": "10.1111/obr.70135",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
       "metadata_status": "single_index",
@@ -553,7 +563,7 @@
     {
       "doi": "10.1007/s10620-026-10066-w",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Digestive diseases and sciences",
       "metadata_status": "single_index",
@@ -584,7 +594,7 @@
     {
       "doi": "10.1002/hpja.70231",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Health promotion journal of Australia : official journal of Australian Association of Health Promotion Professionals",
       "metadata_status": "single_index",
@@ -612,7 +622,7 @@
     {
       "doi": "10.1016/j.nut.2026.113229",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
       "metadata_status": "single_index",
@@ -639,11 +649,11 @@
     },
     {
       "doi": "10.1016/j.cdnut.2026.109527",
-      "index_source_count": 2,
-      "is_new": true,
+      "index_source_count": 1,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Current developments in nutrition",
-      "metadata_status": "metadata_conflict",
+      "metadata_status": "single_index",
       "published_date": "2026-09-01",
       "query_ids": [
         "longitudinal_records",
@@ -657,7 +667,6 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref",
         "pubmed"
       ],
       "title": "Ultra-processed Food Intake and Long-Term Risk of Cardiovascular Disease Mortality among Patients with Myocardial Infarction: A Prospective Analysis of the Alpha Omega Cohort.",
@@ -673,7 +682,7 @@
     {
       "doi": "10.1016/j.lana.2026.101548",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Lancet regional health. Americas",
       "metadata_status": "single_index",
@@ -698,35 +707,117 @@
         "linked_records"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42404163/"
+    },
+    {
+      "doi": "10.3390/nu18193235",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrients",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-30",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "f5d332ae134f7261253af43e",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Ultra-Processed Foods as a Cross-Cutting Driver of Health Inequities: Low- and Middle-Income Countries Across the Life-Course",
+      "triage_tags": [
+        "classification",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3390/nu18193235"
+    },
+    {
+      "doi": "",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Revista de saude publica",
+      "metadata_status": "single_index",
+      "published_date": "2026-09-30",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "fa221e74c86da1f1e26bc24e",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc"
+      ],
+      "title": "Screen use and consumption of ultra-processed foods among Brazilian adolescents",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://europepmc.org/article/MED/PMC13623369"
+    },
+    {
+      "doi": "10.1371/journal.pone.0359001",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "PloS one",
+      "metadata_status": "multi_index",
+      "published_date": "2026-09-29",
+      "query_ids": [
+        "longitudinal_records",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "fc20bfe1f70c0632dabd41da",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "What is the cost of dedication to teaching? A school-based longitudinal quantitative study on habits and quality of life.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "linked_records"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42809548/"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1181,
-  "review_record_count": 145,
-  "rollup_days": 4,
+  "retrieved_record_count": 1514,
+  "review_record_count": 191,
+  "rollup_days": 5,
   "schema_version": 3,
   "source_commit": "ef6bf3cdf3ed411882759753a9ad30eefe13fe15",
   "source_counts": {
-    "crossref": 3,
-    "europe_pmc": 6,
-    "openalex": 2,
-    "pubmed": 18
+    "crossref": 2,
+    "europe_pmc": 9,
+    "openalex": 3,
+    "pubmed": 19
   },
   "source_error_count": 3,
   "theme_counts": {
-    "additives": 3,
-    "classification": 22,
-    "exposure": 16,
+    "additives": 4,
+    "classification": 26,
+    "exposure": 19,
     "formulation": 1,
-    "health_outcomes": 7,
-    "intervention": 4,
-    "linked_records": 5,
-    "mechanisms": 3,
+    "health_outcomes": 8,
+    "intervention": 5,
+    "linked_records": 6,
+    "mechanisms": 4,
     "methodology": 3,
     "neurology": 1,
-    "nutrition": 11,
-    "policy": 5
+    "nutrition": 13,
+    "policy": 6
   }
 }

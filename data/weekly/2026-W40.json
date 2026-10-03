@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 1493,
-  "generated_at": "2026-10-03T05:41:00+00:00",
+  "excluded_record_count": 1495,
+  "generated_at": "2026-10-03T12:54:07+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -12,7 +12,7 @@
   "included_record_count": 28,
   "metadata_conflict_count": 0,
   "mode": "weekly",
-  "new_record_count": 5,
+  "new_record_count": 3,
   "period_source_since": "2026-09-25",
   "project": "UPF26",
   "record_count": 28,
@@ -793,7 +793,7 @@
     {
       "doi": "10.1007/s11695-026-08967-w",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Obesity surgery",
       "metadata_status": "single_index",
@@ -820,7 +820,7 @@
     {
       "doi": "10.26258/heal.hua.7828",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Harokopio University",
       "metadata_status": "single_index",
@@ -847,11 +847,11 @@
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1803,
+  "retrieved_record_count": 1805,
   "review_record_count": 243,
   "rollup_days": 6,
   "schema_version": 3,
-  "source_commit": "ef6bf3cdf3ed411882759753a9ad30eefe13fe15",
+  "source_commit": "472535a1eb0c0907a7567d9339b72a0c5c709c2f",
   "source_counts": {
     "crossref": 2,
     "europe_pmc": 9,

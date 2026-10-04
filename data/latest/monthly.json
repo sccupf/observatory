@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 731,
-  "generated_at": "2026-10-03T12:54:07+00:00",
+  "excluded_record_count": 985,
+  "generated_at": "2026-10-04T11:05:23+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 22,
+  "included_record_count": 23,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 0,
+  "new_record_count": 1,
   "period_source_since": "2026-09-28",
   "project": "UPF26",
-  "record_count": 22,
+  "record_count": 23,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106769",
@@ -669,17 +669,48 @@
         "health_outcomes"
       ],
       "url": "https://doi.org/10.26258/heal.hua.7828"
+    },
+    {
+      "doi": "10.47197/retos.v83.119634",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Retos",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-03",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "upf_core"
+      ],
+      "record_id": "ffa6a4de17360d2b9da6de9a",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Impacto de la educomunicación en nutrición sobre el consumo de alimentos ultraprocesados en preadolescentes",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "intervention",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.47197/retos.v83.119634"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 924,
-  "review_record_count": 147,
-  "rollup_days": 3,
+  "retrieved_record_count": 1248,
+  "review_record_count": 204,
+  "rollup_days": 4,
   "schema_version": 3,
-  "source_commit": "472535a1eb0c0907a7567d9339b72a0c5c709c2f",
+  "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
   "source_counts": {
+    "crossref": 1,
     "europe_pmc": 7,
     "openalex": 3,
     "pubmed": 17
@@ -687,14 +718,14 @@
   "source_error_count": 0,
   "theme_counts": {
     "additives": 3,
-    "classification": 22,
-    "exposure": 17,
+    "classification": 23,
+    "exposure": 18,
     "health_outcomes": 9,
-    "intervention": 4,
+    "intervention": 5,
     "linked_records": 5,
     "mechanisms": 3,
-    "methodology": 2,
-    "nutrition": 10,
+    "methodology": 3,
+    "nutrition": 11,
     "policy": 5
   }
 }

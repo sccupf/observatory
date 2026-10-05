@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 985,
-  "generated_at": "2026-10-04T11:05:23+00:00",
+  "excluded_record_count": 1232,
+  "generated_at": "2026-10-05T05:39:06+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 23,
+  "included_record_count": 25,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 1,
+  "new_record_count": 3,
   "period_source_since": "2026-09-28",
   "project": "UPF26",
-  "record_count": 23,
+  "record_count": 25,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106769",
@@ -699,18 +699,80 @@
         "nutrition"
       ],
       "url": "https://doi.org/10.47197/retos.v83.119634"
+    },
+    {
+      "doi": "10.1108/ijhg-10-2025-0182",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "International Journal of Health Governance",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-05",
+      "query_ids": [
+        "policy_guidance"
+      ],
+      "record_id": "b926d63f4c440b35e3412deb",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Mortality and economic development in Western, non-Western nations and China having different health policy implications, 1960–2023",
+      "triage_tags": [
+        "classification",
+        "health_outcomes",
+        "methodology",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1108/ijhg-10-2025-0182"
+    },
+    {
+      "doi": "10.1007/s13668-026-00803-y",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Current Nutrition Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-05",
+      "query_ids": [
+        "biomarkers_omics",
+        "formulation_signals",
+        "intervention_trials",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "cd690807cd96021575816e5e",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Correction: Ultra-Processed Foods and Metabolic Dysfunction: Mechanisms, Clinical Implications, and Public Health Perspectives. Position Paper of the Italian Association of Dietetics and Clinical Nutrition (ADI)",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "mechanisms",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1007/s13668-026-00803-y"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1248,
-  "review_record_count": 204,
-  "rollup_days": 4,
+  "retrieved_record_count": 1546,
+  "review_record_count": 253,
+  "rollup_days": 5,
   "schema_version": 3,
   "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
   "source_counts": {
-    "crossref": 1,
+    "crossref": 3,
     "europe_pmc": 7,
     "openalex": 3,
     "pubmed": 17
@@ -718,14 +780,14 @@
   "source_error_count": 0,
   "theme_counts": {
     "additives": 3,
-    "classification": 23,
-    "exposure": 18,
-    "health_outcomes": 9,
+    "classification": 25,
+    "exposure": 19,
+    "health_outcomes": 10,
     "intervention": 5,
     "linked_records": 5,
-    "mechanisms": 3,
-    "methodology": 3,
-    "nutrition": 11,
-    "policy": 5
+    "mechanisms": 4,
+    "methodology": 4,
+    "nutrition": 12,
+    "policy": 6
   }
 }

@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 493,
-  "generated_at": "2026-10-06T05:33:28+00:00",
+  "excluded_record_count": 745,
+  "generated_at": "2026-10-07T11:50:48+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 3,
+  "included_record_count": 7,
   "metadata_conflict_count": 0,
   "mode": "weekly",
-  "new_record_count": 2,
+  "new_record_count": 6,
   "period_source_since": "2026-10-02",
   "project": "UPF26",
-  "record_count": 3,
+  "record_count": 7,
   "records": [
     {
       "doi": "10.1108/ijhg-10-2025-0182",
@@ -99,26 +99,138 @@
         "policy"
       ],
       "url": "https://doi.org/10.21203/rs.3.rs-11064055/v1"
+    },
+    {
+      "doi": "10.1136/bmjopen-2026-120830",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "BMJ open",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-06",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "696dfc89b6a31ccfbce10030",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Effects of ultra-processed food reduction intervention on postprandial glucose and glycaemic variability in Korean young adults: study protocol for the ULTRA-CGM randomised controlled trial.",
+      "triage_tags": [
+        "classification",
+        "intervention"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42838587/"
+    },
+    {
+      "doi": "10.1038/s42255-026-01618-5",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nature metabolism",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-05",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "f5a82df0a841faa668297fc4",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultraprocessed foods evoke distinct metabolic and neural responses.",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834141/"
+    },
+    {
+      "doi": "10.1038/s42255-026-01619-4",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nature metabolism",
+      "metadata_status": "multi_index",
+      "published_date": "2026-10-05",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "10311a8f5b9c6273d9e38b75",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex",
+        "pubmed"
+      ],
+      "title": "Metabolic and neural responses to ultraprocessed foods: a randomized, controlled, crossover study.",
+      "triage_tags": [
+        "classification",
+        "intervention"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834140/"
+    },
+    {
+      "doi": "10.1038/s41598-026-73181-8",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-05",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods"
+      ],
+      "record_id": "9f3f75286c65f7f6c90a529c",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Beverage-type ultra-processed food-related metabolomic signature and risk of incident colorectal cancer",
+      "triage_tags": [
+        "additives",
+        "biomarkers",
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://doi.org/10.1038/s41598-026-73181-8"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 590,
-  "review_record_count": 93,
-  "rollup_days": 2,
+  "retrieved_record_count": 893,
+  "review_record_count": 139,
+  "rollup_days": 3,
   "schema_version": 3,
   "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
   "source_counts": {
     "crossref": 2,
-    "pubmed": 1
+    "openalex": 2,
+    "pubmed": 4
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 3,
+    "additives": 1,
+    "biomarkers": 1,
+    "classification": 7,
     "exposure": 2,
-    "health_outcomes": 1,
-    "intervention": 1,
+    "health_outcomes": 2,
+    "intervention": 3,
     "mechanisms": 1,
     "methodology": 1,
     "nutrition": 2,

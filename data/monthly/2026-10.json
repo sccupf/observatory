@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 1730,
-  "generated_at": "2026-10-07T11:50:48+00:00",
+  "excluded_record_count": 2003,
+  "generated_at": "2026-10-08T12:06:12+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 30,
+  "included_record_count": 31,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 7,
+  "new_record_count": 3,
   "period_source_since": "2026-09-28",
   "project": "UPF26",
-  "record_count": 30,
+  "record_count": 31,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106769",
@@ -758,26 +758,24 @@
     {
       "doi": "10.21203/rs.3.rs-11064055/v1",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
-      "journal": "",
+      "journal": "Research Square",
       "metadata_status": "single_index",
       "published_date": "2026-10-05",
       "query_ids": [
-        "longitudinal_records"
+        "nova_food_classification"
       ],
       "record_id": "b8331b5e15ebf7aa696c9a27",
       "relevance_gate_version": "1.1.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Recent U.S. Nutrition Policy and Ultra-processed Foods: Two Avenues of Criticism",
       "triage_tags": [
         "classification",
-        "exposure",
-        "intervention",
         "nutrition",
         "policy"
       ],
@@ -786,7 +784,7 @@
     {
       "doi": "10.1136/bmjopen-2026-120830",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "BMJ open",
       "metadata_status": "single_index",
@@ -814,7 +812,7 @@
     {
       "doi": "10.1038/s42255-026-01618-5",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nature metabolism",
       "metadata_status": "single_index",
@@ -838,13 +836,14 @@
     {
       "doi": "10.1038/s42255-026-01619-4",
       "index_source_count": 2,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nature metabolism",
       "metadata_status": "multi_index",
       "published_date": "2026-10-05",
       "query_ids": [
         "intervention_trials",
+        "nova_food_classification",
         "nutrition_exposure",
         "upf_core"
       ],
@@ -866,7 +865,7 @@
     {
       "doi": "10.1038/s41598-026-73181-8",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Scientific Reports",
       "metadata_status": "single_index",
@@ -891,30 +890,54 @@
         "health_outcomes"
       ],
       "url": "https://doi.org/10.1038/s41598-026-73181-8"
+    },
+    {
+      "doi": "10.3389/fpubh.2026.1960958",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-08",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "8ea986171f5281da6bafad39",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Emirati mothers’ perceptions and willingness to serve ultra-processed and traditional foods to young children",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.3389/fpubh.2026.1960958"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 2141,
-  "review_record_count": 343,
-  "rollup_days": 7,
+  "retrieved_record_count": 2468,
+  "review_record_count": 390,
+  "rollup_days": 8,
   "schema_version": 3,
   "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
   "source_counts": {
     "crossref": 3,
     "europe_pmc": 7,
-    "openalex": 5,
+    "openalex": 6,
     "pubmed": 21
   },
   "source_error_count": 0,
   "theme_counts": {
     "additives": 4,
     "biomarkers": 1,
-    "classification": 30,
-    "exposure": 20,
+    "classification": 31,
+    "exposure": 19,
     "health_outcomes": 11,
-    "intervention": 8,
+    "intervention": 7,
     "linked_records": 5,
     "mechanisms": 4,
     "methodology": 4,

@@ -1,18 +1,18 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 1278,
-  "generated_at": "2026-10-09T11:57:19+00:00",
+  "excluded_record_count": 1533,
+  "generated_at": "2026-10-10T11:15:29+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
     "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
-  "harvest_status": "COMPLETE",
+  "harvest_status": "PARTIAL",
   "included_record_count": 10,
   "metadata_conflict_count": 0,
   "mode": "weekly",
-  "new_record_count": 4,
+  "new_record_count": 3,
   "period_source_since": "2026-10-02",
   "project": "UPF26",
   "record_count": 10,
@@ -235,7 +235,7 @@
     {
       "doi": "10.3389/fnut.2026.1916253",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in Nutrition",
       "metadata_status": "single_index",
@@ -292,9 +292,9 @@
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1535,
-  "review_record_count": 238,
-  "rollup_days": 5,
+  "retrieved_record_count": 1806,
+  "review_record_count": 253,
+  "rollup_days": 6,
   "schema_version": 3,
   "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
   "source_counts": {
@@ -302,7 +302,7 @@
     "openalex": 5,
     "pubmed": 4
   },
-  "source_error_count": 0,
+  "source_error_count": 10,
   "theme_counts": {
     "additives": 1,
     "biomarkers": 1,

@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 2518,
-  "generated_at": "2026-10-10T11:15:29+00:00",
+  "excluded_record_count": 2816,
+  "generated_at": "2026-10-11T11:27:21+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 33,
+  "included_record_count": 34,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 4,
+  "new_record_count": 5,
   "period_source_since": "2026-09-28",
   "project": "UPF26",
-  "record_count": 33,
+  "record_count": 34,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106769",
@@ -970,34 +970,63 @@
         "policy"
       ],
       "url": "https://doi.org/10.3389/fsufs.2026.1984101"
+    },
+    {
+      "doi": "10.1016/j.clnesp.2026.105177",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Clinical nutrition ESPEN",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-10",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "3d7da3f1082bef3491029a66",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Comment on \"Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake\".",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42858789/"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 3054,
-  "review_record_count": 457,
-  "rollup_days": 10,
+  "retrieved_record_count": 3404,
+  "review_record_count": 508,
+  "rollup_days": 11,
   "schema_version": 3,
   "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
   "source_counts": {
     "crossref": 3,
     "europe_pmc": 7,
     "openalex": 8,
-    "pubmed": 21
+    "pubmed": 22
   },
   "source_error_count": 10,
   "theme_counts": {
     "additives": 4,
     "biomarkers": 1,
-    "classification": 33,
-    "exposure": 21,
-    "health_outcomes": 11,
+    "classification": 34,
+    "exposure": 22,
+    "health_outcomes": 12,
     "intervention": 7,
     "linked_records": 5,
     "mechanisms": 4,
     "methodology": 4,
-    "nutrition": 15,
+    "nutrition": 16,
     "policy": 8
   }
 }

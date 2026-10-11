@@ -1,64 +1,66 @@
 {
-  "excluded_record_count": 255,
-  "generated_at": "2026-10-10T11:15:29+00:00",
+  "excluded_record_count": 298,
+  "generated_at": "2026-10-11T11:27:21+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
     "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
-  "harvest_status": "PARTIAL",
+  "harvest_status": "COMPLETE",
   "included_record_count": 1,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 0,
-  "period_source_since": "2026-10-07",
+  "new_record_count": 1,
+  "period_source_since": "2026-10-08",
   "project": "UPF26",
   "record_count": 1,
   "records": [
     {
-      "doi": "10.3389/fnut.2026.1916253",
+      "doi": "10.1016/j.clnesp.2026.105177",
       "index_source_count": 1,
-      "is_new": false,
+      "is_new": true,
       "is_retracted": false,
-      "journal": "Frontiers in Nutrition",
+      "journal": "Clinical nutrition ESPEN",
       "metadata_status": "single_index",
-      "published_date": "2026-10-07",
+      "published_date": "2026-10-10",
       "query_ids": [
         "intervention_trials",
-        "nova_food_classification",
-        "nutrition_exposure"
+        "nutrition_exposure",
+        "upf_core"
       ],
-      "record_id": "14d801405cb338a6109d2491",
+      "record_id": "3d7da3f1082bef3491029a66",
       "relevance_gate_version": "1.1.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "openalex"
+        "pubmed"
       ],
-      "title": "Global research landscape and emerging frontiers of ultra-processed food intake and cardiometabolic health: a bibliometric and knowledge-mapping analysis (2015–2025)",
+      "title": "Comment on \"Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake\".",
       "triage_tags": [
         "classification",
         "exposure",
+        "health_outcomes",
         "nutrition"
       ],
-      "url": "https://doi.org/10.3389/fnut.2026.1916253"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42858789/"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 271,
-  "review_record_count": 15,
+  "retrieved_record_count": 350,
+  "review_record_count": 51,
   "schema_version": 3,
   "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
   "source_counts": {
-    "openalex": 1
+    "pubmed": 1
   },
-  "source_error_count": 10,
+  "source_error_count": 0,
   "theme_counts": {
     "classification": 1,
     "exposure": 1,
+    "health_outcomes": 1,
     "nutrition": 1
   }
 }

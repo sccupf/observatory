@@ -4,9 +4,12 @@
   "publisher": "SCC Nexus",
   "canonical_site": "https://sccupf.github.io/observatory/",
   "source_repository_visibility": "private",
-  "source_commit": "5d9e2862f7328285e5fadd87c1586418b089bc04",
+  "source_commit": "29396c116388315c9fe086fd6f0178ab49faf5cb",
   "source_publication_path": "site/",
   "publication_repository": "sccupf/observatory",
-  "publication_gate": "explicit human-approved publication after validation",
-  "methodology_release": "0.1.0"
+  "publication_gate": "client-authorised public pages, private-source counterpart recorded, CI and live smoke verification",
+  "methodology_release": "0.1.0",
+  "publication_process": "human-directed direct public implementation; branding may differ from the private site template",
+  "methodology_release_status": "DRAFT",
+  "publication_review_date": "2026-10-11"
 }

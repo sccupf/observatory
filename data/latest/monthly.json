@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of immutable screened daily Observatory snapshots; legacy unscreened snapshots excluded",
-  "excluded_record_count": 2816,
-  "generated_at": "2026-10-11T11:27:21+00:00",
+  "excluded_record_count": 3098,
+  "generated_at": "2026-10-12T13:14:37+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -9,13 +9,13 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 34,
+  "included_record_count": 37,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 5,
+  "new_record_count": 7,
   "period_source_since": "2026-09-28",
   "project": "UPF26",
-  "record_count": 34,
+  "record_count": 37,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106769",
@@ -974,7 +974,7 @@
     {
       "doi": "10.1016/j.clnesp.2026.105177",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition ESPEN",
       "metadata_status": "single_index",
@@ -999,34 +999,130 @@
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42858789/"
+    },
+    {
+      "doi": "10.3390/nu18203331",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrients",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-12",
+      "query_ids": [
+        "biomarkers_omics",
+        "formulation_signals",
+        "intervention_trials",
+        "neurological_outcomes",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "65d700be028cb38a4d313053",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Korean Buddhist Temple Food: A Traditional Plant-Based Dietary Pattern Linking Gut Microbiota, Metabolic Health, and Mindful Living",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "formulation",
+        "linked_records",
+        "mechanisms",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3390/nu18203331"
+    },
+    {
+      "doi": "10.3389/fpubh.2026.1970719",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-12",
+      "query_ids": [
+        "formulation_signals",
+        "neurological_outcomes",
+        "upf_core"
+      ],
+      "record_id": "4126fe6c489a834fefb9ea3a",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Industrial processing of Ecuadorian household food acquisitions according to NOVA, socioeconomic status and territory",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "formulation",
+        "intervention",
+        "methodology"
+      ],
+      "url": "https://doi.org/10.3389/fpubh.2026.1970719"
+    },
+    {
+      "doi": "10.1053/j.jrn.2026.10.001",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-11",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "a87d0aa05bb2e9e00f35a9e0",
+      "relevance_gate_version": "1.1.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-processed food consumption in people with chronic kidney disease.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42860177/"
     }
   ],
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 3404,
-  "review_record_count": 508,
-  "rollup_days": 11,
+  "retrieved_record_count": 3741,
+  "review_record_count": 559,
+  "rollup_days": 12,
   "schema_version": 3,
-  "source_commit": "1befe98acba7517d8d203446431ea2c5497bc999",
+  "source_commit": "979e4375b779e3c751cf43ad7d9db3406a2cba67",
   "source_counts": {
-    "crossref": 3,
+    "crossref": 5,
     "europe_pmc": 7,
     "openalex": 8,
-    "pubmed": 22
+    "pubmed": 23
   },
   "source_error_count": 10,
   "theme_counts": {
     "additives": 4,
     "biomarkers": 1,
-    "classification": 34,
-    "exposure": 22,
-    "health_outcomes": 12,
-    "intervention": 7,
-    "linked_records": 5,
-    "mechanisms": 4,
-    "methodology": 4,
-    "nutrition": 16,
+    "classification": 37,
+    "exposure": 25,
+    "formulation": 2,
+    "health_outcomes": 13,
+    "intervention": 8,
+    "linked_records": 6,
+    "mechanisms": 5,
+    "methodology": 5,
+    "nutrition": 18,
     "policy": 8
   }
 }

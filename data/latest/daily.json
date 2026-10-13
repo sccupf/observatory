@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 250,
-  "generated_at": "2026-10-13T04:25:54+00:00",
+  "excluded_record_count": 251,
+  "generated_at": "2026-10-13T04:34:50+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -107,10 +107,10 @@
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 302,
+  "retrieved_record_count": 303,
   "review_record_count": 49,
   "schema_version": 3,
-  "source_commit": "78d5a680d9942fde5c82f02576bde24829798500",
+  "source_commit": "90b975e5aba4d9a8929b4467dcf6a8eda45acabf",
   "source_counts": {
     "crossref": 1,
     "pubmed": 2

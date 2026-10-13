@@ -1,7 +1,7 @@
 {
   "aggregation": "deduplicated roll-up of latest-per-day screened snapshots; run-specific immutable revisions retained separately; legacy unscreened snapshots excluded",
-  "excluded_record_count": 3348,
-  "generated_at": "2026-10-13T04:25:54+00:00",
+  "excluded_record_count": 3349,
+  "generated_at": "2026-10-13T04:34:50+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -1092,11 +1092,11 @@
   "relevance_gate_version": "1.1.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 4043,
+  "retrieved_record_count": 4044,
   "review_record_count": 608,
   "rollup_days": 13,
   "schema_version": 3,
-  "source_commit": "78d5a680d9942fde5c82f02576bde24829798500",
+  "source_commit": "90b975e5aba4d9a8929b4467dcf6a8eda45acabf",
   "source_counts": {
     "crossref": 5,
     "europe_pmc": 7,

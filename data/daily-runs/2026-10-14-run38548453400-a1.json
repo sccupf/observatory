@@ -1,0 +1,127 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 255,
+  "generated_at": "2026-10-14T10:17:59+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 3,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 1,
+  "period_source_since": "2026-10-11",
+  "project": "UPF26",
+  "record_count": 3,
+  "records": [
+    {
+      "doi": "10.1186/s12937-026-01408-5",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition journal",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-13",
+      "query_ids": [
+        "intervention_trials",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "d4555e629d5d35b63d021fb2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Intake of ultra-processed foods in Sweden and its association with diet quality and weight status: cross-sectional analyses from three national dietary surveys.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870269/"
+    },
+    {
+      "doi": "10.3389/fpubh.2026.1970719",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-12",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods"
+      ],
+      "record_id": "4126fe6c489a834fefb9ea3a",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Industrial processing of Ecuadorian household food acquisitions according to NOVA, socioeconomic status and territory",
+      "triage_tags": [
+        "classification",
+        "intervention"
+      ],
+      "url": "https://doi.org/10.3389/fpubh.2026.1970719"
+    },
+    {
+      "doi": "10.1053/j.jrn.2026.10.001",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-11",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "a87d0aa05bb2e9e00f35a9e0",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-processed food consumption in people with chronic kidney disease.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42860177/"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 284,
+  "review_record_count": 26,
+  "run_attempt": 1,
+  "run_id": "38548453400",
+  "schema_version": 3,
+  "source_commit": "e2e5a56575a3125992f447ad4a21a30103fe5213",
+  "source_counts": {
+    "openalex": 1,
+    "pubmed": 2
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 3,
+    "exposure": 2,
+    "health_outcomes": 1,
+    "intervention": 1,
+    "nutrition": 2
+  }
+}

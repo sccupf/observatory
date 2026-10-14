@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 257,
-  "generated_at": "2026-10-13T12:46:17+00:00",
+  "excluded_record_count": 512,
+  "generated_at": "2026-10-14T10:17:59+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,17 +10,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 3,
+  "included_record_count": 4,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 0,
+  "new_record_count": 1,
   "omitted_gate_versions": [
     "1.1.0"
   ],
   "omitted_incompatible_gate_days": 12,
   "period_source_since": "2026-10-10",
   "project": "UPF26",
-  "record_count": 3,
+  "record_count": 4,
   "records": [
     {
       "doi": "10.3389/fpubh.2026.1970719",
@@ -105,26 +105,56 @@
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42858789/"
+    },
+    {
+      "doi": "10.1186/s12937-026-01408-5",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition journal",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-13",
+      "query_ids": [
+        "intervention_trials",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "d4555e629d5d35b63d021fb2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Intake of ultra-processed foods in Sweden and its association with diet quality and weight status: cross-sectional analyses from three national dietary surveys.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870269/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 311,
-  "review_record_count": 51,
-  "rollup_days": 1,
+  "retrieved_record_count": 595,
+  "review_record_count": 77,
+  "rollup_days": 2,
   "schema_version": 3,
   "source_commit": "e2e5a56575a3125992f447ad4a21a30103fe5213",
   "source_counts": {
     "openalex": 1,
-    "pubmed": 2
+    "pubmed": 3
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 3,
-    "exposure": 2,
+    "classification": 4,
+    "exposure": 3,
     "health_outcomes": 2,
     "intervention": 1,
-    "nutrition": 2
+    "nutrition": 3
   }
 }

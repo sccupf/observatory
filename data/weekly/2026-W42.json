@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 512,
-  "generated_at": "2026-10-14T10:17:59+00:00",
+  "excluded_record_count": 766,
+  "generated_at": "2026-10-15T10:00:48+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,7 +10,7 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 4,
+  "included_record_count": 5,
   "metadata_conflict_count": 0,
   "mode": "weekly",
   "new_record_count": 1,
@@ -20,7 +20,7 @@
   "omitted_incompatible_gate_days": 1,
   "period_source_since": "2026-10-10",
   "project": "UPF26",
-  "record_count": 4,
+  "record_count": 5,
   "records": [
     {
       "doi": "10.3389/fpubh.2026.1970719",
@@ -108,11 +108,11 @@
     },
     {
       "doi": "10.1186/s12937-026-01408-5",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition journal",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-10-13",
       "query_ids": [
         "intervention_trials",
@@ -126,6 +126,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "openalex",
         "pubmed"
       ],
       "title": "Intake of ultra-processed foods in Sweden and its association with diet quality and weight status: cross-sectional analyses from three national dietary surveys.",
@@ -135,26 +136,57 @@
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42870269/"
+    },
+    {
+      "doi": "10.1007/s00296-026-06324-9",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Rheumatology international",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-14",
+      "query_ids": [
+        "biomarkers_omics",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "d818fa447e4023ec2d30b3b3",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Consumption of ultra-processed foods among patients with rheumatic diseases: a cross-sectional study and validation of the short screening questionnaire of highly processed food consumption (sQ-HPF) in the Greek language.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "methodology"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42873263/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 595,
-  "review_record_count": 77,
-  "rollup_days": 2,
+  "retrieved_record_count": 870,
+  "review_record_count": 95,
+  "rollup_days": 3,
   "schema_version": 3,
   "source_commit": "e2e5a56575a3125992f447ad4a21a30103fe5213",
   "source_counts": {
-    "openalex": 1,
-    "pubmed": 3
+    "openalex": 2,
+    "pubmed": 4
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 4,
-    "exposure": 3,
-    "health_outcomes": 2,
+    "classification": 5,
+    "exposure": 4,
+    "health_outcomes": 3,
     "intervention": 1,
+    "methodology": 1,
     "nutrition": 3
   }
 }

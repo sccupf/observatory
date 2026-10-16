@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 766,
-  "generated_at": "2026-10-15T10:00:48+00:00",
+  "excluded_record_count": 1026,
+  "generated_at": "2026-10-16T09:54:20+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -13,7 +13,7 @@
   "included_record_count": 5,
   "metadata_conflict_count": 0,
   "mode": "weekly",
-  "new_record_count": 1,
+  "new_record_count": 0,
   "omitted_gate_versions": [
     "1.1.0"
   ],
@@ -140,7 +140,7 @@
     {
       "doi": "10.1007/s00296-026-06324-9",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Rheumatology international",
       "metadata_status": "single_index",
@@ -171,9 +171,9 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 870,
-  "review_record_count": 95,
-  "rollup_days": 3,
+  "retrieved_record_count": 1138,
+  "review_record_count": 101,
+  "rollup_days": 4,
   "schema_version": 3,
   "source_commit": "e2e5a56575a3125992f447ad4a21a30103fe5213",
   "source_counts": {

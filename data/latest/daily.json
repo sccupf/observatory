@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 254,
-  "generated_at": "2026-10-15T10:00:48+00:00",
+  "excluded_record_count": 260,
+  "generated_at": "2026-10-16T09:54:20+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -8,18 +8,18 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 3,
+  "included_record_count": 2,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 1,
-  "period_source_since": "2026-10-12",
+  "new_record_count": 0,
+  "period_source_since": "2026-10-13",
   "project": "UPF26",
-  "record_count": 3,
+  "record_count": 2,
   "records": [
     {
       "doi": "10.1007/s00296-026-06324-9",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Rheumatology international",
       "metadata_status": "single_index",
@@ -76,52 +76,24 @@
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42870269/"
-    },
-    {
-      "doi": "10.3389/fpubh.2026.1970719",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Frontiers in Public Health",
-      "metadata_status": "single_index",
-      "published_date": "2026-10-12",
-      "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure",
-        "processing_methods"
-      ],
-      "record_id": "4126fe6c489a834fefb9ea3a",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "NOVA_FOOD_CONTEXT",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex"
-      ],
-      "title": "Industrial processing of Ecuadorian household food acquisitions according to NOVA, socioeconomic status and territory",
-      "triage_tags": [
-        "classification",
-        "intervention"
-      ],
-      "url": "https://doi.org/10.3389/fpubh.2026.1970719"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 275,
-  "review_record_count": 18,
+  "retrieved_record_count": 268,
+  "review_record_count": 6,
   "schema_version": 3,
   "source_commit": "e2e5a56575a3125992f447ad4a21a30103fe5213",
   "source_counts": {
-    "openalex": 2,
+    "openalex": 1,
     "pubmed": 2
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 3,
+    "classification": 2,
     "exposure": 2,
     "health_outcomes": 1,
-    "intervention": 1,
     "methodology": 1,
     "nutrition": 1
   }

@@ -1,0 +1,32 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 269,
+  "generated_at": "2026-10-18T09:41:36+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 0,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 0,
+  "period_source_since": "2026-10-15",
+  "project": "UPF26",
+  "record_count": 0,
+  "records": [],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 316,
+  "review_record_count": 47,
+  "run_attempt": 1,
+  "run_id": "39116258478",
+  "schema_version": 3,
+  "source_commit": "e2e5a56575a3125992f447ad4a21a30103fe5213",
+  "source_counts": {},
+  "source_error_count": 0,
+  "theme_counts": {}
+}

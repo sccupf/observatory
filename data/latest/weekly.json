@@ -1,192 +1,100 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
-  "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 1578,
-  "generated_at": "2026-10-18T09:41:36+00:00",
+  "coverage_note": "All screened days in this period use the same gate version.",
+  "excluded_record_count": 222,
+  "generated_at": "2026-10-19T10:51:23+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
     "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
-  "harvest_status": "PARTIAL",
-  "included_record_count": 5,
+  "harvest_status": "COMPLETE",
+  "included_record_count": 2,
   "metadata_conflict_count": 0,
   "mode": "weekly",
-  "new_record_count": 0,
-  "omitted_gate_versions": [
-    "1.1.0"
-  ],
-  "omitted_incompatible_gate_days": 1,
-  "period_source_since": "2026-10-10",
+  "new_record_count": 2,
+  "omitted_gate_versions": [],
+  "omitted_incompatible_gate_days": 0,
+  "period_source_since": "2026-10-16",
   "project": "UPF26",
-  "record_count": 5,
+  "record_count": 2,
   "records": [
     {
-      "doi": "10.3389/fpubh.2026.1970719",
+      "doi": "10.1017/s000711452610837x",
       "index_source_count": 1,
-      "is_new": false,
+      "is_new": true,
       "is_retracted": false,
-      "journal": "Frontiers in Public Health",
+      "journal": "British Journal of Nutrition",
       "metadata_status": "single_index",
-      "published_date": "2026-10-12",
+      "published_date": "2026-10-19",
       "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure",
-        "processing_methods"
+        "longitudinal_records"
       ],
-      "record_id": "4126fe6c489a834fefb9ea3a",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "NOVA_FOOD_CONTEXT",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex"
-      ],
-      "title": "Industrial processing of Ecuadorian household food acquisitions according to NOVA, socioeconomic status and territory",
-      "triage_tags": [
-        "classification",
-        "intervention"
-      ],
-      "url": "https://doi.org/10.3389/fpubh.2026.1970719"
-    },
-    {
-      "doi": "10.1053/j.jrn.2026.10.001",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
-      "metadata_status": "single_index",
-      "published_date": "2026-10-11",
-      "query_ids": [
-        "nutrition_exposure",
-        "upf_core"
-      ],
-      "record_id": "a87d0aa05bb2e9e00f35a9e0",
+      "record_id": "1d9e1d2be6bac34f0fd969e5",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "pubmed"
+        "crossref"
       ],
-      "title": "Ultra-processed food consumption in people with chronic kidney disease.",
+      "title": "Impact of mandatory maximum sodium content policies for processed and ultra-processed foods on children’s sodium intake: a simulation study comparing policy scenarios in Uruguay",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "intervention",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.1017/s000711452610837x"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-10976704/v1",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-19",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "d8e8026af5c44ac816ebeaad",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Consumption of ultra-processed foods is positively associated with levels of pro- inflammatory cytokines in postmenopausal women: a cross-sectional study",
       "triage_tags": [
         "classification",
         "exposure",
         "health_outcomes",
-        "nutrition"
+        "mechanisms"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42860177/"
-    },
-    {
-      "doi": "10.1016/j.clnesp.2026.105177",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Clinical nutrition ESPEN",
-      "metadata_status": "single_index",
-      "published_date": "2026-10-10",
-      "query_ids": [
-        "intervention_trials",
-        "nutrition_exposure",
-        "upf_core"
-      ],
-      "record_id": "3d7da3f1082bef3491029a66",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "pubmed"
-      ],
-      "title": "Comment on \"Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake\".",
-      "triage_tags": [
-        "classification",
-        "exposure",
-        "health_outcomes",
-        "nutrition"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42858789/"
-    },
-    {
-      "doi": "10.1186/s12937-026-01408-5",
-      "index_source_count": 2,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Nutrition journal",
-      "metadata_status": "multi_index",
-      "published_date": "2026-10-13",
-      "query_ids": [
-        "intervention_trials",
-        "nova_food_classification",
-        "nutrition_exposure",
-        "processing_methods",
-        "upf_core"
-      ],
-      "record_id": "d4555e629d5d35b63d021fb2",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex",
-        "pubmed"
-      ],
-      "title": "Intake of ultra-processed foods in Sweden and its association with diet quality and weight status: cross-sectional analyses from three national dietary surveys.",
-      "triage_tags": [
-        "classification",
-        "exposure",
-        "nutrition"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42870269/"
-    },
-    {
-      "doi": "10.1007/s00296-026-06324-9",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Rheumatology international",
-      "metadata_status": "single_index",
-      "published_date": "2026-10-14",
-      "query_ids": [
-        "biomarkers_omics",
-        "nutrition_exposure",
-        "processing_methods",
-        "upf_core"
-      ],
-      "record_id": "d818fa447e4023ec2d30b3b3",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "pubmed"
-      ],
-      "title": "Consumption of ultra-processed foods among patients with rheumatic diseases: a cross-sectional study and validation of the short screening questionnaire of highly processed food consumption (sQ-HPF) in the Greek language.",
-      "triage_tags": [
-        "classification",
-        "exposure",
-        "health_outcomes",
-        "methodology"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873263/"
+      "url": "https://doi.org/10.21203/rs.3.rs-10976704/v1"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1786,
-  "review_record_count": 196,
-  "rollup_days": 6,
+  "retrieved_record_count": 276,
+  "review_record_count": 52,
+  "rollup_days": 1,
   "schema_version": 3,
   "source_commit": "e2e5a56575a3125992f447ad4a21a30103fe5213",
   "source_counts": {
-    "openalex": 2,
-    "pubmed": 4
+    "crossref": 2
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 5,
-    "exposure": 4,
-    "health_outcomes": 3,
+    "classification": 2,
+    "exposure": 2,
+    "health_outcomes": 1,
     "intervention": 1,
-    "methodology": 1,
-    "nutrition": 3
+    "mechanisms": 1,
+    "nutrition": 1,
+    "policy": 1
   }
 }

@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "All screened days in this period use the same gate version.",
-  "excluded_record_count": 462,
-  "generated_at": "2026-10-20T10:08:47+00:00",
+  "excluded_record_count": 708,
+  "generated_at": "2026-10-21T10:16:04+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -13,7 +13,7 @@
   "included_record_count": 3,
   "metadata_conflict_count": 0,
   "mode": "weekly",
-  "new_record_count": 1,
+  "new_record_count": 0,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-16",
@@ -51,13 +51,15 @@
     },
     {
       "doi": "10.21203/rs.3.rs-10976704/v1",
-      "index_source_count": 1,
+      "index_source_count": 2,
       "is_new": false,
       "is_retracted": false,
       "journal": "",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-10-19",
       "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "d8e8026af5c44ac816ebeaad",
@@ -65,7 +67,8 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "europe_pmc"
+        "europe_pmc",
+        "openalex"
       ],
       "title": "Consumption of ultra-processed foods is positively associated with levels of pro- inflammatory cytokines in postmenopausal women: a cross-sectional study",
       "triage_tags": [
@@ -78,11 +81,11 @@
     },
     {
       "doi": "10.1093/eurheartj/ehag843",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "European heart journal",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-10-19",
       "query_ids": [
         "upf_core"
@@ -92,6 +95,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Characterizing co-occurrence patterns of potentially disease-relevant markers of ultra-processed food.",
@@ -105,13 +109,14 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 567,
-  "review_record_count": 100,
-  "rollup_days": 2,
+  "retrieved_record_count": 864,
+  "review_record_count": 148,
+  "rollup_days": 3,
   "schema_version": 3,
   "source_commit": "b48f719e0270f06942906f2c2fbdadf602e20bb7",
   "source_counts": {
-    "europe_pmc": 1,
+    "europe_pmc": 2,
+    "openalex": 1,
     "pubmed": 2
   },
   "source_error_count": 0,

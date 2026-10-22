@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 246,
-  "generated_at": "2026-10-21T10:16:04+00:00",
+  "excluded_record_count": 239,
+  "generated_at": "2026-10-22T10:17:09+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -12,7 +12,7 @@
   "metadata_conflict_count": 0,
   "mode": "daily",
   "new_record_count": 0,
-  "period_source_since": "2026-10-18",
+  "period_source_since": "2026-10-19",
   "project": "UPF26",
   "record_count": 3,
   "records": [
@@ -105,7 +105,7 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 297,
+  "retrieved_record_count": 290,
   "review_record_count": 48,
   "schema_version": 3,
   "source_commit": "b48f719e0270f06942906f2c2fbdadf602e20bb7",

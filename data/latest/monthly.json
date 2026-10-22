@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 2286,
-  "generated_at": "2026-10-21T10:16:04+00:00",
+  "excluded_record_count": 2525,
+  "generated_at": "2026-10-22T10:17:09+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -256,9 +256,9 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 2650,
-  "review_record_count": 344,
-  "rollup_days": 9,
+  "retrieved_record_count": 2940,
+  "review_record_count": 392,
+  "rollup_days": 10,
   "schema_version": 3,
   "source_commit": "b48f719e0270f06942906f2c2fbdadf602e20bb7",
   "source_counts": {

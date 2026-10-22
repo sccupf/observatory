@@ -2,8 +2,8 @@
   "entries": [
     {
       "data_url": "data/weekly/2026-W43.json",
-      "excluded_record_count": 708,
-      "generated_at": "2026-10-21T10:16:04+00:00",
+      "excluded_record_count": 947,
+      "generated_at": "2026-10-22T10:17:09+00:00",
       "harvest_status": "COMPLETE",
       "metadata_conflict_count": 0,
       "mode": "weekly",
@@ -12,15 +12,15 @@
       "record_count": 3,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 864,
-      "review_record_count": 148,
+      "retrieved_record_count": 1154,
+      "review_record_count": 196,
       "screening_status": "SCREENED",
       "source_error_count": 0
     },
     {
       "data_url": "data/monthly/2026-10.json",
-      "excluded_record_count": 2286,
-      "generated_at": "2026-10-21T10:16:04+00:00",
+      "excluded_record_count": 2525,
+      "generated_at": "2026-10-22T10:17:09+00:00",
       "harvest_status": "PARTIAL",
       "metadata_conflict_count": 0,
       "mode": "monthly",
@@ -29,8 +29,42 @@
       "record_count": 8,
       "report_url": null,
       "retraction_flag_count": 0,
-      "retrieved_record_count": 2650,
-      "review_record_count": 344,
+      "retrieved_record_count": 2940,
+      "review_record_count": 392,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
+    },
+    {
+      "data_url": "data/daily-runs/2026-10-22-run39761778897-a1.json",
+      "excluded_record_count": 239,
+      "generated_at": "2026-10-22T10:17:09+00:00",
+      "harvest_status": "COMPLETE",
+      "metadata_conflict_count": 0,
+      "mode": "daily-runs",
+      "new_record_count": 0,
+      "period": "2026-10-22-run39761778897-a1",
+      "record_count": 3,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 290,
+      "review_record_count": 48,
+      "screening_status": "SCREENED",
+      "source_error_count": 0
+    },
+    {
+      "data_url": "data/daily/2026-10-22.json",
+      "excluded_record_count": 239,
+      "generated_at": "2026-10-22T10:17:09+00:00",
+      "harvest_status": "COMPLETE",
+      "metadata_conflict_count": 0,
+      "mode": "daily",
+      "new_record_count": 0,
+      "period": "2026-10-22",
+      "record_count": 3,
+      "report_url": null,
+      "retraction_flag_count": 0,
+      "retrieved_record_count": 290,
+      "review_record_count": 48,
       "screening_status": "SCREENED",
       "source_error_count": 0
     },
@@ -834,7 +868,7 @@
       "source_error_count": 0
     }
   ],
-  "generated_at": "2026-10-21T10:16:04+00:00",
+  "generated_at": "2026-10-22T10:17:09+00:00",
   "project": "UPF26",
   "schema_version": 4
 }

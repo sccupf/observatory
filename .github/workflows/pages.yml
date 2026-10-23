@@ -1,4 +1,4 @@
-name: Deploy UPF26 Observatory
+name: Deploy SCC UPF Observatory
 
 on:
   push:

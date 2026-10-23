@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 2758,
-  "generated_at": "2026-10-23T09:55:15+00:00",
+  "excluded_record_count": 2761,
+  "generated_at": "2026-10-23T10:10:11+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,7 +10,7 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 9,
+  "included_record_count": 10,
   "metadata_conflict_count": 0,
   "mode": "monthly",
   "new_record_count": 1,
@@ -19,8 +19,8 @@
   ],
   "omitted_incompatible_gate_days": 12,
   "period_source_since": "2026-10-10",
-  "project": "SCC UPF",
-  "record_count": 9,
+  "project": "UPF26",
+  "record_count": 10,
   "records": [
     {
       "doi": "10.3389/fpubh.2026.1970719",
@@ -253,9 +253,36 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42895979/"
     },
     {
-      "doi": "10.3389/fnut.2026.1912782",
+      "doi": "10.30597/hjph.v7i3.54717",
       "index_source_count": 1,
       "is_new": true,
+      "is_retracted": false,
+      "journal": "Hasanuddin Journal of Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure"
+      ],
+      "record_id": "258cf05267b6ca12d7ecde54",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "SOCIAL AND BEHAVIOURAL FACTORS ASSOCIATED WITH ULTRAPROCESSED FOOD CONSUMPTION AMONG ADOLESCENTS IN SEMARANG CITY",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.30597/hjph.v7i3.54717"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1912782",
+      "index_source_count": 1,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in Nutrition",
       "metadata_status": "single_index",
@@ -284,20 +311,20 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 3220,
+  "retrieved_record_count": 3224,
   "review_record_count": 438,
   "rollup_days": 11,
   "schema_version": 3,
-  "source_commit": "f9740a562bafadc2cac45b29dcad7920c54afdf5",
+  "source_commit": "a3bb67aca63523922740ca57dcb6b78a14dd2a99",
   "source_counts": {
     "europe_pmc": 2,
-    "openalex": 4,
+    "openalex": 5,
     "pubmed": 6
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 9,
-    "exposure": 6,
+    "classification": 10,
+    "exposure": 7,
     "health_outcomes": 5,
     "intervention": 1,
     "mechanisms": 1,

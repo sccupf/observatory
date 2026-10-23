@@ -1,0 +1,95 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 236,
+  "generated_at": "2026-10-23T10:10:10+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 2,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 1,
+  "period_source_since": "2026-10-20",
+  "project": "UPF26",
+  "record_count": 2,
+  "records": [
+    {
+      "doi": "10.30597/hjph.v7i3.54717",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Hasanuddin Journal of Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure"
+      ],
+      "record_id": "258cf05267b6ca12d7ecde54",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "SOCIAL AND BEHAVIOURAL FACTORS ASSOCIATED WITH ULTRAPROCESSED FOOD CONSUMPTION AMONG ADOLESCENTS IN SEMARANG CITY",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.30597/hjph.v7i3.54717"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1912782",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-20",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "policy_guidance"
+      ],
+      "record_id": "6807d54217b44878264cd437",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "The two missing pillars of ultra-processed food and health policy: food assistance and the first 1,000 days",
+      "triage_tags": [
+        "classification",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1912782"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 284,
+  "review_record_count": 46,
+  "run_attempt": 1,
+  "run_id": "39937032091",
+  "schema_version": 3,
+  "source_commit": "a3bb67aca63523922740ca57dcb6b78a14dd2a99",
+  "source_counts": {
+    "openalex": 2
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 2,
+    "exposure": 1,
+    "nutrition": 1,
+    "policy": 1
+  }
+}

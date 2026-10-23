@@ -1,0 +1,67 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 233,
+  "generated_at": "2026-10-23T09:55:15+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 1,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 1,
+  "period_source_since": "2026-10-20",
+  "project": "SCC UPF",
+  "record_count": 1,
+  "records": [
+    {
+      "doi": "10.3389/fnut.2026.1912782",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-20",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "policy_guidance"
+      ],
+      "record_id": "6807d54217b44878264cd437",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "The two missing pillars of ultra-processed food and health policy: food assistance and the first 1,000 days",
+      "triage_tags": [
+        "classification",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1912782"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 280,
+  "review_record_count": 46,
+  "run_attempt": 1,
+  "run_id": "39935175254",
+  "schema_version": 3,
+  "source_commit": "f9740a562bafadc2cac45b29dcad7920c54afdf5",
+  "source_counts": {
+    "openalex": 1
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 1,
+    "nutrition": 1,
+    "policy": 1
+  }
+}

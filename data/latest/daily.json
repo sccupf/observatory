@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 239,
-  "generated_at": "2026-10-22T10:17:09+00:00",
+  "excluded_record_count": 233,
+  "generated_at": "2026-10-23T09:55:15+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -8,118 +8,56 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 3,
+  "included_record_count": 1,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 0,
-  "period_source_since": "2026-10-19",
-  "project": "UPF26",
-  "record_count": 3,
+  "new_record_count": 1,
+  "period_source_since": "2026-10-20",
+  "project": "SCC UPF",
+  "record_count": 1,
   "records": [
     {
-      "doi": "10.1017/s000711452610837x",
+      "doi": "10.3389/fnut.2026.1912782",
       "index_source_count": 1,
-      "is_new": false,
+      "is_new": true,
       "is_retracted": false,
-      "journal": "The British journal of nutrition",
+      "journal": "Frontiers in Nutrition",
       "metadata_status": "single_index",
-      "published_date": "2026-10-19",
+      "published_date": "2026-10-20",
       "query_ids": [
+        "intervention_trials",
         "nutrition_exposure",
-        "policy_guidance",
-        "upf_core"
+        "policy_guidance"
       ],
-      "record_id": "1d9e1d2be6bac34f0fd969e5",
+      "record_id": "6807d54217b44878264cd437",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "pubmed"
+        "openalex"
       ],
-      "title": "Impact of mandatory maximum sodium content policies for processed and ultra-processed foods on children's sodium intake: a simulation study comparing policy scenarios in Uruguay.",
+      "title": "The two missing pillars of ultra-processed food and health policy: food assistance and the first 1,000 days",
       "triage_tags": [
         "classification",
-        "exposure",
         "nutrition",
         "policy"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895044/"
-    },
-    {
-      "doi": "10.21203/rs.3.rs-10976704/v1",
-      "index_source_count": 2,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "",
-      "metadata_status": "multi_index",
-      "published_date": "2026-10-19",
-      "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure",
-        "upf_core"
-      ],
-      "record_id": "d8e8026af5c44ac816ebeaad",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "europe_pmc",
-        "openalex"
-      ],
-      "title": "Consumption of ultra-processed foods is positively associated with levels of pro- inflammatory cytokines in postmenopausal women: a cross-sectional study",
-      "triage_tags": [
-        "classification",
-        "exposure",
-        "health_outcomes",
-        "mechanisms"
-      ],
-      "url": "https://europepmc.org/article/MED/PPR1345090"
-    },
-    {
-      "doi": "10.1093/eurheartj/ehag843",
-      "index_source_count": 2,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "European heart journal",
-      "metadata_status": "multi_index",
-      "published_date": "2026-10-19",
-      "query_ids": [
-        "upf_core"
-      ],
-      "record_id": "5629e95e6bf01a2d9ee78b56",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "europe_pmc",
-        "pubmed"
-      ],
-      "title": "Characterizing co-occurrence patterns of potentially disease-relevant markers of ultra-processed food.",
-      "triage_tags": [
-        "classification",
-        "health_outcomes"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895979/"
+      "url": "https://doi.org/10.3389/fnut.2026.1912782"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 290,
-  "review_record_count": 48,
+  "retrieved_record_count": 280,
+  "review_record_count": 46,
   "schema_version": 3,
-  "source_commit": "b48f719e0270f06942906f2c2fbdadf602e20bb7",
+  "source_commit": "f9740a562bafadc2cac45b29dcad7920c54afdf5",
   "source_counts": {
-    "europe_pmc": 2,
-    "openalex": 1,
-    "pubmed": 2
+    "openalex": 1
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 3,
-    "exposure": 2,
-    "health_outcomes": 2,
-    "mechanisms": 1,
+    "classification": 1,
     "nutrition": 1,
     "policy": 1
   }

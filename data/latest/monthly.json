@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 2525,
-  "generated_at": "2026-10-22T10:17:09+00:00",
+  "excluded_record_count": 2758,
+  "generated_at": "2026-10-23T09:55:15+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,17 +10,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 8,
+  "included_record_count": 9,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 0,
+  "new_record_count": 1,
   "omitted_gate_versions": [
     "1.1.0"
   ],
   "omitted_incompatible_gate_days": 12,
   "period_source_since": "2026-10-10",
-  "project": "UPF26",
-  "record_count": 8,
+  "project": "SCC UPF",
+  "record_count": 9,
   "records": [
     {
       "doi": "10.3389/fpubh.2026.1970719",
@@ -251,30 +251,58 @@
         "health_outcomes"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42895979/"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1912782",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-20",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "policy_guidance"
+      ],
+      "record_id": "6807d54217b44878264cd437",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "The two missing pillars of ultra-processed food and health policy: food assistance and the first 1,000 days",
+      "triage_tags": [
+        "classification",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1912782"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 2940,
-  "review_record_count": 392,
-  "rollup_days": 10,
+  "retrieved_record_count": 3220,
+  "review_record_count": 438,
+  "rollup_days": 11,
   "schema_version": 3,
-  "source_commit": "b48f719e0270f06942906f2c2fbdadf602e20bb7",
+  "source_commit": "f9740a562bafadc2cac45b29dcad7920c54afdf5",
   "source_counts": {
     "europe_pmc": 2,
-    "openalex": 3,
+    "openalex": 4,
     "pubmed": 6
   },
   "source_error_count": 0,
   "theme_counts": {
-    "classification": 8,
+    "classification": 9,
     "exposure": 6,
     "health_outcomes": 5,
     "intervention": 1,
     "mechanisms": 1,
     "methodology": 1,
-    "nutrition": 4,
-    "policy": 1
+    "nutrition": 5,
+    "policy": 2
   }
 }

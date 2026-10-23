@@ -1,7 +1,7 @@
-name: Smoke-test published UPF26 pages and routing
+name: Smoke-test published SCC UPF pages and routing
 on:
   workflow_run:
-    workflows: [Deploy UPF26 Observatory]
+    workflows: [Deploy SCC UPF Observatory]
     types: [completed]
   workflow_dispatch:
 
@@ -38,7 +38,8 @@ jobs:
           pages = ("index.html", "academic.html", "evidence.html", "business.html", "disclosure.html", "archive.html")
           for name in pages:
               doc = (root / name).read_text(encoding="utf-8")
-              assert "<html" in doc.lower() and "UPF26" in doc, name
+              assert "<html" in doc.lower() and "SCC UPF" in doc, name
+              assert "UPF26" not in doc, f"Legacy branding in {name}"
               assert "<title>" in doc or "<title " in doc, name
               for marker in ("github_pat_", "-----BEGIN OPENSSH PRIVATE KEY"):
                   assert marker not in doc, name
@@ -51,7 +52,7 @@ jobs:
           }
           for period in expected:
               data = json.loads((root / "data" / "latest" / (period + ".json")).read_text(encoding="utf-8"))
-              assert data.get("project") == "UPF26" and data.get("mode") == period
+              assert data.get("project") in ("UPF26", "SCC UPF") and data.get("mode") == period  # legacy stored schema compatibility
               assert data.get("relevance_gate_version"), f"Unscreened {period} data"
               assert data.get("record_count") == len(data["records"])
               for record in data["records"]:
@@ -63,11 +64,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          status="$(curl -sSL --connect-timeout 10 --max-time 30 -o /tmp/scc-upf.html -w '%{http_code}' 'https://sccnexus.co.uk/upf/' || true)"
-          echo "### UPF26 public smoke results" >> "$GITHUB_STEP_SUMMARY"
+          status="$(curl -sSL --connect-timeout 10 --max-time 30 -o /tmp/scc-upf.html -w '%{http_code}' 'https://sccnexus.co.uk/projects/scc-upf.html' || true)"
+          echo "### SCC UPF public smoke results" >> "$GITHUB_STEP_SUMMARY"
           echo "- GitHub Pages: live pages and screened data checked by the preceding validation." >> "$GITHUB_STEP_SUMMARY"
-          if [[ "$status" == "200" ]] && grep -iq 'UPF26' /tmp/scc-upf.html; then
-            echo "- SCC Nexus /upf/: HTTP 200 and UPF26 content detected (not a DNS/certificate audit)." >> "$GITHUB_STEP_SUMMARY"
+          if [[ "$status" == "200" ]] && grep -iq 'SCC UPF' /tmp/scc-upf.html; then
+            echo "- SCC Nexus /projects/scc-upf.html: HTTP 200 and SCC UPF content detected (not a DNS/certificate audit)." >> "$GITHUB_STEP_SUMMARY"
           else
             echo "- SCC Nexus /upf/: NOT VERIFIED (HTTP $status; routing or content may need website-owner action)." >> "$GITHUB_STEP_SUMMARY"
           fi

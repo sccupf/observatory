@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 3022,
-  "generated_at": "2026-10-24T09:38:01+00:00",
+  "excluded_record_count": 3027,
+  "generated_at": "2026-10-24T09:47:06+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -13,7 +13,7 @@
   "included_record_count": 12,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 2,
+  "new_record_count": 0,
   "omitted_gate_versions": [
     "1.1.0"
   ],
@@ -310,7 +310,7 @@
     {
       "doi": "10.1007/s40520-026-03548-4",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Aging Clinical and Experimental Research",
       "metadata_status": "single_index",
@@ -339,7 +339,7 @@
     {
       "doi": "10.2105/ajph.2026.308821",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "American journal of public health",
       "metadata_status": "single_index",
@@ -365,11 +365,11 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 3493,
+  "retrieved_record_count": 3498,
   "review_record_count": 443,
   "rollup_days": 12,
   "schema_version": 3,
-  "source_commit": "a3bb67aca63523922740ca57dcb6b78a14dd2a99",
+  "source_commit": "b627af3dc81af5fddabae11c57b41546a6ce0b4d",
   "source_counts": {
     "crossref": 1,
     "europe_pmc": 2,

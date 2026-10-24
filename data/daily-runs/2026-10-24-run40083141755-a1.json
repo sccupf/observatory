@@ -1,0 +1,124 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 266,
+  "generated_at": "2026-10-24T09:47:06+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "PARTIAL",
+  "included_record_count": 3,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 0,
+  "period_source_since": "2026-10-21",
+  "project": "UPF26",
+  "record_count": 3,
+  "records": [
+    {
+      "doi": "10.1007/s40520-026-03548-4",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Aging Clinical and Experimental Research",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-23",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "upf_core"
+      ],
+      "record_id": "eca42400bcc618311985c9bc",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Unprocessed vs. ultra-processed food intake and major neurocognitive disorder (MNCD) among older adults: insights from the second phase of the Birjand longitudinal aging study",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "linked_records",
+        "neurology"
+      ],
+      "url": "https://doi.org/10.1007/s40520-026-03548-4"
+    },
+    {
+      "doi": "10.2105/ajph.2026.308821",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "American journal of public health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-22",
+      "query_ids": [
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "2e68d18f15945a59d5511f85",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Building on Tobacco Control: Why Ultra Processed Food Regulation Must Go Further.",
+      "triage_tags": [
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42912887/"
+    },
+    {
+      "doi": "10.30597/hjph.v7i3.54717",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Hasanuddin Journal of Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-21",
+      "query_ids": [
+        "formulation_signals",
+        "nova_food_classification",
+        "nutrition_exposure"
+      ],
+      "record_id": "258cf05267b6ca12d7ecde54",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "SOCIAL AND BEHAVIOURAL FACTORS ASSOCIATED WITH ULTRAPROCESSED FOOD CONSUMPTION AMONG ADOLESCENTS IN SEMARANG CITY",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.30597/hjph.v7i3.54717"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 274,
+  "review_record_count": 5,
+  "run_attempt": 1,
+  "run_id": "40083141755",
+  "schema_version": 3,
+  "source_commit": "b627af3dc81af5fddabae11c57b41546a6ce0b4d",
+  "source_counts": {
+    "crossref": 1,
+    "openalex": 1,
+    "pubmed": 1
+  },
+  "source_error_count": 10,
+  "theme_counts": {
+    "classification": 2,
+    "exposure": 2,
+    "linked_records": 1,
+    "neurology": 1,
+    "policy": 1
+  }
+}

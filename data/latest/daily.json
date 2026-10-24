@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 261,
-  "generated_at": "2026-10-24T09:38:01+00:00",
+  "excluded_record_count": 266,
+  "generated_at": "2026-10-24T09:47:06+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,7 +11,7 @@
   "included_record_count": 3,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 2,
+  "new_record_count": 0,
   "period_source_since": "2026-10-21",
   "project": "UPF26",
   "record_count": 3,
@@ -19,7 +19,7 @@
     {
       "doi": "10.1007/s40520-026-03548-4",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Aging Clinical and Experimental Research",
       "metadata_status": "single_index",
@@ -48,7 +48,7 @@
     {
       "doi": "10.2105/ajph.2026.308821",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "American journal of public health",
       "metadata_status": "single_index",
@@ -101,10 +101,10 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 269,
+  "retrieved_record_count": 274,
   "review_record_count": 5,
   "schema_version": 3,
-  "source_commit": "a3bb67aca63523922740ca57dcb6b78a14dd2a99",
+  "source_commit": "b627af3dc81af5fddabae11c57b41546a6ce0b4d",
   "source_counts": {
     "crossref": 1,
     "openalex": 1,

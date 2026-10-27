@@ -22,9 +22,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p live/data/latest
+          mkdir -p live/data/latest live/assets/branding/sccupfs
           base="https://sccupf.github.io/observatory"
-          for path in index.html academic.html evidence.html business.html disclosure.html archive.html data/latest/daily.json data/latest/weekly.json data/latest/monthly.json; do
+          for path in index.html academic.html evidence.html business.html disclosure.html archive.html data/latest/daily.json data/latest/weekly.json data/latest/monthly.json assets/branding/sccupfs/logo-icon.svg assets/branding/sccupfs/favicon.svg; do
             curl -fSL --retry 8 --retry-delay 10 --retry-all-errors --connect-timeout 10 --max-time 25 \
               "$base/$path" -o "live/$path"
           done
@@ -43,6 +43,8 @@ jobs:
               assert "UPF26" not in doc, f"Legacy branding in {name}"
               assert "<title>" in doc or "<title " in doc, f"{name}: no title element"
               assert "<footer" in doc, f"{name}: footer missing"
+              assert 'id="scc-upf-brand"' in doc and 'class="scc-upf-signature"' in doc, f"{name}: brand system absent"
+              assert 'assets/branding/sccupfs/favicon.svg' in doc, f"{name}: favicon absent"
               for legal_url in (
                   "https://sccnexus.co.uk/privacy.html",
                   "https://sccnexus.co.uk/accessibility.html",
@@ -56,6 +58,9 @@ jobs:
                   assert 'href="#main"' in doc and 'id="main"' in doc, "archive: skip navigation broken"
               for marker in ("github_pat_", "-----BEGIN OPENSSH PRIVATE KEY"):
                   assert marker not in doc, name
+          for asset in ("logo-icon.svg", "favicon.svg"):
+              svg = (root / "assets" / "branding" / "sccupfs" / asset).read_text(encoding="utf-8")
+              assert "<svg" in svg and "SCC Nexus emblem" in svg, f"Invalid brand asset: {asset}"
           expected = {"daily": "daily", "weekly": "weekly", "monthly": "monthly"}
           permitted = {
               "record_id", "published_date", "title", "doi", "journal", "url",

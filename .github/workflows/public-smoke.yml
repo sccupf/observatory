@@ -42,6 +42,18 @@ jobs:
               assert "SCC UPF" in doc, f"{name}: SCC UPF public branding missing"
               assert "UPF26" not in doc, f"Legacy branding in {name}"
               assert "<title>" in doc or "<title " in doc, f"{name}: no title element"
+              assert "<footer" in doc, f"{name}: footer missing"
+              for legal_url in (
+                  "https://sccnexus.co.uk/privacy.html",
+                  "https://sccnexus.co.uk/accessibility.html",
+                  "https://sccnexus.co.uk/terms.html",
+                  "https://sccnexus.co.uk/contact.html",
+              ):
+                  assert f'href="{legal_url}"' in doc, f"{name}: missing {legal_url}"
+              assert 'href="archive.html"' in doc, f"{name}: archive navigation missing"
+              if name == "archive.html":
+                  assert 'class="archive-nav"' in doc, "archive: primary nav missing"
+                  assert 'href="#main"' in doc and 'id="main"' in doc, "archive: skip navigation broken"
               for marker in ("github_pat_", "-----BEGIN OPENSSH PRIVATE KEY"):
                   assert marker not in doc, name
           expected = {"daily": "daily", "weekly": "weekly", "monthly": "monthly"}

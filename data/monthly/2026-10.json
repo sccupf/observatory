@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 3560,
-  "generated_at": "2026-10-26T11:11:59+00:00",
+  "excluded_record_count": 3834,
+  "generated_at": "2026-10-27T10:40:14+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,17 +10,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 18,
+  "included_record_count": 21,
   "metadata_conflict_count": 1,
   "mode": "monthly",
-  "new_record_count": 2,
+  "new_record_count": 5,
   "omitted_gate_versions": [
     "1.1.0"
   ],
   "omitted_incompatible_gate_days": 12,
   "period_source_since": "2026-10-10",
   "project": "UPF26",
-  "record_count": 18,
+  "record_count": 21,
   "records": [
     {
       "doi": "10.3389/fpubh.2026.1970719",
@@ -548,36 +548,124 @@
         "exposure"
       ],
       "url": "https://doi.org/10.1001/jamanetworkopen.2026.40252"
+    },
+    {
+      "doi": "10.1108/nfs-05-2026-0215",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition &amp; Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-27",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "upf_core"
+      ],
+      "record_id": "d045bd3b6a95c0b4eabaa184",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Knowledge, attitudes and practices of ultra-processed foods among social media users in a Small Island Developing State: a cross-sectional study",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1108/nfs-05-2026-0215"
+    },
+    {
+      "doi": "10.1038/s41430-026-01843-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "European journal of clinical nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-26",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "fd4b8bd7976fd47411bad7b7",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Rethinking the application and adoption of NOVA classification in low- and middle-income countries (LMICs): a Southeast Asian food systems perspective.",
+      "triage_tags": [
+        "classification",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934413/"
+    },
+    {
+      "doi": "10.1016/j.ajcnut.2026.101599",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "The American journal of clinical nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-26",
+      "query_ids": [
+        "biomarkers_omics",
+        "longitudinal_records",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "667d9141b58471b695c72d1b",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Association of ultra-processed food consumption with incident myeloid neoplasms: population-based cohort study.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "linked_records",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42933535/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 4128,
-  "review_record_count": 529,
-  "rollup_days": 14,
+  "retrieved_record_count": 4455,
+  "review_record_count": 578,
+  "rollup_days": 15,
   "schema_version": 3,
-  "source_commit": "b627af3dc81af5fddabae11c57b41546a6ce0b4d",
+  "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
-    "crossref": 2,
+    "crossref": 3,
     "europe_pmc": 6,
     "openalex": 7,
-    "pubmed": 10
+    "pubmed": 12
   },
   "source_error_count": 10,
   "theme_counts": {
     "additives": 3,
     "biomarkers": 1,
-    "classification": 17,
-    "exposure": 14,
+    "classification": 20,
+    "exposure": 16,
     "formulation": 1,
     "health_outcomes": 8,
     "intervention": 3,
-    "linked_records": 2,
+    "linked_records": 3,
     "mechanisms": 3,
-    "methodology": 4,
+    "methodology": 5,
     "neurology": 1,
-    "nutrition": 8,
+    "nutrition": 11,
     "policy": 3
   }
 }

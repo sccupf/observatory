@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 224,
-  "generated_at": "2026-10-26T11:11:59+00:00",
+  "excluded_record_count": 274,
+  "generated_at": "2026-10-27T10:40:14+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -8,69 +8,101 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 6,
-  "metadata_conflict_count": 1,
+  "included_record_count": 4,
+  "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 2,
-  "period_source_since": "2026-10-23",
+  "new_record_count": 3,
+  "period_source_since": "2026-10-24",
   "project": "UPF26",
-  "record_count": 6,
+  "record_count": 4,
   "records": [
     {
-      "doi": "10.3390/healthcare14213618",
+      "doi": "10.1108/nfs-05-2026-0215",
       "index_source_count": 1,
       "is_new": true,
       "is_retracted": false,
-      "journal": "Healthcare",
+      "journal": "Nutrition &amp; Food Science",
       "metadata_status": "single_index",
-      "published_date": "2026-10-26",
+      "published_date": "2026-10-27",
       "query_ids": [
         "formulation_signals",
         "longitudinal_records",
-        "neurological_outcomes",
         "upf_core"
       ],
-      "record_id": "5bdda482c88dcb5f19754435",
+      "record_id": "d045bd3b6a95c0b4eabaa184",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
         "crossref"
       ],
-      "title": "Associations of Ultra-Processed Food Intake with Body Composition and Blood Pressure Across Sasang Constitution Types: A Prospective Cohort Study",
+      "title": "Knowledge, attitudes and practices of ultra-processed foods among social media users in a Small Island Developing State: a cross-sectional study",
       "triage_tags": [
         "classification",
         "exposure",
-        "linked_records",
         "methodology",
         "nutrition"
       ],
-      "url": "https://doi.org/10.3390/healthcare14213618"
+      "url": "https://doi.org/10.1108/nfs-05-2026-0215"
     },
     {
-      "doi": "",
+      "doi": "10.1038/s41430-026-01843-x",
       "index_source_count": 1,
-      "is_new": false,
+      "is_new": true,
       "is_retracted": false,
-      "journal": "Epidemiologia e servicos de saude : revista do Sistema Unico de Saude do Brasil",
+      "journal": "European journal of clinical nutrition",
       "metadata_status": "single_index",
-      "published_date": "2026-10-24",
+      "published_date": "2026-10-26",
       "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
         "upf_core"
       ],
-      "record_id": "e7bee3395dc0d7870f324e3d",
+      "record_id": "fd4b8bd7976fd47411bad7b7",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Rethinking the application and adoption of NOVA classification in low- and middle-income countries (LMICs): a Southeast Asian food systems perspective.",
+      "triage_tags": [
+        "classification",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934413/"
+    },
+    {
+      "doi": "10.1016/j.ajcnut.2026.101599",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "The American journal of clinical nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-26",
+      "query_ids": [
+        "biomarkers_omics",
+        "longitudinal_records",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "667d9141b58471b695c72d1b",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "europe_pmc"
+        "pubmed"
       ],
-      "title": "Ultra-processed food consumption and dental pain in adolescents: a descriptive analysis, Brazil, 2019 Consumo de alimentos ultraprocesados ​​y dolor dental en adolescentes: un análisis descriptivo, Brasil, 2019",
+      "title": "Association of ultra-processed food consumption with incident myeloid neoplasms: population-based cohort study.",
       "triage_tags": [
         "classification",
-        "exposure"
+        "exposure",
+        "linked_records",
+        "nutrition"
       ],
-      "url": "https://europepmc.org/article/MED/PMC13686385"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42933535/"
     },
     {
       "doi": "10.1016/j.semnephrol.2026.151748",
@@ -100,135 +132,27 @@
         "health_outcomes"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42926175/"
-    },
-    {
-      "doi": "10.1001/jamanetworkopen.2026.40252",
-      "index_source_count": 1,
-      "is_new": true,
-      "is_retracted": false,
-      "journal": "JAMA Network Open",
-      "metadata_status": "single_index",
-      "published_date": "2026-10-23",
-      "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure"
-      ],
-      "record_id": "d9875e4385878cfa757ad9c4",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex"
-      ],
-      "title": "Ultraprocessed Food Intake, Striatal Response to Food Cues, and Adiposity Gain in Children",
-      "triage_tags": [
-        "classification",
-        "exposure"
-      ],
-      "url": "https://doi.org/10.1001/jamanetworkopen.2026.40252"
-    },
-    {
-      "doi": "10.1177/02601060261499538",
-      "index_source_count": 3,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Nutrition and health",
-      "metadata_status": "metadata_conflict",
-      "published_date": "2026-10-23",
-      "query_ids": [
-        "biomarkers_omics",
-        "formulation_signals",
-        "nova_food_classification",
-        "nutrition_exposure",
-        "processing_methods",
-        "upf_core"
-      ],
-      "record_id": "7036173fe03895c7371eacef",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "europe_pmc",
-        "openalex",
-        "pubmed"
-      ],
-      "title": "Toxicity assessment of ultra-processed foods on human erythrocytes and Drosophila melanogaster.",
-      "triage_tags": [
-        "additives",
-        "biomarkers",
-        "classification",
-        "exposure",
-        "formulation",
-        "health_outcomes",
-        "intervention",
-        "mechanisms",
-        "methodology",
-        "nutrition"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42924860/"
-    },
-    {
-      "doi": "10.3791/71825",
-      "index_source_count": 2,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Journal of visualized experiments : JoVE",
-      "metadata_status": "multi_index",
-      "published_date": "2026-10-23",
-      "query_ids": [
-        "biomarkers_omics",
-        "formulation_signals",
-        "nutrition_exposure",
-        "processing_methods",
-        "upf_core"
-      ],
-      "record_id": "554957aa3159b6ae4e024c04",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "europe_pmc",
-        "pubmed"
-      ],
-      "title": "Epidemiological Evidence, Underlying Mechanisms, and Public Health Implications of Ultra-Processed Food Consumption in Inflammatory Bowel Disease.",
-      "triage_tags": [
-        "additives",
-        "classification",
-        "exposure",
-        "health_outcomes",
-        "intervention",
-        "mechanisms",
-        "methodology",
-        "nutrition"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42921781/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 275,
-  "review_record_count": 45,
+  "retrieved_record_count": 327,
+  "review_record_count": 49,
   "schema_version": 3,
-  "source_commit": "b627af3dc81af5fddabae11c57b41546a6ce0b4d",
+  "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
     "crossref": 1,
-    "europe_pmc": 3,
-    "openalex": 2,
     "pubmed": 3
   },
   "source_error_count": 0,
   "theme_counts": {
-    "additives": 3,
-    "biomarkers": 1,
-    "classification": 6,
-    "exposure": 6,
-    "formulation": 1,
-    "health_outcomes": 3,
-    "intervention": 2,
+    "additives": 1,
+    "classification": 4,
+    "exposure": 3,
+    "health_outcomes": 1,
     "linked_records": 1,
-    "mechanisms": 2,
-    "methodology": 3,
+    "methodology": 1,
     "nutrition": 3
   }
 }

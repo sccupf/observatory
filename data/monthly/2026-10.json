@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 3834,
-  "generated_at": "2026-10-27T10:40:14+00:00",
+  "excluded_record_count": 4074,
+  "generated_at": "2026-10-28T11:24:30+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,17 +10,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 21,
+  "included_record_count": 24,
   "metadata_conflict_count": 1,
   "mode": "monthly",
-  "new_record_count": 5,
+  "new_record_count": 6,
   "omitted_gate_versions": [
     "1.1.0"
   ],
   "omitted_incompatible_gate_days": 12,
   "period_source_since": "2026-10-10",
   "project": "UPF26",
-  "record_count": 21,
+  "record_count": 24,
   "records": [
     {
       "doi": "10.3389/fpubh.2026.1970719",
@@ -609,11 +609,11 @@
     },
     {
       "doi": "10.1016/j.ajcnut.2026.101599",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "The American journal of clinical nutrition",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-10-26",
       "query_ids": [
         "biomarkers_omics",
@@ -626,46 +626,137 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Association of ultra-processed food consumption with incident myeloid neoplasms: population-based cohort study.",
       "triage_tags": [
         "classification",
         "exposure",
+        "health_outcomes",
         "linked_records",
+        "mechanisms",
+        "methodology",
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42933535/"
+    },
+    {
+      "doi": "10.1080/27697061.2026.2748006",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of the American Nutrition Association",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-27",
+      "query_ids": [
+        "biomarkers_omics",
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "eb9977f4257d6a45b5206cce",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-Processed Foods Consumption and the Risk of nonalcoholic Fatty Liver Disease in Korean Adults.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42945511/"
+    },
+    {
+      "doi": "",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in public health",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-27",
+      "query_ids": [
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "1b694791b99ea48dbc8ba14d",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc"
+      ],
+      "title": "Industrial processing of Ecuadorian household food acquisitions according to NOVA, socioeconomic status and territory",
+      "triage_tags": [
+        "classification",
+        "intervention"
+      ],
+      "url": "https://europepmc.org/article/MED/PMC13696470"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1970182",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-26",
+      "query_ids": [
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods"
+      ],
+      "record_id": "66aa40ee0e04c75d208e4aa2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "IoT-enabled multimodal large language model-based framework for compositional food recognition, nutrient profiling, NOVA classification, and cancer risk mitigation",
+      "triage_tags": [
+        "classification",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1970182"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 4455,
-  "review_record_count": 578,
-  "rollup_days": 15,
+  "retrieved_record_count": 4742,
+  "review_record_count": 621,
+  "rollup_days": 16,
   "schema_version": 3,
   "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
     "crossref": 3,
-    "europe_pmc": 6,
-    "openalex": 7,
-    "pubmed": 12
+    "europe_pmc": 8,
+    "openalex": 8,
+    "pubmed": 13
   },
   "source_error_count": 10,
   "theme_counts": {
     "additives": 3,
     "biomarkers": 1,
-    "classification": 20,
-    "exposure": 16,
+    "classification": 23,
+    "exposure": 17,
     "formulation": 1,
-    "health_outcomes": 8,
-    "intervention": 3,
+    "health_outcomes": 11,
+    "intervention": 4,
     "linked_records": 3,
-    "mechanisms": 3,
-    "methodology": 5,
+    "mechanisms": 4,
+    "methodology": 6,
     "neurology": 1,
-    "nutrition": 11,
+    "nutrition": 13,
     "policy": 3
   }
 }

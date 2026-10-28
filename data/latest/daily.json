@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 274,
-  "generated_at": "2026-10-27T10:40:14+00:00",
+  "excluded_record_count": 240,
+  "generated_at": "2026-10-28T11:24:30+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,76 +11,105 @@
   "included_record_count": 4,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 3,
-  "period_source_since": "2026-10-24",
+  "new_record_count": 2,
+  "period_source_since": "2026-10-25",
   "project": "UPF26",
   "record_count": 4,
   "records": [
     {
-      "doi": "10.1108/nfs-05-2026-0215",
+      "doi": "10.1080/27697061.2026.2748006",
       "index_source_count": 1,
       "is_new": true,
       "is_retracted": false,
-      "journal": "Nutrition &amp; Food Science",
+      "journal": "Journal of the American Nutrition Association",
       "metadata_status": "single_index",
       "published_date": "2026-10-27",
       "query_ids": [
-        "formulation_signals",
+        "biomarkers_omics",
         "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
         "upf_core"
       ],
-      "record_id": "d045bd3b6a95c0b4eabaa184",
+      "record_id": "eb9977f4257d6a45b5206cce",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "pubmed"
       ],
-      "title": "Knowledge, attitudes and practices of ultra-processed foods among social media users in a Small Island Developing State: a cross-sectional study",
+      "title": "Ultra-Processed Foods Consumption and the Risk of nonalcoholic Fatty Liver Disease in Korean Adults.",
       "triage_tags": [
         "classification",
         "exposure",
-        "methodology",
+        "health_outcomes",
         "nutrition"
       ],
-      "url": "https://doi.org/10.1108/nfs-05-2026-0215"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42945511/"
     },
     {
-      "doi": "10.1038/s41430-026-01843-x",
+      "doi": "",
       "index_source_count": 1,
       "is_new": true,
       "is_retracted": false,
-      "journal": "European journal of clinical nutrition",
+      "journal": "Frontiers in public health",
       "metadata_status": "single_index",
-      "published_date": "2026-10-26",
+      "published_date": "2026-10-27",
       "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure",
-        "policy_guidance",
         "processing_methods",
         "upf_core"
       ],
-      "record_id": "fd4b8bd7976fd47411bad7b7",
+      "record_id": "1b694791b99ea48dbc8ba14d",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "NOVA_FOOD_CONTEXT",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "pubmed"
+        "europe_pmc"
       ],
-      "title": "Rethinking the application and adoption of NOVA classification in low- and middle-income countries (LMICs): a Southeast Asian food systems perspective.",
+      "title": "Industrial processing of Ecuadorian household food acquisitions according to NOVA, socioeconomic status and territory",
       "triage_tags": [
         "classification",
+        "intervention"
+      ],
+      "url": "https://europepmc.org/article/MED/PMC13696470"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1970182",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-26",
+      "query_ids": [
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods"
+      ],
+      "record_id": "66aa40ee0e04c75d208e4aa2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "IoT-enabled multimodal large language model-based framework for compositional food recognition, nutrient profiling, NOVA classification, and cancer risk mitigation",
+      "triage_tags": [
+        "classification",
+        "health_outcomes",
         "nutrition"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42934413/"
+      "url": "https://doi.org/10.3389/fnut.2026.1970182"
     },
     {
       "doi": "10.1016/j.ajcnut.2026.101599",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "The American journal of clinical nutrition",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-10-26",
       "query_ids": [
         "biomarkers_omics",
@@ -93,65 +122,42 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Association of ultra-processed food consumption with incident myeloid neoplasms: population-based cohort study.",
       "triage_tags": [
         "classification",
         "exposure",
+        "health_outcomes",
         "linked_records",
+        "mechanisms",
+        "methodology",
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42933535/"
-    },
-    {
-      "doi": "10.1016/j.semnephrol.2026.151748",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Seminars in nephrology",
-      "metadata_status": "single_index",
-      "published_date": "2026-10-24",
-      "query_ids": [
-        "biomarkers_omics",
-        "formulation_signals",
-        "upf_core"
-      ],
-      "record_id": "9eefc7206126162c05744b3c",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "pubmed"
-      ],
-      "title": "Intestinal Phosphate Absorption and Phosphate Metabolism in Chronic Kidney Disease: Direct and Indirect Toxicity of Phosphate Additives in Ultra-processed Diets.",
-      "triage_tags": [
-        "additives",
-        "classification",
-        "exposure",
-        "health_outcomes"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42926175/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 327,
-  "review_record_count": 49,
+  "retrieved_record_count": 287,
+  "review_record_count": 43,
   "schema_version": 3,
   "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
-    "crossref": 1,
-    "pubmed": 3
+    "europe_pmc": 2,
+    "openalex": 1,
+    "pubmed": 2
   },
   "source_error_count": 0,
   "theme_counts": {
-    "additives": 1,
     "classification": 4,
-    "exposure": 3,
-    "health_outcomes": 1,
+    "exposure": 2,
+    "health_outcomes": 3,
+    "intervention": 1,
     "linked_records": 1,
+    "mechanisms": 1,
     "methodology": 1,
     "nutrition": 3
   }

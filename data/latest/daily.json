@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 240,
-  "generated_at": "2026-10-28T11:24:30+00:00",
+  "excluded_record_count": 246,
+  "generated_at": "2026-10-29T11:34:44+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,18 +11,18 @@
   "included_record_count": 4,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 2,
-  "period_source_since": "2026-10-25",
+  "new_record_count": 0,
+  "period_source_since": "2026-10-26",
   "project": "UPF26",
   "record_count": 4,
   "records": [
     {
       "doi": "10.1080/27697061.2026.2748006",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Journal of the American Nutrition Association",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-10-27",
       "query_ids": [
         "biomarkers_omics",
@@ -37,6 +37,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "openalex",
         "pubmed"
       ],
       "title": "Ultra-Processed Foods Consumption and the Risk of nonalcoholic Fatty Liver Disease in Korean Adults.",
@@ -51,7 +52,7 @@
     {
       "doi": "",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in public health",
       "metadata_status": "single_index",
@@ -141,13 +142,13 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 287,
+  "retrieved_record_count": 293,
   "review_record_count": 43,
   "schema_version": 3,
   "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
     "europe_pmc": 2,
-    "openalex": 1,
+    "openalex": 2,
     "pubmed": 2
   },
   "source_error_count": 0,

@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 4074,
-  "generated_at": "2026-10-28T11:24:30+00:00",
+  "excluded_record_count": 4320,
+  "generated_at": "2026-10-29T11:34:44+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -13,7 +13,7 @@
   "included_record_count": 24,
   "metadata_conflict_count": 1,
   "mode": "monthly",
-  "new_record_count": 6,
+  "new_record_count": 4,
   "omitted_gate_versions": [
     "1.1.0"
   ],
@@ -643,11 +643,11 @@
     },
     {
       "doi": "10.1080/27697061.2026.2748006",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Journal of the American Nutrition Association",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-10-27",
       "query_ids": [
         "biomarkers_omics",
@@ -662,6 +662,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "openalex",
         "pubmed"
       ],
       "title": "Ultra-Processed Foods Consumption and the Risk of nonalcoholic Fatty Liver Disease in Korean Adults.",
@@ -676,7 +677,7 @@
     {
       "doi": "",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in public health",
       "metadata_status": "single_index",
@@ -732,15 +733,15 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 4742,
-  "review_record_count": 621,
-  "rollup_days": 16,
+  "retrieved_record_count": 5035,
+  "review_record_count": 664,
+  "rollup_days": 17,
   "schema_version": 3,
   "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
     "crossref": 3,
     "europe_pmc": 8,
-    "openalex": 8,
+    "openalex": 9,
     "pubmed": 13
   },
   "source_error_count": 10,

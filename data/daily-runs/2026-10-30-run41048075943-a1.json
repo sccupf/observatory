@@ -1,0 +1,117 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 238,
+  "generated_at": "2026-10-30T11:27:13+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 2,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 1,
+  "period_source_since": "2026-10-27",
+  "project": "UPF26",
+  "record_count": 2,
+  "records": [
+    {
+      "doi": "10.35451/jkg.v9i1.3919",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "JURNAL KESMAS DAN GIZI (JKG)",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-30",
+      "query_ids": [
+        "biomarkers_omics",
+        "formulation_signals",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "127ab48707dd74fd8769ff97",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Body Fat Percentage as an Indicator of Adiposity in Adolescents: An Overview Based on Circadian Rhythm, Ultra-Processed Food Consumption, and Physical Activity",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.35451/jkg.v9i1.3919"
+    },
+    {
+      "doi": "10.1080/27697061.2026.2748006",
+      "index_source_count": 3,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Journal of the American Nutrition Association",
+      "metadata_status": "multi_index",
+      "published_date": "2026-10-27",
+      "query_ids": [
+        "biomarkers_omics",
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "eb9977f4257d6a45b5206cce",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "openalex",
+        "pubmed"
+      ],
+      "title": "Ultra-Processed Foods Consumption and the Risk of nonalcoholic Fatty Liver Disease in Korean Adults.",
+      "triage_tags": [
+        "biomarkers",
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "linked_records",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42945511/"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 287,
+  "review_record_count": 47,
+  "run_attempt": 1,
+  "run_id": "41048075943",
+  "schema_version": 3,
+  "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
+  "source_counts": {
+    "crossref": 1,
+    "europe_pmc": 1,
+    "openalex": 1,
+    "pubmed": 1
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "biomarkers": 1,
+    "classification": 2,
+    "exposure": 2,
+    "health_outcomes": 2,
+    "linked_records": 1,
+    "methodology": 1,
+    "nutrition": 2
+  }
+}

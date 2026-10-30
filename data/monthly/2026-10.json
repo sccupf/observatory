@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "Partial period: previous screening versions omitted to avoid mixing incomparable inclusion decisions.",
-  "excluded_record_count": 4320,
-  "generated_at": "2026-10-29T11:34:44+00:00",
+  "excluded_record_count": 4558,
+  "generated_at": "2026-10-30T11:27:13+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,17 +10,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 24,
+  "included_record_count": 25,
   "metadata_conflict_count": 1,
   "mode": "monthly",
-  "new_record_count": 4,
+  "new_record_count": 5,
   "omitted_gate_versions": [
     "1.1.0"
   ],
   "omitted_incompatible_gate_days": 12,
   "period_source_since": "2026-10-10",
   "project": "UPF26",
-  "record_count": 24,
+  "record_count": 25,
   "records": [
     {
       "doi": "10.3389/fpubh.2026.1970719",
@@ -643,7 +643,7 @@
     },
     {
       "doi": "10.1080/27697061.2026.2748006",
-      "index_source_count": 2,
+      "index_source_count": 3,
       "is_new": false,
       "is_retracted": false,
       "journal": "Journal of the American Nutrition Association",
@@ -662,14 +662,18 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "openalex",
         "pubmed"
       ],
       "title": "Ultra-Processed Foods Consumption and the Risk of nonalcoholic Fatty Liver Disease in Korean Adults.",
       "triage_tags": [
+        "biomarkers",
         "classification",
         "exposure",
         "health_outcomes",
+        "linked_records",
+        "methodology",
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42945511/"
@@ -728,36 +732,70 @@
         "nutrition"
       ],
       "url": "https://doi.org/10.3389/fnut.2026.1970182"
+    },
+    {
+      "doi": "10.35451/jkg.v9i1.3919",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "JURNAL KESMAS DAN GIZI (JKG)",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-30",
+      "query_ids": [
+        "biomarkers_omics",
+        "formulation_signals",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "127ab48707dd74fd8769ff97",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Body Fat Percentage as an Indicator of Adiposity in Adolescents: An Overview Based on Circadian Rhythm, Ultra-Processed Food Consumption, and Physical Activity",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.35451/jkg.v9i1.3919"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 5035,
-  "review_record_count": 664,
-  "rollup_days": 17,
+  "retrieved_record_count": 5322,
+  "review_record_count": 711,
+  "rollup_days": 18,
   "schema_version": 3,
   "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
-    "crossref": 3,
-    "europe_pmc": 8,
+    "crossref": 4,
+    "europe_pmc": 9,
     "openalex": 9,
     "pubmed": 13
   },
   "source_error_count": 10,
   "theme_counts": {
     "additives": 3,
-    "biomarkers": 1,
-    "classification": 23,
-    "exposure": 17,
+    "biomarkers": 2,
+    "classification": 24,
+    "exposure": 18,
     "formulation": 1,
-    "health_outcomes": 11,
+    "health_outcomes": 12,
     "intervention": 4,
-    "linked_records": 3,
+    "linked_records": 4,
     "mechanisms": 4,
-    "methodology": 6,
+    "methodology": 7,
     "neurology": 1,
-    "nutrition": 13,
+    "nutrition": 14,
     "policy": 3
   }
 }

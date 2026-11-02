@@ -1,8 +1,8 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "All screened days in this period use the same gate version.",
-  "excluded_record_count": 230,
-  "generated_at": "2026-11-01T11:54:46+00:00",
+  "excluded_record_count": 500,
+  "generated_at": "2026-11-02T13:35:35+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -10,20 +10,20 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 14,
+  "included_record_count": 15,
   "metadata_conflict_count": 0,
   "mode": "monthly",
-  "new_record_count": 8,
+  "new_record_count": 1,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-29",
   "project": "UPF26",
-  "record_count": 14,
+  "record_count": 15,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106813",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition (Edinburgh, Scotland)",
       "metadata_status": "single_index",
@@ -82,7 +82,7 @@
     {
       "doi": "10.1097/jcn.0000000000001389",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "The Journal of cardiovascular nursing",
       "metadata_status": "single_index",
@@ -108,7 +108,7 @@
     {
       "doi": "10.1002/erv.70144",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "European eating disorders review : the journal of the Eating Disorders Association",
       "metadata_status": "single_index",
@@ -138,7 +138,7 @@
     {
       "doi": "10.1016/j.numecd.2026.104855",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
       "metadata_status": "single_index",
@@ -169,7 +169,7 @@
     {
       "doi": "10.1016/j.nut.2026.113234",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
       "metadata_status": "single_index",
@@ -197,7 +197,7 @@
     {
       "doi": "10.1016/j.clnu.2026.106798",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition (Edinburgh, Scotland)",
       "metadata_status": "single_index",
@@ -255,7 +255,7 @@
     {
       "doi": "10.1016/j.nut.2026.113341",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
       "metadata_status": "single_index",
@@ -339,7 +339,7 @@
     {
       "doi": "10.1038/scientificamerican112026-7fir8abeu5bahkjmkcopjb",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Scientific American",
       "metadata_status": "single_index",
@@ -411,26 +411,56 @@
         "nutrition"
       ],
       "url": "https://doi.org/10.35451/jkg.v9i1.3919"
+    },
+    {
+      "doi": "10.1108/nfs-10-2025-0363",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition &amp; Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-02",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "1fa93285ee90259145828739",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ultra-processed foods and environmental degradation: a systematic review of multidimensional environmental impact metrics",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1108/nfs-10-2025-0363"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 260,
-  "review_record_count": 16,
-  "rollup_days": 1,
+  "retrieved_record_count": 604,
+  "review_record_count": 76,
+  "rollup_days": 2,
   "schema_version": 3,
   "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
+    "crossref": 1,
     "openalex": 3,
     "pubmed": 12
   },
   "source_error_count": 10,
   "theme_counts": {
-    "classification": 14,
-    "exposure": 10,
-    "health_outcomes": 6,
+    "classification": 15,
+    "exposure": 11,
+    "health_outcomes": 7,
     "mechanisms": 1,
-    "nutrition": 7
+    "methodology": 1,
+    "nutrition": 8
   }
 }

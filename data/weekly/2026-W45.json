@@ -1,0 +1,440 @@
+{
+  "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
+  "coverage_note": "All screened days in this period use the same gate version.",
+  "excluded_record_count": 270,
+  "generated_at": "2026-11-02T13:35:35+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 14,
+  "metadata_conflict_count": 0,
+  "mode": "weekly",
+  "new_record_count": 1,
+  "omitted_gate_versions": [],
+  "omitted_incompatible_gate_days": 0,
+  "period_source_since": "2026-10-30",
+  "project": "UPF26",
+  "record_count": 14,
+  "records": [
+    {
+      "doi": "10.1108/nfs-10-2025-0363",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition &amp; Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-02",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "1fa93285ee90259145828739",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ultra-processed foods and environmental degradation: a systematic review of multidimensional environmental impact metrics",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1108/nfs-10-2025-0363"
+    },
+    {
+      "doi": "10.1016/j.clnu.2026.106813",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Clinical nutrition (Edinburgh, Scotland)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "dee57a39e81749e58d013b68",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Using ultra-processed food evidence at the right level of resolution in clinical dietetic practice.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42858698/"
+    },
+    {
+      "doi": "10.1007/s11695-026-08964-z",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Obesity surgery",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "a845bb1ca9d4709728905404",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-processed Food Consumption After Metabolic and Bariatric Surgery: Implications for Recurrent Weight Gain, Dietary Quality, and Nutritional Outcomes - A Narrative Review.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42803906/"
+    },
+    {
+      "doi": "10.1097/jcn.0000000000001389",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "The Journal of cardiovascular nursing",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "41f88f39efad28c99dae1c72",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-Processed Foods and Cardiovascular Disease Prevention: Implications for Cardiovascular Nursing Practice.",
+      "triage_tags": [
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42710539/"
+    },
+    {
+      "doi": "10.1002/erv.70144",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "European eating disorders review : the journal of the Eating Disorders Association",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "93ae0f8d4a309a55df2b1d9c",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultra-Processed Food Intake and its Association With Eating Disorders: A Scoping Review.",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400952/"
+    },
+    {
+      "doi": "10.1016/j.numecd.2026.104855",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "e655a3aeff96326646d559b0",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "The association between ultra-processed food consumption and incidence of cardio-renal-metabolic multimorbidity: Tehran Lipid and Glucose Study.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42469144/"
+    },
+    {
+      "doi": "10.1016/j.nut.2026.113234",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "2f047b26b9be3bb2e3c0af4d",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Response to \"Comment on 'Comparing ChatGPT and DeepSeek for ultra-processed food classification: AI models for nutritional research and dietary assessment'\".",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42151015/"
+    },
+    {
+      "doi": "10.1016/j.clnu.2026.106798",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Clinical nutrition (Edinburgh, Scotland)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "17889a95d9672de4d562af07",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Genetic architecture of ultra-processed food consumption links neurodevelopmental and metabolic pathways to habitual diet.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42809949/"
+    },
+    {
+      "doi": "10.1007/s10067-026-08379-2",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Clinical rheumatology",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "longitudinal_records",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "a14250ce451d179f71746a0e",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Fruit and vegetable intake as a mediator in the association between ultra-processed food and disease activity in ankylosing spondylitis.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42720709/"
+    },
+    {
+      "doi": "10.1016/j.nut.2026.113341",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "71348eabce0902da8421bf3b",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Formation of calcium oxalate kidney stones is related to consumption of some ultra-processed foods: a case-control study.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42470774/"
+    },
+    {
+      "doi": "10.1007/s11695-026-08967-w",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Obesity surgery",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "7e7d58db315939b31edee90f",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Correction: Individuals With Food Addiction After Metabolic And Bariatric Surgery Show Higher Consumption of Ultra-Processed Foods, Sedentary Lifestyle, Anxiety, and Sub-Optimal Body Weight Trajectories.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42823545/"
+    },
+    {
+      "doi": "10.2105/ajph.2026.308691",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "American journal of public health",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "26f6016dd6f5f58c2c8c4216",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex",
+        "pubmed"
+      ],
+      "title": "Characterizing Food Industry Affiliations Among Critics of the Nova Food Classification System: A Systematic Review.",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42753229/"
+    },
+    {
+      "doi": "10.1038/scientificamerican112026-7fir8abeu5bahkjmkcopjb",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Scientific American",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-01",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "53ef903e29e428e8a19c5e1c",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Are Ultraprocessed Foods Really Bad for You?: Scientists can't figure out why ultraprocessed foods are unhealthy for us-and new studies suggest that the \"processing\" isn't the problem.",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42899991/"
+    },
+    {
+      "doi": "10.3390/foods15213887",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Foods",
+      "metadata_status": "single_index",
+      "published_date": "2026-10-30",
+      "query_ids": [
+        "nova_food_classification"
+      ],
+      "record_id": "7c98499331215dd38b8aaf11",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Cancer Risk Linked to Ultra-Processed Foods: Epidemiological Findings, Potential Mechanisms, and Research Outlook",
+      "triage_tags": [
+        "classification",
+        "health_outcomes",
+        "mechanisms"
+      ],
+      "url": "https://doi.org/10.3390/foods15213887"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 344,
+  "review_record_count": 60,
+  "rollup_days": 1,
+  "schema_version": 3,
+  "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
+  "source_counts": {
+    "crossref": 1,
+    "openalex": 2,
+    "pubmed": 12
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 14,
+    "exposure": 10,
+    "health_outcomes": 7,
+    "mechanisms": 1,
+    "methodology": 1,
+    "nutrition": 7
+  }
+}

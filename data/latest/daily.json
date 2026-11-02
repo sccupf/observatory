@@ -1,25 +1,53 @@
 {
-  "excluded_record_count": 230,
-  "generated_at": "2026-11-01T11:54:46+00:00",
+  "excluded_record_count": 270,
+  "generated_at": "2026-11-02T13:35:35+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
     "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
-  "harvest_status": "PARTIAL",
+  "harvest_status": "COMPLETE",
   "included_record_count": 14,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 8,
-  "period_source_since": "2026-10-29",
+  "new_record_count": 1,
+  "period_source_since": "2026-10-30",
   "project": "UPF26",
   "record_count": 14,
   "records": [
     {
-      "doi": "10.1016/j.clnu.2026.106813",
+      "doi": "10.1108/nfs-10-2025-0363",
       "index_source_count": 1,
       "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrition &amp; Food Science",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-02",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "1fa93285ee90259145828739",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ultra-processed foods and environmental degradation: a systematic review of multidimensional environmental impact metrics",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.1108/nfs-10-2025-0363"
+    },
+    {
+      "doi": "10.1016/j.clnu.2026.106813",
+      "index_source_count": 1,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition (Edinburgh, Scotland)",
       "metadata_status": "single_index",
@@ -78,7 +106,7 @@
     {
       "doi": "10.1097/jcn.0000000000001389",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "The Journal of cardiovascular nursing",
       "metadata_status": "single_index",
@@ -104,7 +132,7 @@
     {
       "doi": "10.1002/erv.70144",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "European eating disorders review : the journal of the Eating Disorders Association",
       "metadata_status": "single_index",
@@ -134,7 +162,7 @@
     {
       "doi": "10.1016/j.numecd.2026.104855",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
       "metadata_status": "single_index",
@@ -165,7 +193,7 @@
     {
       "doi": "10.1016/j.nut.2026.113234",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
       "metadata_status": "single_index",
@@ -193,7 +221,7 @@
     {
       "doi": "10.1016/j.clnu.2026.106798",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition (Edinburgh, Scotland)",
       "metadata_status": "single_index",
@@ -251,7 +279,7 @@
     {
       "doi": "10.1016/j.nut.2026.113341",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
       "metadata_status": "single_index",
@@ -335,7 +363,7 @@
     {
       "doi": "10.1038/scientificamerican112026-7fir8abeu5bahkjmkcopjb",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Scientific American",
       "metadata_status": "single_index",
@@ -381,51 +409,27 @@
         "mechanisms"
       ],
       "url": "https://doi.org/10.3390/foods15213887"
-    },
-    {
-      "doi": "10.35451/jkg.v9i1.3919",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Jurnal Kesmas dan Gizi (JKG)",
-      "metadata_status": "single_index",
-      "published_date": "2026-10-29",
-      "query_ids": [
-        "nova_food_classification"
-      ],
-      "record_id": "127ab48707dd74fd8769ff97",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex"
-      ],
-      "title": "Body Fat Percentage as an Indicator of Adiposity in Adolescents: An Overview Based on Circadian Rhythm, Ultra-Processed Food Consumption, and Physical Activity",
-      "triage_tags": [
-        "classification",
-        "exposure",
-        "nutrition"
-      ],
-      "url": "https://doi.org/10.35451/jkg.v9i1.3919"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 260,
-  "review_record_count": 16,
+  "retrieved_record_count": 344,
+  "review_record_count": 60,
   "schema_version": 3,
   "source_commit": "fa2ca3bd6be6526764e39d6598332bae798f803b",
   "source_counts": {
-    "openalex": 3,
+    "crossref": 1,
+    "openalex": 2,
     "pubmed": 12
   },
-  "source_error_count": 10,
+  "source_error_count": 0,
   "theme_counts": {
     "classification": 14,
     "exposure": 10,
-    "health_outcomes": 6,
+    "health_outcomes": 7,
     "mechanisms": 1,
+    "methodology": 1,
     "nutrition": 7
   }
 }

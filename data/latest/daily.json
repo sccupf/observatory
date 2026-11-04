@@ -1,61 +1,82 @@
 {
-  "excluded_record_count": 239,
-  "generated_at": "2026-11-03T12:51:52+00:00",
+  "excluded_record_count": 250,
+  "generated_at": "2026-11-04T13:07:54+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
     "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
-  "harvest_status": "COMPLETE",
-  "included_record_count": 15,
+  "harvest_status": "PARTIAL",
+  "included_record_count": 16,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 3,
-  "period_source_since": "2026-10-31",
+  "new_record_count": 1,
+  "period_source_since": "2026-11-01",
   "project": "UPF26",
-  "record_count": 15,
+  "record_count": 16,
   "records": [
+    {
+      "doi": "",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-04",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "bc7dfa83befd745f55838ceb",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc"
+      ],
+      "title": "The two missing pillars of ultra-processed food and health policy: food assistance and the first 1,000 days",
+      "triage_tags": [
+        "classification",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://europepmc.org/article/MED/PMC13729247"
+    },
     {
       "doi": "10.3389/fonc.2026.1978662",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in Oncology",
       "metadata_status": "single_index",
       "published_date": "2026-11-03",
       "query_ids": [
-        "longitudinal_records"
+        "formulation_signals"
       ],
       "record_id": "0f2dc021789c70071da3ffec",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Ultra-processed food ingredients as environmental contributors to chronic diseases and cancer: emerging evidence linking gut dysbiosis, inflammation, oxidative stress, and metabolic dysfunction",
       "triage_tags": [
-        "additives",
         "classification",
-        "exposure",
         "formulation",
         "health_outcomes",
-        "intervention",
-        "mechanisms",
-        "neurology",
-        "nutrition",
-        "policy"
+        "mechanisms"
       ],
       "url": "https://doi.org/10.3389/fonc.2026.1978662"
     },
     {
       "doi": "10.1053/j.jrn.2026.10.012",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-11-02",
       "query_ids": [
         "biomarkers_omics",
@@ -69,6 +90,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Metabolomic biomarkers of ultraprocessed food intake and their associations with all-cause mortality in the Chronic Renal Insufficiency Cohort (CRIC).",
@@ -78,17 +100,19 @@
         "exposure",
         "health_outcomes",
         "linked_records",
+        "mechanisms",
+        "methodology",
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42971334/"
     },
     {
       "doi": "10.1080/03670244.2026.2757538",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Ecology of food and nutrition",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-11-02",
       "query_ids": [
         "nova_food_classification",
@@ -101,6 +125,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Dietary Patterns, Ultra-Processed Food Consumption, and Food Environments Among Young Adult Students and Non-Students in Merida, Yucatan, Mexico.",
@@ -454,26 +479,25 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 314,
-  "review_record_count": 60,
+  "retrieved_record_count": 325,
+  "review_record_count": 59,
   "schema_version": 3,
-  "source_commit": "98ee4a3cff43b124c7595ce7512cadc447a18201",
+  "source_commit": "80e2db33713ade7f6b88dbbee713a8d5ee24434b",
   "source_counts": {
-    "crossref": 1,
+    "europe_pmc": 3,
+    "openalex": 1,
     "pubmed": 14
   },
-  "source_error_count": 0,
+  "source_error_count": 2,
   "theme_counts": {
-    "additives": 1,
     "biomarkers": 1,
-    "classification": 15,
-    "exposure": 12,
+    "classification": 16,
+    "exposure": 11,
     "formulation": 1,
     "health_outcomes": 7,
-    "intervention": 1,
     "linked_records": 1,
-    "mechanisms": 1,
-    "neurology": 1,
+    "mechanisms": 2,
+    "methodology": 1,
     "nutrition": 9,
     "policy": 1
   }

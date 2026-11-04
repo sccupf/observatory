@@ -1,27 +1,27 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
-  "coverage_note": "All calendar days to date have compatible screened snapshots without source errors.",
-  "excluded_record_count": 509,
-  "expected_calendar_days": 2,
-  "generated_at": "2026-11-03T12:51:52+00:00",
+  "coverage_note": "2 source error(s) recorded.",
+  "excluded_record_count": 759,
+  "expected_calendar_days": 3,
+  "generated_at": "2026-11-04T13:07:54+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
     "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
-  "harvest_status": "COMPLETE",
-  "included_record_count": 17,
+  "harvest_status": "PARTIAL",
+  "included_record_count": 18,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "weekly",
-  "new_record_count": 4,
+  "new_record_count": 2,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-30",
   "project": "UPF26",
-  "record_count": 17,
+  "record_count": 18,
   "records": [
     {
       "doi": "10.1108/nfs-10-2025-0363",
@@ -419,43 +419,37 @@
     {
       "doi": "10.3389/fonc.2026.1978662",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in Oncology",
       "metadata_status": "single_index",
       "published_date": "2026-11-03",
       "query_ids": [
-        "longitudinal_records"
+        "formulation_signals"
       ],
       "record_id": "0f2dc021789c70071da3ffec",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Ultra-processed food ingredients as environmental contributors to chronic diseases and cancer: emerging evidence linking gut dysbiosis, inflammation, oxidative stress, and metabolic dysfunction",
       "triage_tags": [
-        "additives",
         "classification",
-        "exposure",
         "formulation",
         "health_outcomes",
-        "intervention",
-        "mechanisms",
-        "neurology",
-        "nutrition",
-        "policy"
+        "mechanisms"
       ],
       "url": "https://doi.org/10.3389/fonc.2026.1978662"
     },
     {
       "doi": "10.1053/j.jrn.2026.10.012",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-11-02",
       "query_ids": [
         "biomarkers_omics",
@@ -469,6 +463,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Metabolomic biomarkers of ultraprocessed food intake and their associations with all-cause mortality in the Chronic Renal Insufficiency Cohort (CRIC).",
@@ -478,17 +473,19 @@
         "exposure",
         "health_outcomes",
         "linked_records",
+        "mechanisms",
+        "methodology",
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42971334/"
     },
     {
       "doi": "10.1080/03670244.2026.2757538",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Ecology of food and nutrition",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-11-02",
       "query_ids": [
         "nova_food_classification",
@@ -501,6 +498,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Dietary Patterns, Ultra-Processed Food Consumption, and Food Environments Among Young Adult Students and Non-Students in Merida, Yucatan, Mexico.",
@@ -510,34 +508,59 @@
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42971592/"
+    },
+    {
+      "doi": "",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-04",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "bc7dfa83befd745f55838ceb",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc"
+      ],
+      "title": "The two missing pillars of ultra-processed food and health policy: food assistance and the first 1,000 days",
+      "triage_tags": [
+        "classification",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://europepmc.org/article/MED/PMC13729247"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 658,
-  "review_record_count": 120,
-  "rollup_days": 2,
+  "retrieved_record_count": 983,
+  "review_record_count": 179,
+  "rollup_days": 3,
   "schema_version": 3,
-  "source_commit": "98ee4a3cff43b124c7595ce7512cadc447a18201",
+  "source_commit": "80e2db33713ade7f6b88dbbee713a8d5ee24434b",
   "source_counts": {
-    "crossref": 2,
-    "openalex": 1,
+    "crossref": 1,
+    "europe_pmc": 3,
+    "openalex": 2,
     "pubmed": 14
   },
-  "source_error_count": 0,
+  "source_error_count": 2,
   "theme_counts": {
-    "additives": 1,
     "biomarkers": 1,
-    "classification": 17,
-    "exposure": 13,
+    "classification": 18,
+    "exposure": 12,
     "formulation": 1,
     "health_outcomes": 9,
-    "intervention": 1,
     "linked_records": 1,
-    "mechanisms": 2,
-    "methodology": 1,
-    "neurology": 1,
+    "mechanisms": 3,
+    "methodology": 2,
     "nutrition": 10,
     "policy": 1
   }

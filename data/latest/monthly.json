@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
-  "coverage_note": "12 source error(s) recorded.",
-  "excluded_record_count": 989,
-  "expected_calendar_days": 4,
-  "generated_at": "2026-11-04T13:07:54+00:00",
+  "coverage_note": "17 source error(s) recorded.",
+  "excluded_record_count": 1248,
+  "expected_calendar_days": 5,
+  "generated_at": "2026-11-05T13:31:33+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,17 +11,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 19,
+  "included_record_count": 22,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "monthly",
-  "new_record_count": 2,
+  "new_record_count": 4,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-29",
   "project": "UPF26",
-  "record_count": 19,
+  "record_count": 22,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106813",
@@ -480,8 +480,6 @@
       "query_ids": [
         "biomarkers_omics",
         "longitudinal_records",
-        "nova_food_classification",
-        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "d55650456ac8f3c23f90c32a",
@@ -503,20 +501,17 @@
         "methodology",
         "nutrition"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42971334/"
+      "url": "https://europepmc.org/article/MED/42971334"
     },
     {
       "doi": "10.1080/03670244.2026.2757538",
-      "index_source_count": 2,
+      "index_source_count": 1,
       "is_new": false,
       "is_retracted": false,
       "journal": "Ecology of food and nutrition",
-      "metadata_status": "multi_index",
+      "metadata_status": "single_index",
       "published_date": "2026-11-02",
       "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure",
-        "processing_methods",
         "upf_core"
       ],
       "record_id": "87aca0f1629e869eeba204f1",
@@ -524,8 +519,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "europe_pmc",
-        "pubmed"
+        "europe_pmc"
       ],
       "title": "Dietary Patterns, Ultra-Processed Food Consumption, and Food Environments Among Young Adult Students and Non-Students in Merida, Yucatan, Mexico.",
       "triage_tags": [
@@ -533,12 +527,12 @@
         "exposure",
         "nutrition"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42971592/"
+      "url": "https://europepmc.org/article/MED/42971592"
     },
     {
       "doi": "",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in nutrition",
       "metadata_status": "single_index",
@@ -561,33 +555,123 @@
         "policy"
       ],
       "url": "https://europepmc.org/article/MED/PMC13729247"
+    },
+    {
+      "doi": "10.3390/nu18213670",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Nutrients",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-05",
+      "query_ids": [
+        "biomarkers_omics",
+        "formulation_signals",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "upf_core"
+      ],
+      "record_id": "51989a746689ded59992f737",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Ultra-Processed Food Intake Is Associated with Dietary Quality, Dental Caries, and Constipation-Related Symptoms Among Preschool Children in Taiwan: A Cross-Sectional Study",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "linked_records",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3390/nu18213670"
+    },
+    {
+      "doi": "10.1038/s41598-026-79339-8",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-05",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "upf_core"
+      ],
+      "record_id": "f82b8f82ea4e33d0751ba3bf",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Maternal consumption of red meat and ultra-processed foods during pregnancy and risk of postpartum depression: a prospective cohort study",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "linked_records",
+        "neurology"
+      ],
+      "url": "https://doi.org/10.1038/s41598-026-79339-8"
+    },
+    {
+      "doi": "10.1093/aje/kwag139",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "American journal of epidemiology",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-04",
+      "query_ids": [
+        "biomarkers_omics",
+        "longitudinal_records"
+      ],
+      "record_id": "5b150399d2ed86c6d626df38",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultraprocessed foods and incident type 2 diabetes: analysis of the Hispanic Community Health Study/Study of Latinos.",
+      "triage_tags": [
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42307648/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1243,
-  "review_record_count": 195,
-  "rollup_days": 4,
+  "retrieved_record_count": 1553,
+  "review_record_count": 239,
+  "rollup_days": 5,
   "schema_version": 3,
   "source_commit": "80e2db33713ade7f6b88dbbee713a8d5ee24434b",
   "source_counts": {
-    "crossref": 1,
+    "crossref": 3,
     "europe_pmc": 3,
     "openalex": 3,
     "pubmed": 14
   },
-  "source_error_count": 12,
+  "source_error_count": 17,
   "theme_counts": {
     "biomarkers": 1,
-    "classification": 19,
-    "exposure": 13,
+    "classification": 22,
+    "exposure": 15,
     "formulation": 1,
-    "health_outcomes": 9,
-    "linked_records": 1,
+    "health_outcomes": 11,
+    "linked_records": 3,
     "mechanisms": 3,
-    "methodology": 2,
-    "nutrition": 11,
+    "methodology": 3,
+    "neurology": 1,
+    "nutrition": 12,
     "policy": 1
   }
 }

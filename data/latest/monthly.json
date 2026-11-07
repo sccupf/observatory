@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "17 source error(s) recorded.",
-  "excluded_record_count": 1530,
-  "expected_calendar_days": 6,
-  "generated_at": "2026-11-06T13:00:42+00:00",
+  "excluded_record_count": 1787,
+  "expected_calendar_days": 7,
+  "generated_at": "2026-11-07T11:46:57+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,7 +11,7 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 23,
+  "included_record_count": 25,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
@@ -21,7 +21,7 @@
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-29",
   "project": "UPF26",
-  "record_count": 23,
+  "record_count": 25,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106813",
@@ -587,23 +587,22 @@
     {
       "doi": "10.1038/s41598-026-79339-8",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Scientific Reports",
       "metadata_status": "single_index",
       "published_date": "2026-11-05",
       "query_ids": [
-        "formulation_signals",
-        "longitudinal_records",
-        "neurological_outcomes",
-        "upf_core"
+        "intervention_trials",
+        "nova_food_classification",
+        "nutrition_exposure"
       ],
       "record_id": "f82b8f82ea4e33d0751ba3bf",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Maternal consumption of red meat and ultra-processed foods during pregnancy and risk of postpartum depression: a prospective cohort study",
       "triage_tags": [
@@ -646,7 +645,7 @@
     {
       "doi": "10.1016/j.medcli.2026.107682",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Medicina clinica",
       "metadata_status": "single_index",
@@ -666,34 +665,87 @@
         "classification"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42981829/"
+    },
+    {
+      "doi": "10.1001/jama.2026.20042",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "JAMA",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "e6fff7eef5f4cdd2c747dcf0",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref",
+        "pubmed"
+      ],
+      "title": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife.",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993554/"
+    },
+    {
+      "doi": "10.1016/j.clnesp.2026.105239",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Clinical nutrition ESPEN",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "4f1edd2a6b9fc96e4b856ee2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Reply - letter to the editor comment on \"Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake\".",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42994697/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1871,
-  "review_record_count": 271,
-  "rollup_days": 6,
+  "retrieved_record_count": 2139,
+  "review_record_count": 277,
+  "rollup_days": 7,
   "schema_version": 3,
-  "source_commit": "80e2db33713ade7f6b88dbbee713a8d5ee24434b",
+  "source_commit": "45d3eec734a31434682c545728f2289dabc86ce9",
   "source_counts": {
     "crossref": 2,
     "europe_pmc": 3,
-    "openalex": 4,
-    "pubmed": 15
+    "openalex": 5,
+    "pubmed": 17
   },
   "source_error_count": 17,
   "theme_counts": {
     "biomarkers": 1,
-    "classification": 23,
-    "exposure": 15,
+    "classification": 25,
+    "exposure": 16,
     "formulation": 1,
-    "health_outcomes": 11,
+    "health_outcomes": 12,
     "linked_records": 2,
     "mechanisms": 3,
     "methodology": 2,
     "neurology": 1,
-    "nutrition": 12,
+    "nutrition": 13,
     "policy": 1
   }
 }

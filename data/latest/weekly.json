@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "7 source error(s) recorded.",
-  "excluded_record_count": 1557,
-  "expected_calendar_days": 6,
-  "generated_at": "2026-11-07T11:46:57+00:00",
+  "excluded_record_count": 1769,
+  "expected_calendar_days": 7,
+  "generated_at": "2026-11-08T11:59:33+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,7 +11,7 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 24,
+  "included_record_count": 26,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
@@ -21,7 +21,7 @@
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-30",
   "project": "UPF26",
-  "record_count": 24,
+  "record_count": 26,
   "records": [
     {
       "doi": "10.1108/nfs-10-2025-0363",
@@ -642,11 +642,11 @@
     },
     {
       "doi": "10.1001/jama.2026.20042",
-      "index_source_count": 2,
-      "is_new": true,
+      "index_source_count": 1,
+      "is_new": false,
       "is_retracted": false,
       "journal": "JAMA",
-      "metadata_status": "multi_index",
+      "metadata_status": "single_index",
       "published_date": "2026-11-06",
       "query_ids": [
         "upf_core"
@@ -656,7 +656,6 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref",
         "pubmed"
       ],
       "title": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife.",
@@ -668,7 +667,7 @@
     {
       "doi": "10.1016/j.clnesp.2026.105239",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition ESPEN",
       "metadata_status": "single_index",
@@ -692,26 +691,74 @@
         "nutrition"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42994697/"
+    },
+    {
+      "doi": "10.61878/bnj.v8i2b.1829",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Borneo Nursing Journal (BNJ)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-07",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "09c23bf8849dcca8fbb9ad36",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Hubungan Kebiasaan Konsumsi Makanan Ultra-Processed Food (UPF) dengan Kejadian Anemia pada Remaja Putri",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.61878/bnj.v8i2b.1829"
+    },
+    {
+      "doi": "10.3390/future4040034",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Future",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "intervention_trials"
+      ],
+      "record_id": "2ad9a4cd782bc60e0b9d5893",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Ultra-Processed Foods and Pediatric Metabolic Health",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.3390/future4040034"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1879,
-  "review_record_count": 261,
-  "rollup_days": 6,
+  "retrieved_record_count": 2100,
+  "review_record_count": 265,
+  "rollup_days": 7,
   "schema_version": 3,
   "source_commit": "45d3eec734a31434682c545728f2289dabc86ce9",
   "source_counts": {
     "crossref": 2,
     "europe_pmc": 3,
-    "openalex": 4,
+    "openalex": 5,
     "pubmed": 17
   },
   "source_error_count": 7,
   "theme_counts": {
     "biomarkers": 1,
-    "classification": 24,
+    "classification": 26,
     "exposure": 15,
     "formulation": 1,
     "health_outcomes": 12,

@@ -1,0 +1,174 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 212,
+  "generated_at": "2026-11-08T11:59:33+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 5,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 2,
+  "period_source_since": "2026-11-05",
+  "project": "UPF26",
+  "record_count": 5,
+  "records": [
+    {
+      "doi": "10.61878/bnj.v8i2b.1829",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Borneo Nursing Journal (BNJ)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-07",
+      "query_ids": [
+        "longitudinal_records"
+      ],
+      "record_id": "09c23bf8849dcca8fbb9ad36",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Hubungan Kebiasaan Konsumsi Makanan Ultra-Processed Food (UPF) dengan Kejadian Anemia pada Remaja Putri",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.61878/bnj.v8i2b.1829"
+    },
+    {
+      "doi": "10.1001/jama.2026.20042",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "JAMA",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "e6fff7eef5f4cdd2c747dcf0",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife.",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993554/"
+    },
+    {
+      "doi": "10.3390/future4040034",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Future",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "intervention_trials"
+      ],
+      "record_id": "2ad9a4cd782bc60e0b9d5893",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Ultra-Processed Foods and Pediatric Metabolic Health",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.3390/future4040034"
+    },
+    {
+      "doi": "10.1016/j.clnesp.2026.105239",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Clinical nutrition ESPEN",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "4f1edd2a6b9fc96e4b856ee2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Reply - letter to the editor comment on \"Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake\".",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42994697/"
+    },
+    {
+      "doi": "10.1038/s41598-026-79339-8",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-05",
+      "query_ids": [
+        "intervention_trials",
+        "nova_food_classification",
+        "nutrition_exposure"
+      ],
+      "record_id": "f82b8f82ea4e33d0751ba3bf",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Maternal consumption of red meat and ultra-processed foods during pregnancy and risk of postpartum depression: a prospective cohort study",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "linked_records",
+        "neurology"
+      ],
+      "url": "https://doi.org/10.1038/s41598-026-79339-8"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 221,
+  "review_record_count": 4,
+  "run_attempt": 1,
+  "run_id": "42478029002",
+  "schema_version": 3,
+  "source_commit": "45d3eec734a31434682c545728f2289dabc86ce9",
+  "source_counts": {
+    "crossref": 1,
+    "openalex": 2,
+    "pubmed": 2
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 5,
+    "exposure": 2,
+    "health_outcomes": 2,
+    "linked_records": 1,
+    "neurology": 1,
+    "nutrition": 1
+  }
+}

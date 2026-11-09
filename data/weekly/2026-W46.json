@@ -1,0 +1,152 @@
+{
+  "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
+  "coverage_note": "All calendar days to date have compatible screened snapshots without source errors.",
+  "excluded_record_count": 244,
+  "expected_calendar_days": 1,
+  "generated_at": "2026-11-09T13:59:48+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 4,
+  "metadata_conflict_count": 0,
+  "missing_daily_snapshot_count": 0,
+  "missing_daily_snapshot_dates": [],
+  "mode": "weekly",
+  "new_record_count": 1,
+  "omitted_gate_versions": [],
+  "omitted_incompatible_gate_days": 0,
+  "period_source_since": "2026-11-06",
+  "project": "UPF26",
+  "record_count": 4,
+  "records": [
+    {
+      "doi": "10.1038/s41598-026-80212-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-09",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "upf_core"
+      ],
+      "record_id": "159e5ca29e0690887e4c9151",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Associations of ultra-processed food consumption and mindful eating with premenstrual syndrome severity in young adult women",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.1038/s41598-026-80212-x"
+    },
+    {
+      "doi": "10.1001/jama.2026.20042",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "JAMA",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "e6fff7eef5f4cdd2c747dcf0",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife.",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993554/"
+    },
+    {
+      "doi": "10.3390/future4040034",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Future",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "intervention_trials"
+      ],
+      "record_id": "2ad9a4cd782bc60e0b9d5893",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Ultra-Processed Foods and Pediatric Metabolic Health",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.3390/future4040034"
+    },
+    {
+      "doi": "10.1016/j.clnesp.2026.105239",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Clinical nutrition ESPEN",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-06",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "4f1edd2a6b9fc96e4b856ee2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Reply - letter to the editor comment on \"Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake\".",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42994697/"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 298,
+  "review_record_count": 50,
+  "rollup_days": 1,
+  "schema_version": 3,
+  "source_commit": "45d3eec734a31434682c545728f2289dabc86ce9",
+  "source_counts": {
+    "crossref": 1,
+    "europe_pmc": 1,
+    "openalex": 1,
+    "pubmed": 2
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 4,
+    "exposure": 2,
+    "health_outcomes": 1,
+    "nutrition": 1
+  }
+}

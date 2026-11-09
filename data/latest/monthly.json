@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "17 source error(s) recorded.",
-  "excluded_record_count": 1999,
-  "expected_calendar_days": 8,
-  "generated_at": "2026-11-08T11:59:33+00:00",
+  "excluded_record_count": 2243,
+  "expected_calendar_days": 9,
+  "generated_at": "2026-11-09T13:59:48+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,7 +11,7 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 27,
+  "included_record_count": 28,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
@@ -21,7 +21,7 @@
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-29",
   "project": "UPF26",
-  "record_count": 27,
+  "record_count": 28,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106813",
@@ -692,11 +692,11 @@
     },
     {
       "doi": "10.1016/j.clnesp.2026.105239",
-      "index_source_count": 1,
+      "index_source_count": 2,
       "is_new": false,
       "is_retracted": false,
       "journal": "Clinical nutrition ESPEN",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-11-06",
       "query_ids": [
         "nutrition_exposure",
@@ -707,6 +707,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
         "pubmed"
       ],
       "title": "Reply - letter to the editor comment on \"Reduced ultra-processed food intake in obesity is associated with improvements of physical and mental health, independent of energy intake\".",
@@ -745,7 +746,7 @@
     {
       "doi": "10.3390/future4040034",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Future",
       "metadata_status": "single_index",
@@ -765,27 +766,54 @@
         "classification"
       ],
       "url": "https://doi.org/10.3390/future4040034"
+    },
+    {
+      "doi": "10.1038/s41598-026-80212-x",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Scientific Reports",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-09",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "upf_core"
+      ],
+      "record_id": "159e5ca29e0690887e4c9151",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Associations of ultra-processed food consumption and mindful eating with premenstrual syndrome severity in young adult women",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.1038/s41598-026-80212-x"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 2360,
-  "review_record_count": 281,
-  "rollup_days": 8,
+  "retrieved_record_count": 2658,
+  "review_record_count": 331,
+  "rollup_days": 9,
   "schema_version": 3,
   "source_commit": "45d3eec734a31434682c545728f2289dabc86ce9",
   "source_counts": {
-    "crossref": 2,
-    "europe_pmc": 3,
+    "crossref": 3,
+    "europe_pmc": 4,
     "openalex": 6,
     "pubmed": 17
   },
   "source_error_count": 17,
   "theme_counts": {
     "biomarkers": 1,
-    "classification": 27,
-    "exposure": 16,
+    "classification": 28,
+    "exposure": 17,
     "formulation": 1,
     "health_outcomes": 12,
     "linked_records": 2,

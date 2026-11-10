@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "17 source error(s) recorded.",
-  "excluded_record_count": 2243,
-  "expected_calendar_days": 9,
-  "generated_at": "2026-11-09T13:59:48+00:00",
+  "excluded_record_count": 2509,
+  "expected_calendar_days": 10,
+  "generated_at": "2026-11-10T13:31:56+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -16,7 +16,7 @@
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "monthly",
-  "new_record_count": 3,
+  "new_record_count": 2,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-29",
@@ -722,20 +722,20 @@
     {
       "doi": "10.61878/bnj.v8i2b.1829",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Borneo Nursing Journal (BNJ)",
       "metadata_status": "single_index",
       "published_date": "2026-11-07",
       "query_ids": [
-        "longitudinal_records"
+        "nutrition_exposure"
       ],
       "record_id": "09c23bf8849dcca8fbb9ad36",
       "relevance_gate_version": "1.2.0",
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Hubungan Kebiasaan Konsumsi Makanan Ultra-Processed Food (UPF) dengan Kejadian Anemia pada Remaja Putri",
       "triage_tags": [
@@ -798,15 +798,15 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 2658,
-  "review_record_count": 331,
-  "rollup_days": 9,
+  "retrieved_record_count": 2968,
+  "review_record_count": 374,
+  "rollup_days": 10,
   "schema_version": 3,
   "source_commit": "45d3eec734a31434682c545728f2289dabc86ce9",
   "source_counts": {
-    "crossref": 3,
+    "crossref": 2,
     "europe_pmc": 4,
-    "openalex": 6,
+    "openalex": 7,
     "pubmed": 17
   },
   "source_error_count": 17,

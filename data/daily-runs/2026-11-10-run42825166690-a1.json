@@ -1,0 +1,61 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 266,
+  "generated_at": "2026-11-10T13:31:56+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 1,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 0,
+  "period_source_since": "2026-11-07",
+  "project": "UPF26",
+  "record_count": 1,
+  "records": [
+    {
+      "doi": "10.61878/bnj.v8i2b.1829",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Borneo Nursing Journal (BNJ)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-07",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "09c23bf8849dcca8fbb9ad36",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Hubungan Kebiasaan Konsumsi Makanan Ultra-Processed Food (UPF) dengan Kejadian Anemia pada Remaja Putri",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.61878/bnj.v8i2b.1829"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 310,
+  "review_record_count": 43,
+  "run_attempt": 1,
+  "run_id": "42825166690",
+  "schema_version": 3,
+  "source_commit": "45d3eec734a31434682c545728f2289dabc86ce9",
+  "source_counts": {
+    "openalex": 1
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 1
+  }
+}

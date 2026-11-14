@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "All calendar days to date have compatible screened snapshots without source errors.",
-  "excluded_record_count": 1276,
-  "expected_calendar_days": 5,
-  "generated_at": "2026-11-13T13:11:23+00:00",
+  "excluded_record_count": 1532,
+  "expected_calendar_days": 6,
+  "generated_at": "2026-11-14T12:16:34+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,17 +11,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 13,
+  "included_record_count": 15,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "weekly",
-  "new_record_count": 3,
+  "new_record_count": 5,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-11-06",
   "project": "UPF26",
-  "record_count": 13,
+  "record_count": 15,
   "records": [
     {
       "doi": "10.1038/s41598-026-80212-x",
@@ -392,29 +392,83 @@
         "nutrition"
       ],
       "url": "https://doi.org/10.1186/s40795-026-01548-1"
+    },
+    {
+      "doi": "10.1093/eurheartj/ehag880",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "European heart journal",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-14",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "bfd7f56cadf9dd1d112d03cb",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref",
+        "pubmed"
+      ],
+      "title": "Not all ultra-processed foods are equal: refining their role in cardiovascular risk.",
+      "triage_tags": [
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43031317/"
+    },
+    {
+      "doi": "10.5281/zenodo.24177556",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-12",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "4d8449eda94b8a41f6381b96",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "GENEDIS 2026-ID[192]-[Ultra-Processed Foods, Child and Adolescent Health. From Metabolic Risks to Neurobehavioral Outcomes: A Narrative Review.]",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.24177556"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1496,
-  "review_record_count": 198,
-  "rollup_days": 5,
+  "retrieved_record_count": 1800,
+  "review_record_count": 241,
+  "rollup_days": 6,
   "schema_version": 3,
   "source_commit": "361d7f5f569dbabdb8edfda45692ece5fef79fbf",
   "source_counts": {
-    "crossref": 2,
+    "crossref": 3,
     "europe_pmc": 5,
-    "openalex": 6,
-    "pubmed": 6
+    "openalex": 7,
+    "pubmed": 7
   },
   "source_error_count": 0,
   "theme_counts": {
     "biomarkers": 1,
-    "classification": 13,
+    "classification": 15,
     "exposure": 7,
     "formulation": 1,
-    "health_outcomes": 2,
+    "health_outcomes": 3,
     "intervention": 2,
     "linked_records": 1,
     "mechanisms": 1,

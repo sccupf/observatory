@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "17 source error(s) recorded.",
-  "excluded_record_count": 3531,
-  "expected_calendar_days": 14,
-  "generated_at": "2026-11-14T12:16:34+00:00",
+  "excluded_record_count": 3772,
+  "expected_calendar_days": 15,
+  "generated_at": "2026-11-15T12:48:38+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,17 +11,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 38,
+  "included_record_count": 39,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "monthly",
-  "new_record_count": 6,
+  "new_record_count": 5,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-10-29",
   "project": "UPF26",
-  "record_count": 38,
+  "record_count": 39,
   "records": [
     {
       "doi": "10.1016/j.clnu.2026.106813",
@@ -1038,17 +1038,13 @@
     },
     {
       "doi": "10.1093/eurheartj/ehag880",
-      "index_source_count": 2,
-      "is_new": true,
+      "index_source_count": 1,
+      "is_new": false,
       "is_retracted": false,
       "journal": "European heart journal",
-      "metadata_status": "multi_index",
+      "metadata_status": "single_index",
       "published_date": "2026-11-14",
       "query_ids": [
-        "formulation_signals",
-        "longitudinal_records",
-        "neurological_outcomes",
-        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "bfd7f56cadf9dd1d112d03cb",
@@ -1056,7 +1052,6 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref",
         "pubmed"
       ],
       "title": "Not all ultra-processed foods are equal: refining their role in cardiovascular risk.",
@@ -1069,7 +1064,7 @@
     {
       "doi": "10.5281/zenodo.24177556",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Zenodo (CERN European Organization for Nuclear Research)",
       "metadata_status": "single_index",
@@ -1089,35 +1084,71 @@
         "classification"
       ],
       "url": "https://doi.org/10.5281/zenodo.24177556"
+    },
+    {
+      "doi": "10.1002/fsn3.72580",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Food science & nutrition",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-13",
+      "query_ids": [
+        "biomarkers_omics",
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "b4d748d9a506c556e9ab4d82",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Smoking Status Modifies the Association Between Ultra-Processed Food Consumption and Serum Uric Acid Levels: Findings From the Tehran Lipid and Glucose Study.",
+      "triage_tags": [
+        "biomarkers",
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "linked_records",
+        "mechanisms",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032500/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 4160,
-  "review_record_count": 522,
-  "rollup_days": 14,
+  "retrieved_record_count": 4445,
+  "review_record_count": 563,
+  "rollup_days": 15,
   "schema_version": 3,
   "source_commit": "361d7f5f569dbabdb8edfda45692ece5fef79fbf",
   "source_counts": {
-    "crossref": 4,
-    "europe_pmc": 8,
+    "crossref": 3,
+    "europe_pmc": 9,
     "openalex": 12,
-    "pubmed": 22
+    "pubmed": 23
   },
   "source_error_count": 17,
   "theme_counts": {
-    "biomarkers": 2,
-    "classification": 38,
-    "exposure": 22,
+    "biomarkers": 3,
+    "classification": 39,
+    "exposure": 23,
     "formulation": 2,
-    "health_outcomes": 14,
+    "health_outcomes": 15,
     "intervention": 2,
-    "linked_records": 3,
-    "mechanisms": 4,
+    "linked_records": 4,
+    "mechanisms": 5,
     "methodology": 4,
     "neurology": 1,
-    "nutrition": 17,
+    "nutrition": 18,
     "policy": 3
   }
 }

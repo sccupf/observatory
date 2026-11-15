@@ -1,0 +1,127 @@
+{
+  "excluded_record_count": 241,
+  "generated_at": "2026-11-15T12:48:38+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 3,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 1,
+  "period_source_since": "2026-11-12",
+  "project": "UPF26",
+  "record_count": 3,
+  "records": [
+    {
+      "doi": "10.1093/eurheartj/ehag880",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "European heart journal",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-14",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "bfd7f56cadf9dd1d112d03cb",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Not all ultra-processed foods are equal: refining their role in cardiovascular risk.",
+      "triage_tags": [
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43031317/"
+    },
+    {
+      "doi": "10.1002/fsn3.72580",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Food science & nutrition",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-13",
+      "query_ids": [
+        "biomarkers_omics",
+        "longitudinal_records",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "b4d748d9a506c556e9ab4d82",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Smoking Status Modifies the Association Between Ultra-Processed Food Consumption and Serum Uric Acid Levels: Findings From the Tehran Lipid and Glucose Study.",
+      "triage_tags": [
+        "biomarkers",
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "linked_records",
+        "mechanisms",
+        "nutrition"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032500/"
+    },
+    {
+      "doi": "10.5281/zenodo.24177556",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-12",
+      "query_ids": [
+        "nutrition_exposure"
+      ],
+      "record_id": "4d8449eda94b8a41f6381b96",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "GENEDIS 2026-ID[192]-[Ultra-Processed Foods, Child and Adolescent Health. From Metabolic Risks to Neurobehavioral Outcomes: A Narrative Review.]",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.24177556"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 285,
+  "review_record_count": 41,
+  "schema_version": 3,
+  "source_commit": "361d7f5f569dbabdb8edfda45692ece5fef79fbf",
+  "source_counts": {
+    "europe_pmc": 1,
+    "openalex": 1,
+    "pubmed": 2
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "biomarkers": 1,
+    "classification": 3,
+    "exposure": 1,
+    "health_outcomes": 2,
+    "linked_records": 1,
+    "mechanisms": 1,
+    "nutrition": 1
+  }
+}

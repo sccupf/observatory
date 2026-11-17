@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "All calendar days to date have compatible screened snapshots without source errors.",
-  "excluded_record_count": 243,
-  "expected_calendar_days": 1,
-  "generated_at": "2026-11-16T13:45:16+00:00",
+  "excluded_record_count": 474,
+  "expected_calendar_days": 2,
+  "generated_at": "2026-11-17T14:32:58+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,25 +11,25 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 4,
+  "included_record_count": 6,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "weekly",
-  "new_record_count": 1,
+  "new_record_count": 3,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-11-13",
   "project": "UPF26",
-  "record_count": 4,
+  "record_count": 6,
   "records": [
     {
       "doi": "10.1093/eurheartj/ehag880",
-      "index_source_count": 2,
+      "index_source_count": 1,
       "is_new": false,
       "is_retracted": false,
       "journal": "European heart journal",
-      "metadata_status": "multi_index",
+      "metadata_status": "single_index",
       "published_date": "2026-11-14",
       "query_ids": [
         "upf_core"
@@ -39,7 +39,6 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "openalex",
         "pubmed"
       ],
       "title": "Not all ultra-processed foods are equal: refining their role in cardiovascular risk.",
@@ -134,27 +133,81 @@
         "classification"
       ],
       "url": "https://doi.org/10.1186/s13690-026-02140-6"
+    },
+    {
+      "doi": "10.1080/87559129.2026.2765506",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Food Reviews International",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-17",
+      "query_ids": [
+        "formulation_signals",
+        "upf_core"
+      ],
+      "record_id": "9b7593983e706886f88aed9c",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Food Processing Considerations Missing from the Nova Classification Debate",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.1080/87559129.2026.2765506"
+    },
+    {
+      "doi": "10.1016/j.pedn.2026.11.006",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Journal of pediatric nursing",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-16",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "8b58040c93ea294eb1ca0fea",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Childhood obesity, ultra-processed foods, and the future of child health: Implications for pediatric nursing practice.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039804/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 289,
-  "review_record_count": 42,
-  "rollup_days": 1,
+  "retrieved_record_count": 568,
+  "review_record_count": 87,
+  "rollup_days": 2,
   "schema_version": 3,
   "source_commit": "361d7f5f569dbabdb8edfda45692ece5fef79fbf",
   "source_counts": {
-    "europe_pmc": 1,
-    "openalex": 3,
-    "pubmed": 2
+    "crossref": 1,
+    "europe_pmc": 2,
+    "openalex": 2,
+    "pubmed": 3
   },
   "source_error_count": 0,
   "theme_counts": {
     "biomarkers": 1,
-    "classification": 4,
-    "exposure": 2,
-    "health_outcomes": 2,
+    "classification": 6,
+    "exposure": 3,
+    "health_outcomes": 3,
     "linked_records": 1,
     "mechanisms": 1,
     "nutrition": 2

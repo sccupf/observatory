@@ -1,0 +1,165 @@
+{
+  "excluded_record_count": 205,
+  "generated_at": "2026-11-18T14:35:45+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "PARTIAL",
+  "included_record_count": 4,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 3,
+  "period_source_since": "2026-11-15",
+  "project": "UPF26",
+  "record_count": 4,
+  "records": [
+    {
+      "doi": "10.3389/fnut.2026.1970800",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-18",
+      "query_ids": [
+        "biomarkers_omics",
+        "formulation_signals",
+        "intervention_trials",
+        "longitudinal_records",
+        "neurological_outcomes",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "ca0bf8714aea733522dab370",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Sleep duration and ultra-processed food consumption among children with obesity in Primary Health Care",
+      "triage_tags": [
+        "additives",
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "intervention",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1970800"
+    },
+    {
+      "doi": "10.3389/fnut.2026.1881842",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Frontiers in Nutrition",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-18",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "f9528f4be8243e17b74dd648",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "Eating habits and attitude toward the consumption of ultra-processed foods as determinants of gastrointestinal function in university students",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "intervention",
+        "methodology",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.3389/fnut.2026.1881842"
+    },
+    {
+      "doi": "10.1111/obr.70257",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-17",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "7ce7b0c77c9c1c3b709b906a",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "An Ecological Whole-Of-Food Systems Framework for Regulating Ultra-Processed Foods.",
+      "triage_tags": [
+        "classification",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43046690/"
+    },
+    {
+      "doi": "10.1016/j.pedn.2026.11.006",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Journal of pediatric nursing",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-16",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "8b58040c93ea294eb1ca0fea",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Childhood obesity, ultra-processed foods, and the future of child health: Implications for pediatric nursing practice.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039804/"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 259,
+  "review_record_count": 50,
+  "schema_version": 3,
+  "source_commit": "361d7f5f569dbabdb8edfda45692ece5fef79fbf",
+  "source_counts": {
+    "crossref": 2,
+    "europe_pmc": 1,
+    "pubmed": 2
+  },
+  "source_error_count": 9,
+  "theme_counts": {
+    "additives": 1,
+    "classification": 4,
+    "exposure": 3,
+    "health_outcomes": 3,
+    "intervention": 2,
+    "methodology": 2,
+    "nutrition": 2
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 243,
+  "generated_at": "2026-11-19T14:35:08+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 6,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 0,
+  "period_source_since": "2026-11-16",
+  "project": "UPF26",
+  "record_count": 6,
+  "records": [
+    {
+      "doi": "10.1186/s12916-026-05426-2",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "BMC Medicine",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-19",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "upf_core"
+      ],
+      "record_id": "73dbdecacdae436e36f80c7c",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "crossref"
+      ],
+      "title": "The butter boundary: proposed mechanisms of ultra-processed food harm and their implications for causal inference",
+      "triage_tags": [
+        "classification",
+        "mechanisms"
+      ],
+      "url": "https://doi.org/10.1186/s12916-026-05426-2"
+    },
+    {
+      "doi": "10.1002/oby.70341",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Obesity (Silver Spring, Md.)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-18",
+      "query_ids": [
+        "formulation_signals",
+        "intervention_trials",
+        "longitudinal_records",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "b93d01e6a8cb639687e98809",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "pubmed"
+      ],
+      "title": "Effects of Controlled Diets High in and Free of Ultraprocessed Food on the Brain of Emerging Adults.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43050100/"
+    },
+    {
+      "doi": "10.1080/87559129.2026.2765506",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Food Reviews International",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-17",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "9b7593983e706886f88aed9c",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "NOVA_FOOD_CONTEXT",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Food Processing Considerations Missing from the Nova Classification Debate",
+      "triage_tags": [
+        "classification"
+      ],
+      "url": "https://doi.org/10.1080/87559129.2026.2765506"
+    },
+    {
+      "doi": "10.1111/obr.70257",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-17",
+      "query_ids": [
+        "intervention_trials",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "7ce7b0c77c9c1c3b709b906a",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "An Ecological Whole-Of-Food Systems Framework for Regulating Ultra-Processed Foods.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "intervention",
+        "methodology",
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43046690/"
+    },
+    {
+      "doi": "10.1016/j.annonc.2026.08.3719",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Annals of Oncology",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-17",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "c75f5b43f54345fbffa5a5a2",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "3467eTiP U-TRANS: A randomized clinical trial to evaluate the impact of an educational and digital intervention aimed at reducing the consumption of ultra-processed foods on the overall quality of diet among individuals at high risk of cancer",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "intervention"
+      ],
+      "url": "https://doi.org/10.1016/j.annonc.2026.08.3719"
+    },
+    {
+      "doi": "10.1016/j.pedn.2026.11.006",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Journal of pediatric nursing",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-16",
+      "query_ids": [
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "8b58040c93ea294eb1ca0fea",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Childhood obesity, ultra-processed foods, and the future of child health: Implications for pediatric nursing practice.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "health_outcomes"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039804/"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 294,
+  "review_record_count": 45,
+  "run_attempt": 1,
+  "run_id": "44544113926",
+  "schema_version": 3,
+  "source_commit": "2093bf38c4cb8a680784aefa4d9b2192c858a098",
+  "source_counts": {
+    "crossref": 1,
+    "europe_pmc": 2,
+    "openalex": 2,
+    "pubmed": 3
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 6,
+    "exposure": 4,
+    "health_outcomes": 4,
+    "intervention": 2,
+    "mechanisms": 1,
+    "methodology": 1,
+    "policy": 1
+  }
+}

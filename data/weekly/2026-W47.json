@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "9 source error(s) recorded.",
-  "excluded_record_count": 922,
-  "expected_calendar_days": 4,
-  "generated_at": "2026-11-19T14:35:08+00:00",
+  "excluded_record_count": 1154,
+  "expected_calendar_days": 5,
+  "generated_at": "2026-11-20T14:08:57+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,17 +11,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "PARTIAL",
-  "included_record_count": 12,
+  "included_record_count": 15,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "weekly",
-  "new_record_count": 3,
+  "new_record_count": 4,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-11-13",
   "project": "UPF26",
-  "record_count": 12,
+  "record_count": 15,
   "records": [
     {
       "doi": "10.1093/eurheartj/ehag880",
@@ -143,6 +143,11 @@
       "metadata_status": "single_index",
       "published_date": "2026-11-17",
       "query_ids": [
+        "formulation_signals",
+        "intervention_trials",
+        "nova_food_classification",
+        "nutrition_exposure",
+        "processing_methods",
         "upf_core"
       ],
       "record_id": "9b7593983e706886f88aed9c",
@@ -189,21 +194,14 @@
     {
       "doi": "10.3389/fnut.2026.1970800",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in Nutrition",
       "metadata_status": "single_index",
       "published_date": "2026-11-18",
       "query_ids": [
-        "biomarkers_omics",
-        "formulation_signals",
-        "intervention_trials",
-        "longitudinal_records",
-        "neurological_outcomes",
         "nova_food_classification",
         "nutrition_exposure",
-        "policy_guidance",
-        "processing_methods",
         "upf_core"
       ],
       "record_id": "ca0bf8714aea733522dab370",
@@ -211,16 +209,13 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Sleep duration and ultra-processed food consumption among children with obesity in Primary Health Care",
       "triage_tags": [
-        "additives",
         "classification",
         "exposure",
         "health_outcomes",
-        "intervention",
-        "methodology",
         "nutrition"
       ],
       "url": "https://doi.org/10.3389/fnut.2026.1970800"
@@ -228,12 +223,14 @@
     {
       "doi": "10.3389/fnut.2026.1881842",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in Nutrition",
       "metadata_status": "single_index",
       "published_date": "2026-11-18",
       "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "f9528f4be8243e17b74dd648",
@@ -241,14 +238,12 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Eating habits and attitude toward the consumption of ultra-processed foods as determinants of gastrointestinal function in university students",
       "triage_tags": [
         "classification",
         "exposure",
-        "intervention",
-        "methodology",
         "nutrition"
       ],
       "url": "https://doi.org/10.3389/fnut.2026.1881842"
@@ -272,17 +267,13 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "europe_pmc",
+        "openalex",
         "pubmed"
       ],
       "title": "An Ecological Whole-Of-Food Systems Framework for Regulating Ultra-Processed Foods.",
       "triage_tags": [
         "classification",
-        "exposure",
-        "health_outcomes",
-        "intervention",
-        "methodology",
-        "policy"
+        "health_outcomes"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/43046690/"
     },
@@ -315,16 +306,17 @@
     },
     {
       "doi": "10.1002/oby.70341",
-      "index_source_count": 1,
+      "index_source_count": 3,
       "is_new": false,
       "is_retracted": false,
       "journal": "Obesity (Silver Spring, Md.)",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-11-18",
       "query_ids": [
         "formulation_signals",
         "intervention_trials",
         "longitudinal_records",
+        "nova_food_classification",
         "nutrition_exposure",
         "upf_core"
       ],
@@ -333,13 +325,19 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "europe_pmc",
+        "openalex",
         "pubmed"
       ],
       "title": "Effects of Controlled Diets High in and Free of Ultraprocessed Food on the Brain of Emerging Adults.",
       "triage_tags": [
+        "additives",
         "classification",
         "exposure",
-        "health_outcomes"
+        "health_outcomes",
+        "intervention",
+        "linked_records",
+        "methodology"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/43050100/"
     },
@@ -369,33 +367,111 @@
         "intervention"
       ],
       "url": "https://doi.org/10.1016/j.annonc.2026.08.3719"
+    },
+    {
+      "doi": "10.2105/ajph.2026.308815",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "American journal of public health",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-19",
+      "query_ids": [
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "8dea231e97319250b6eae0df",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "US Ultraprocessed Food Policy: Finding Common Ground.",
+      "triage_tags": [
+        "classification",
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43056651/"
+    },
+    {
+      "doi": "10.5281/zenodo.24354009",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-18",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "939c005fb150d90ccb485af1",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Early-life feeding behaviors and food environments on usual diet quality and ultra-processed foods consumption: A latent class analysis (Statistical analysis plan)",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "intervention"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.24354009"
+    },
+    {
+      "doi": "10.7294/34842903",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Virginia Tech Data Repository",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-18",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "c6d2edce7f4db4ca553bd037",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Data associated with \"Effects of Controlled Diets High in and Free of Ultraprocessed Food on the Brain of Emerging Adults\"",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.7294/34842903"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1121,
-  "review_record_count": 182,
-  "rollup_days": 4,
+  "retrieved_record_count": 1408,
+  "review_record_count": 228,
+  "rollup_days": 5,
   "schema_version": 3,
   "source_commit": "2093bf38c4cb8a680784aefa4d9b2192c858a098",
   "source_counts": {
-    "crossref": 3,
-    "europe_pmc": 3,
-    "openalex": 4,
-    "pubmed": 5
+    "crossref": 1,
+    "europe_pmc": 4,
+    "openalex": 10,
+    "pubmed": 6
   },
   "source_error_count": 9,
   "theme_counts": {
     "additives": 1,
     "biomarkers": 1,
-    "classification": 12,
-    "exposure": 8,
+    "classification": 15,
+    "exposure": 9,
     "health_outcomes": 7,
-    "intervention": 4,
-    "linked_records": 1,
+    "intervention": 3,
+    "linked_records": 2,
     "mechanisms": 2,
-    "methodology": 3,
+    "methodology": 1,
     "nutrition": 4,
     "policy": 1
   }

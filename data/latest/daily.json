@@ -1,6 +1,6 @@
 {
-  "excluded_record_count": 228,
-  "generated_at": "2026-11-21T13:32:41+00:00",
+  "excluded_record_count": 218,
+  "generated_at": "2026-11-22T13:25:37+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -8,18 +8,18 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 12,
+  "included_record_count": 8,
   "metadata_conflict_count": 0,
   "mode": "daily",
-  "new_record_count": 5,
-  "period_source_since": "2026-11-18",
+  "new_record_count": 0,
+  "period_source_since": "2026-11-19",
   "project": "UPF26",
-  "record_count": 12,
+  "record_count": 8,
   "records": [
     {
       "doi": "10.1016/b978-0-443-40334-7.00120-9",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Elsevier eBooks",
       "metadata_status": "single_index",
@@ -45,7 +45,7 @@
     {
       "doi": "10.1016/j.tjnut.2026.101948",
       "index_source_count": 2,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "The Journal of nutrition",
       "metadata_status": "multi_index",
@@ -79,7 +79,7 @@
     {
       "doi": "10.17605/osf.io/v2tqa",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Open Science Framework",
       "metadata_status": "single_index",
@@ -104,7 +104,7 @@
     {
       "doi": "10.1016/j.appet.2026.108833",
       "index_source_count": 2,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Appetite",
       "metadata_status": "multi_index",
@@ -133,7 +133,7 @@
     {
       "doi": "10.9734/ejnfs/2026/v18i112206",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "European Journal of Nutrition & Food Safety",
       "metadata_status": "single_index",
@@ -235,152 +235,30 @@
         "exposure"
       ],
       "url": "https://doi.org/10.1186/s12889-026-30429-2"
-    },
-    {
-      "doi": "10.3389/fnut.2026.1970800",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Frontiers in Nutrition",
-      "metadata_status": "single_index",
-      "published_date": "2026-11-18",
-      "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure",
-        "upf_core"
-      ],
-      "record_id": "ca0bf8714aea733522dab370",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex"
-      ],
-      "title": "Sleep duration and ultra-processed food consumption among children with obesity in Primary Health Care",
-      "triage_tags": [
-        "classification",
-        "exposure",
-        "health_outcomes",
-        "nutrition"
-      ],
-      "url": "https://doi.org/10.3389/fnut.2026.1970800"
-    },
-    {
-      "doi": "10.1002/oby.70341",
-      "index_source_count": 3,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Obesity (Silver Spring, Md.)",
-      "metadata_status": "multi_index",
-      "published_date": "2026-11-18",
-      "query_ids": [
-        "formulation_signals",
-        "intervention_trials",
-        "longitudinal_records",
-        "nova_food_classification",
-        "nutrition_exposure",
-        "upf_core"
-      ],
-      "record_id": "b93d01e6a8cb639687e98809",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "europe_pmc",
-        "openalex",
-        "pubmed"
-      ],
-      "title": "Effects of Controlled Diets High in and Free of Ultraprocessed Food on the Brain of Emerging Adults.",
-      "triage_tags": [
-        "additives",
-        "classification",
-        "exposure",
-        "health_outcomes",
-        "intervention",
-        "linked_records",
-        "methodology"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43050100/"
-    },
-    {
-      "doi": "10.3389/fnut.2026.1881842",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Frontiers in Nutrition",
-      "metadata_status": "single_index",
-      "published_date": "2026-11-18",
-      "query_ids": [
-        "nova_food_classification",
-        "nutrition_exposure",
-        "upf_core"
-      ],
-      "record_id": "f9528f4be8243e17b74dd648",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex"
-      ],
-      "title": "Eating habits and attitude toward the consumption of ultra-processed foods as determinants of gastrointestinal function in university students",
-      "triage_tags": [
-        "classification",
-        "exposure",
-        "nutrition"
-      ],
-      "url": "https://doi.org/10.3389/fnut.2026.1881842"
-    },
-    {
-      "doi": "10.7294/34842903",
-      "index_source_count": 1,
-      "is_new": false,
-      "is_retracted": false,
-      "journal": "Virginia Tech Data Repository",
-      "metadata_status": "single_index",
-      "published_date": "2026-11-18",
-      "query_ids": [
-        "intervention_trials",
-        "upf_core"
-      ],
-      "record_id": "c6d2edce7f4db4ca553bd037",
-      "relevance_gate_version": "1.2.0",
-      "relevance_rule": "DIRECT_UPF_TERM",
-      "relevance_status": "INCLUDED",
-      "source_names": [
-        "openalex"
-      ],
-      "title": "Data associated with \"Effects of Controlled Diets High in and Free of Ultraprocessed Food on the Brain of Emerging Adults\"",
-      "triage_tags": [
-        "classification",
-        "exposure"
-      ],
-      "url": "https://doi.org/10.7294/34842903"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 285,
-  "review_record_count": 45,
+  "retrieved_record_count": 272,
+  "review_record_count": 46,
   "schema_version": 3,
   "source_commit": "2093bf38c4cb8a680784aefa4d9b2192c858a098",
   "source_counts": {
-    "europe_pmc": 4,
-    "openalex": 10,
-    "pubmed": 4
+    "europe_pmc": 3,
+    "openalex": 6,
+    "pubmed": 3
   },
   "source_error_count": 0,
   "theme_counts": {
-    "additives": 1,
-    "classification": 12,
-    "exposure": 8,
+    "classification": 8,
+    "exposure": 4,
     "formulation": 2,
-    "health_outcomes": 3,
-    "intervention": 1,
-    "linked_records": 2,
+    "health_outcomes": 1,
+    "linked_records": 1,
     "mechanisms": 2,
-    "methodology": 2,
-    "nutrition": 4,
+    "methodology": 1,
+    "nutrition": 2,
     "policy": 2
   }
 }

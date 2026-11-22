@@ -1,0 +1,267 @@
+{
+  "archive_type": "IMMUTABLE_RUN_SNAPSHOT",
+  "excluded_record_count": 218,
+  "generated_at": "2026-11-22T13:25:37+00:00",
+  "guardrails": {
+    "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
+    "confidence": "No collapsed overall confidence score is generated.",
+    "metadata_corroboration": "Index agreement is metadata corroboration, not independent scientific corroboration.",
+    "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
+  },
+  "harvest_status": "COMPLETE",
+  "included_record_count": 8,
+  "metadata_conflict_count": 0,
+  "mode": "daily",
+  "new_record_count": 0,
+  "period_source_since": "2026-11-19",
+  "project": "UPF26",
+  "record_count": 8,
+  "records": [
+    {
+      "doi": "10.1016/b978-0-443-40334-7.00120-9",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Elsevier eBooks",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-20",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "b664accd37b71884f041877f",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Ultra-Processed Foods and Inflammatory Bowel Diseases: From Epidemiology and Mechanism to Treatment and Prevention",
+      "triage_tags": [
+        "classification",
+        "health_outcomes",
+        "mechanisms"
+      ],
+      "url": "https://doi.org/10.1016/b978-0-443-40334-7.00120-9"
+    },
+    {
+      "doi": "10.1016/j.tjnut.2026.101948",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "The Journal of nutrition",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-20",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "policy_guidance",
+        "processing_methods",
+        "upf_core"
+      ],
+      "record_id": "001e8f0caa29721822a7a1fe",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "US legal definitions of ultra-processed food depart from the research construct in different ways.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "formulation",
+        "methodology",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43064205/"
+    },
+    {
+      "doi": "10.17605/osf.io/v2tqa",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Open Science Framework",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-20",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "d021fa30294b922a177a782e",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Income and Consumption of Ultra-Processed Foods in the Brazilian Population: A Systematic Review",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.17605/osf.io/v2tqa"
+    },
+    {
+      "doi": "10.1016/j.appet.2026.108833",
+      "index_source_count": 2,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "Appetite",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-20",
+      "query_ids": [
+        "longitudinal_records",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "f5ce3a742a26e6241d151508",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Food insecurity, subjective social status and ultra-processed food consumption among working adults in Türkiye.",
+      "triage_tags": [
+        "classification",
+        "exposure",
+        "linked_records"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43064249/"
+    },
+    {
+      "doi": "10.9734/ejnfs/2026/v18i112206",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "European Journal of Nutrition & Food Safety",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-20",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "dcbf2c4aef15aea7a9351b2b",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Challenges in Clean-Label Reformulation of Ultra-Processed Foods: Balancing Consumer Expectations, Functionality, and Safety",
+      "triage_tags": [
+        "classification",
+        "formulation",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.9734/ejnfs/2026/v18i112206"
+    },
+    {
+      "doi": "10.2105/ajph.2026.308815",
+      "index_source_count": 3,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "American journal of public health",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-19",
+      "query_ids": [
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "8dea231e97319250b6eae0df",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "openalex",
+        "pubmed"
+      ],
+      "title": "US Ultraprocessed Food Policy: Finding Common Ground.",
+      "triage_tags": [
+        "classification",
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43056651/"
+    },
+    {
+      "doi": "10.1186/s12916-026-05426-2",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "BMC Medicine",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-19",
+      "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
+        "upf_core"
+      ],
+      "record_id": "73dbdecacdae436e36f80c7c",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "The butter boundary: proposed mechanisms of ultra-processed food harm and their implications for causal inference",
+      "triage_tags": [
+        "classification",
+        "mechanisms"
+      ],
+      "url": "https://doi.org/10.1186/s12916-026-05426-2"
+    },
+    {
+      "doi": "10.1186/s12889-026-30429-2",
+      "index_source_count": 1,
+      "is_new": false,
+      "is_retracted": false,
+      "journal": "BMC Public Health",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-19",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "4c0c9d33c5520fa21db69c2f",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Higher ultra-processed food intake predicts increased healthcare service use: a population-based study in Spain",
+      "triage_tags": [
+        "classification",
+        "exposure"
+      ],
+      "url": "https://doi.org/10.1186/s12889-026-30429-2"
+    }
+  ],
+  "relevance_gate_version": "1.2.0",
+  "report_available": false,
+  "retraction_flag_count": 0,
+  "retrieved_record_count": 272,
+  "review_record_count": 46,
+  "run_attempt": 1,
+  "run_id": "45027282965",
+  "schema_version": 3,
+  "source_commit": "2093bf38c4cb8a680784aefa4d9b2192c858a098",
+  "source_counts": {
+    "europe_pmc": 3,
+    "openalex": 6,
+    "pubmed": 3
+  },
+  "source_error_count": 0,
+  "theme_counts": {
+    "classification": 8,
+    "exposure": 4,
+    "formulation": 2,
+    "health_outcomes": 1,
+    "linked_records": 1,
+    "mechanisms": 2,
+    "methodology": 1,
+    "nutrition": 2,
+    "policy": 2
+  }
+}

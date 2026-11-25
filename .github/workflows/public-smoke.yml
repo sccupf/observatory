@@ -4,17 +4,19 @@ on:
     workflows: [Deploy SCC UPF Observatory]
     types: [completed]
   workflow_dispatch:
+  schedule:
+    - cron: '35 1 * * *'
 
 permissions:
   contents: read
 
 concurrency:
   group: upf26-public-smoke
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   public-smoke:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

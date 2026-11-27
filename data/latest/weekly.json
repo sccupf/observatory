@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "All calendar days to date have compatible screened snapshots without source errors.",
-  "excluded_record_count": 1018,
-  "expected_calendar_days": 4,
-  "generated_at": "2026-11-26T15:26:21+00:00",
+  "excluded_record_count": 1280,
+  "expected_calendar_days": 5,
+  "generated_at": "2026-11-27T15:12:09+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -11,17 +11,17 @@
     "screening": "Public snapshots include only INCLUDED records. REVIEW candidates remain private for human corroboration and EXCLUDED candidates remain archived privately for audit."
   },
   "harvest_status": "COMPLETE",
-  "included_record_count": 17,
+  "included_record_count": 19,
   "metadata_conflict_count": 0,
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "weekly",
-  "new_record_count": 6,
+  "new_record_count": 2,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-11-20",
   "project": "UPF26",
-  "record_count": 17,
+  "record_count": 19,
   "records": [
     {
       "doi": "10.17605/osf.io/j8ahy",
@@ -255,8 +255,7 @@
       "metadata_status": "single_index",
       "published_date": "2026-11-24",
       "query_ids": [
-        "nova_food_classification",
-        "upf_core"
+        "nova_food_classification"
       ],
       "record_id": "8d2632f93d5c99590740f595",
       "relevance_gate_version": "1.2.0",
@@ -333,14 +332,15 @@
     },
     {
       "doi": "10.1017/s0007114526109404",
-      "index_source_count": 1,
-      "is_new": true,
+      "index_source_count": 2,
+      "is_new": false,
       "is_retracted": false,
       "journal": "The British journal of nutrition",
-      "metadata_status": "single_index",
+      "metadata_status": "multi_index",
       "published_date": "2026-11-26",
       "query_ids": [
         "longitudinal_records",
+        "nova_food_classification",
         "nutrition_exposure",
         "processing_methods",
         "upf_core"
@@ -350,6 +350,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
+        "openalex",
         "pubmed"
       ],
       "title": "Ultra-processed foods intake and risk of Helicobacter pylori infection: A prospective cohort study.",
@@ -364,13 +365,12 @@
     {
       "doi": "10.3389/fnut.2026.2021563",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Frontiers in Nutrition",
       "metadata_status": "single_index",
       "published_date": "2026-11-26",
       "query_ids": [
-        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "51983d2771392e1ef05900c1",
@@ -378,7 +378,7 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "crossref"
+        "openalex"
       ],
       "title": "Editorial: Dietary patterns and health outcomes in children: the role of ultraprocessed foods",
       "triage_tags": [
@@ -391,12 +391,16 @@
     {
       "doi": "10.1073/pnas.2640180123",
       "index_source_count": 2,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Proceedings of the National Academy of Sciences of the United States of America",
       "metadata_status": "multi_index",
       "published_date": "2026-11-25",
       "query_ids": [
+        "formulation_signals",
+        "intervention_trials",
+        "nova_food_classification",
+        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "2a71a3462c92aaa266164a2e",
@@ -416,13 +420,16 @@
     {
       "doi": "10.21203/rs.3.rs-11656895/v1",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Research Square",
       "metadata_status": "single_index",
       "published_date": "2026-11-25",
       "query_ids": [
+        "formulation_signals",
+        "intervention_trials",
         "nova_food_classification",
+        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "387dee04f988a5ba81b35774",
@@ -442,7 +449,7 @@
     {
       "doi": "10.1016/j.foodchem.2026.152255",
       "index_source_count": 3,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Food chemistry",
       "metadata_status": "multi_index",
@@ -477,7 +484,7 @@
     {
       "doi": "10.5281/zenodo.24523817",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Zenodo (CERN European Organization for Nuclear Research)",
       "metadata_status": "single_index",
@@ -498,35 +505,95 @@
         "classification"
       ],
       "url": "https://doi.org/10.5281/zenodo.24523817"
+    },
+    {
+      "doi": "10.17605/osf.io/aesmh",
+      "index_source_count": 1,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Open Science Framework",
+      "metadata_status": "single_index",
+      "published_date": "2026-11-26",
+      "query_ids": [
+        "upf_core"
+      ],
+      "record_id": "abcf837859221949798c889c",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "openalex"
+      ],
+      "title": "Warning, this food is Ultra-processed! Examining effects of Ultra-processed food labels and nutrition claims on healthfulness perceptions",
+      "triage_tags": [
+        "classification",
+        "nutrition"
+      ],
+      "url": "https://doi.org/10.17605/osf.io/aesmh"
+    },
+    {
+      "doi": "10.1016/j.semnephrol.2026.151755",
+      "index_source_count": 2,
+      "is_new": true,
+      "is_retracted": false,
+      "journal": "Seminars in nephrology",
+      "metadata_status": "multi_index",
+      "published_date": "2026-11-26",
+      "query_ids": [
+        "formulation_signals",
+        "longitudinal_records",
+        "nutrition_exposure",
+        "policy_guidance",
+        "upf_core"
+      ],
+      "record_id": "ef5043984bbaabd8c3593608",
+      "relevance_gate_version": "1.2.0",
+      "relevance_rule": "DIRECT_UPF_TERM",
+      "relevance_status": "INCLUDED",
+      "source_names": [
+        "europe_pmc",
+        "pubmed"
+      ],
+      "title": "Phosphate Additives in Ultra-Processed Foods: Greater Intake, Distribution, and Bioavailability, With Hidden Risks to Kidney Health.",
+      "triage_tags": [
+        "additives",
+        "classification",
+        "exposure",
+        "health_outcomes",
+        "intervention",
+        "mechanisms",
+        "nutrition",
+        "policy"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43098846/"
     }
   ],
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1219,
-  "review_record_count": 176,
-  "rollup_days": 4,
+  "retrieved_record_count": 1533,
+  "review_record_count": 219,
+  "rollup_days": 5,
   "schema_version": 3,
   "source_commit": "80b657d3c9f67ad1f47fe3fd0337c12527919d95",
   "source_counts": {
-    "crossref": 1,
-    "europe_pmc": 6,
-    "openalex": 13,
-    "pubmed": 4
+    "europe_pmc": 7,
+    "openalex": 16,
+    "pubmed": 5
   },
   "source_error_count": 0,
   "theme_counts": {
-    "additives": 1,
-    "classification": 17,
-    "exposure": 10,
+    "additives": 2,
+    "classification": 19,
+    "exposure": 11,
     "formulation": 3,
-    "health_outcomes": 3,
-    "intervention": 2,
+    "health_outcomes": 4,
+    "intervention": 3,
     "linked_records": 3,
-    "mechanisms": 3,
+    "mechanisms": 4,
     "methodology": 4,
     "neurology": 1,
-    "nutrition": 6,
-    "policy": 2
+    "nutrition": 8,
+    "policy": 3
   }
 }

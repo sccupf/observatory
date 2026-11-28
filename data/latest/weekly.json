@@ -1,9 +1,9 @@
 {
   "aggregation": "deduplicated latest-per-day snapshots from ONE relevance gate version; incompatible gate revisions excluded from roll-up but retained for historical audit; immutable run revisions preserved separately",
   "coverage_note": "All calendar days to date have compatible screened snapshots without source errors.",
-  "excluded_record_count": 1280,
-  "expected_calendar_days": 5,
-  "generated_at": "2026-11-27T15:12:09+00:00",
+  "excluded_record_count": 1513,
+  "expected_calendar_days": 6,
+  "generated_at": "2026-11-28T14:19:19+00:00",
   "guardrails": {
     "classification": "Automated evidence monitoring does not create a final NOVA classification or health judgement.",
     "confidence": "No collapsed overall confidence score is generated.",
@@ -16,7 +16,7 @@
   "missing_daily_snapshot_count": 0,
   "missing_daily_snapshot_dates": [],
   "mode": "weekly",
-  "new_record_count": 2,
+  "new_record_count": 0,
   "omitted_gate_versions": [],
   "omitted_incompatible_gate_days": 0,
   "period_source_since": "2026-11-20",
@@ -371,6 +371,8 @@
       "metadata_status": "single_index",
       "published_date": "2026-11-26",
       "query_ids": [
+        "nova_food_classification",
+        "nutrition_exposure",
         "upf_core"
       ],
       "record_id": "51983d2771392e1ef05900c1",
@@ -429,8 +431,7 @@
         "formulation_signals",
         "intervention_trials",
         "nova_food_classification",
-        "nutrition_exposure",
-        "upf_core"
+        "nutrition_exposure"
       ],
       "record_id": "387dee04f988a5ba81b35774",
       "relevance_gate_version": "1.2.0",
@@ -448,7 +449,7 @@
     },
     {
       "doi": "10.1016/j.foodchem.2026.152255",
-      "index_source_count": 3,
+      "index_source_count": 2,
       "is_new": false,
       "is_retracted": false,
       "journal": "Food chemistry",
@@ -466,18 +467,12 @@
       "relevance_rule": "DIRECT_UPF_TERM",
       "relevance_status": "INCLUDED",
       "source_names": [
-        "europe_pmc",
         "openalex",
         "pubmed"
       ],
       "title": "Ultra-processed foods and advanced glycation end products: Processing-driven risks and flavonoid mitigation.",
       "triage_tags": [
-        "classification",
-        "exposure",
-        "formulation",
-        "intervention",
-        "mechanisms",
-        "methodology"
+        "classification"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/43084950/"
     },
@@ -509,7 +504,7 @@
     {
       "doi": "10.17605/osf.io/aesmh",
       "index_source_count": 1,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Open Science Framework",
       "metadata_status": "single_index",
@@ -534,7 +529,7 @@
     {
       "doi": "10.1016/j.semnephrol.2026.151755",
       "index_source_count": 2,
-      "is_new": true,
+      "is_new": false,
       "is_retracted": false,
       "journal": "Seminars in nephrology",
       "metadata_status": "multi_index",
@@ -571,13 +566,13 @@
   "relevance_gate_version": "1.2.0",
   "report_available": false,
   "retraction_flag_count": 0,
-  "retrieved_record_count": 1533,
-  "review_record_count": 219,
-  "rollup_days": 5,
+  "retrieved_record_count": 1822,
+  "review_record_count": 268,
+  "rollup_days": 6,
   "schema_version": 3,
   "source_commit": "80b657d3c9f67ad1f47fe3fd0337c12527919d95",
   "source_counts": {
-    "europe_pmc": 7,
+    "europe_pmc": 6,
     "openalex": 16,
     "pubmed": 5
   },
@@ -585,13 +580,13 @@
   "theme_counts": {
     "additives": 2,
     "classification": 19,
-    "exposure": 11,
-    "formulation": 3,
+    "exposure": 10,
+    "formulation": 2,
     "health_outcomes": 4,
-    "intervention": 3,
+    "intervention": 2,
     "linked_records": 3,
-    "mechanisms": 4,
-    "methodology": 4,
+    "mechanisms": 3,
+    "methodology": 3,
     "neurology": 1,
     "nutrition": 8,
     "policy": 3
